@@ -5,6 +5,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
+# MLflow runs (local database and attached files)
+mlflow.db
+mlartifacts/
+
 # Data folder (leading slash: only the top-level data/, not src/artguide/data/)
 /data/
 
