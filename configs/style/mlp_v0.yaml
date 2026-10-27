@@ -7,6 +7,6 @@ activation: relu
 init: kaiming
 
 optimizer: sgd
-lr: 0.01  # provisional: will be replaced by the LR range test result (block 16)
+lr: 0.01  # guessed on purpose (naive v0). LR range test (block 16): loss lowest at 3-7e-2, suggests 5.6e-3
 batch_size: 64
 epochs: 30
