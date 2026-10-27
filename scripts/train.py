@@ -9,17 +9,14 @@ import argparse
 import dataclasses
 import time
 
-import torch
 from torch import nn
-from torch.utils.data import DataLoader
 
 from artguide.config import load_config
-from artguide.data.dataset import WikiArtSplit
-from artguide.data.transforms import channel_stats, mlp_transform
 from artguide.evaluation.metrics import scores
-from artguide.models.mlp import MLP, n_parameters
+from artguide.models.mlp import n_parameters
 from artguide.seed import seed_everything
 from artguide.tracking import log_scores, start_run
+from artguide.train.builders import get_device, make_loaders, make_model
 from artguide.train.loop import evaluate, train_one_epoch
 from artguide.train.optim import make_optimizer
 
@@ -33,19 +30,10 @@ def main() -> None:
     if args.seed is not None:
         cfg = dataclasses.replace(cfg, seed=args.seed)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = get_device()
     generator = seed_everything(cfg.seed)
-
-    # Data: normalisation statistics from train only, applied to both splits
-    train = WikiArtSplit(cfg.data_dir, cfg.splits_path, "train")
-    transform = mlp_transform(*channel_stats(train.images), size=cfg.image_size)
-    train.transform = transform
-    val = WikiArtSplit(cfg.data_dir, cfg.splits_path, "val", transform=transform)
-    train_loader = DataLoader(train, batch_size=cfg.batch_size, shuffle=True, generator=generator)
-    val_loader = DataLoader(val, batch_size=256)
-
-    model = MLP(3 * cfg.image_size ** 2, len(train.classes), hidden=cfg.hidden, activation=cfg.activation,
-                batchnorm=cfg.batchnorm, dropout=cfg.dropout, init=cfg.init).to(device)
+    train_loader, val_loader, classes = make_loaders(cfg, generator)
+    model = make_model(cfg, len(classes)).to(device)
     loss_fn = nn.CrossEntropyLoss()
     optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
                                cfg.weight_decay)
