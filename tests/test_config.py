@@ -13,6 +13,7 @@ CONFIG_FILES = sorted((ROOT / "configs").rglob("*.yaml"))
 def test_every_config_loads(config_file):
     cfg = load_config(config_file)
     assert (ROOT / cfg.data_dir).name in cfg.experiment
+    assert isinstance(cfg.lr, float)  # YAML reads 1e-4 as the string "1e-4": write 1.0e-4
 
 
 def test_typo_in_a_key_is_rejected(tmp_path):

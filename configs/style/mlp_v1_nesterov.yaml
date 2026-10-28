@@ -1,0 +1,15 @@
+# v1: SGD with Nesterov momentum, at its own LR (momentum builds up speed: smaller base steps).
+name: mlp_v1_nesterov
+data_dir: data/wikiart_style5
+
+hidden: [512]
+activation: relu
+init: kaiming
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 2.5e-3  # LR range test, median of seeds 0-2
+batch_size: 64
+epochs: 60
+patience: 10

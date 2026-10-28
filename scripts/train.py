@@ -1,7 +1,7 @@
 """Train an MLP from a YAML config; log every epoch in MLflow. The test set is not touched.
 
     uv run python scripts/train.py --config configs/style/mlp_v0.yaml
-    uv run python scripts/train.py --config configs/style/mlp_v0.yaml --seed 1
+    uv run python scripts/train.py --config configs/style/mlp_v0.yaml --seeds 0 1 2
 
 The kept model is the epoch with the lowest val loss (not the last one); its weights go to checkpoints/.
 """
@@ -9,13 +9,14 @@ from __future__ import annotations
 
 import argparse
 import dataclasses
+import statistics
 import time
 
 import mlflow
 import torch
 from torch import nn
 
-from artguide.config import load_config
+from artguide.config import Config, load_config
 from artguide.evaluation.metrics import scores
 from artguide.models.mlp import n_parameters
 from artguide.seed import seed_everything
@@ -26,15 +27,8 @@ from artguide.train.loop import evaluate, train_one_epoch
 from artguide.train.optim import make_optimizer, make_scheduler
 
 
-def main() -> None:
-    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--config", required=True)
-    p.add_argument("--seed", type=int, help="overrides the seed of the config")
-    args = p.parse_args()
-    cfg = load_config(args.config)
-    if args.seed is not None:
-        cfg = dataclasses.replace(cfg, seed=args.seed)
-
+def train(cfg: Config, config_file: str) -> dict[str, float]:
+    """One run: train, keep the best val-loss epoch, save it, log everything. Returns its val scores."""
     device = get_device()
     generator = seed_everything(cfg.seed)
     train_loader, val_loader, classes = make_loaders(cfg, generator)
@@ -45,7 +39,7 @@ def main() -> None:
     scheduler = make_scheduler(optimizer, cfg.scheduler, cfg.epochs)
     stopper = EarlyStopping(cfg.patience)
 
-    params = {**dataclasses.asdict(cfg), "config_file": args.config, "n_parameters": n_parameters(model)}
+    params = {**dataclasses.asdict(cfg), "config_file": config_file, "n_parameters": n_parameters(model)}
     with start_run(cfg.experiment, f"{cfg.name}-seed{cfg.seed}", params, data_dir=cfg.data_dir):
         for epoch in range(1, cfg.epochs + 1):
             t0 = time.perf_counter()
@@ -77,6 +71,26 @@ def main() -> None:
         log_scores({"epochs": epoch}, "trained")
         print(f"\nBest val loss {stopper.best_loss:.3f} at epoch {stopper.best_epoch}: accuracy"
               f" {best_scores['accuracy']:.3f}, macro-F1 {best_scores['macro_f1']:.3f} -> {cfg.checkpoint_path}")
+    return best_scores
+
+
+def main() -> None:
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--config", required=True)
+    p.add_argument("--seeds", type=int, nargs="+", help="override the seed of the config; one run per seed")
+    args = p.parse_args()
+    cfg = load_config(args.config)
+    seeds = args.seeds or [cfg.seed]
+
+    results = []
+    for seed in seeds:
+        print(f"\n=== {cfg.name}, seed {seed} ===")
+        results.append(train(dataclasses.replace(cfg, seed=seed), args.config))
+    if len(results) > 1:
+        print(f"\n{cfg.name} over seeds {seeds} (model kept = best val loss):")
+        for metric in ("accuracy", "macro_f1"):
+            values = [r[metric] for r in results]
+            print(f"  val {metric}: {statistics.mean(values):.3f} ± {statistics.stdev(values):.3f}")
 
 
 if __name__ == "__main__":
