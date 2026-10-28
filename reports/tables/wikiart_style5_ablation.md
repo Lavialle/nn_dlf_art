@@ -2,9 +2,9 @@
 
 | Version | Change | Val accuracy (%) | Val macro-F1 (%) | Val loss | Train - val gap (pts) | Kept epoch | Parameters |
 |---|---|---|---|---|---|---|---|
-| baseline | majority class | 18.9 | | | | | |
-| baseline | logistic regression, pixels | 33.3 | | | | | |
-| baseline | logistic regression, HSV histogram | 50.9 | | | | | |
+| reference | majority class | 18.9 | | | | | |
+| reference | logistic regression, pixels | 33.3 | | | | | |
+| reference | logistic regression, HSV histogram | 50.9 | | | | | |
 | v0 | naive: 1 hidden layer (512), SGD, guessed LR 0.01, 30 epochs | 40.7 ± 1.4 | 39.3 ± 1.4 | 1.407 ± 0.012 | 26 ± 2 | 11 | 6.29 M |
 | v1 | early stopping + LR from the range test: SGD | 39.6 ± 0.9 | 38.3 ± 1.0 | 1.407 ± 0.014 | 24 ± 8 | 16 | 6.29 M |
 | v1 | early stopping + LR from the range test: SGD + Nesterov momentum | 41.0 ± 1.4 | 39.8 ± 1.5 | 1.419 ± 0.012 | 24 ± 2 | 5 | 6.29 M |

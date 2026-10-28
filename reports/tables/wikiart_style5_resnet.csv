@@ -1,0 +1,4 @@
+version,config,label,change,seeds,params,trainable,val_acc,val_acc_std,val_f1,val_f1_std,val_loss,val_loss_std,best_epoch,best_epoch_std,gap,gap_std
+probe,resnet_probe,linear probe,"backbone frozen, only the head (512 -> 5) learns; LR from range test",3,11179077,2565,80.6306,1.1918,80.4853,1.1299,0.5062,0.0093,6.3333,0.5774,7.5007,1.362
+partial,resnet_partial,partial (layer4 + head),"layer4 + head learn; backbone LR 1e-4, head 1e-3",3,11179077,8396293,84.5345,1.3761,84.2414,1.4574,0.4035,0.0141,3.6667,0.5774,11.5829,3.3137
+full,resnet_full,full fine-tuning,"every layer learns; backbone LR 1e-4, head 1e-3",3,11179077,11179077,85.1351,0.4505,84.8052,0.322,0.4251,0.0291,3.3333,0.5774,10.4141,1.8401
