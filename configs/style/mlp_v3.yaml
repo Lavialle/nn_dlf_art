@@ -5,7 +5,7 @@ data_dir: data/wikiart_style5
 hidden: [512, 256]
 activation: relu
 batchnorm: true
-dropout: 0.5
+dropout: 0.5  # swept 0.2 / 0.3 / 0.5 (3 seeds each): mean val loss 1.407 / 1.399 / 1.395
 init: kaiming
 
 optimizer: sgd
