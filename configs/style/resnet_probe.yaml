@@ -9,8 +9,8 @@ image_size: 224
 augment: true
 
 optimizer: adamw
-lr: 1.0e-3  # the new head (the only part that learns)
+lr: 4.4e-3  # LR range test on this config, median of seeds 0-2 (a first run at 1.0e-3 was still improving at epoch 30)
 weight_decay: 0.01  # AdamW's usual default
 batch_size: 64
-epochs: 30
+epochs: 50
 patience: 10

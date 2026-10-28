@@ -8,7 +8,6 @@ Check 2: the model can memorise a single batch (loss -> ~0, accuracy -> 100 %).
 from __future__ import annotations
 
 import argparse
-from pathlib import Path
 
 from torch import nn
 
@@ -35,7 +34,7 @@ def main() -> None:
     loss_fn = nn.CrossEntropyLoss()
     optimizer = make_model_optimizer(cfg, model)
 
-    experiment = f"{Path(cfg.data_dir).name}-sanity"
+    experiment = f"{cfg.subset}-sanity"
     with start_run(experiment, f"{cfg.name}-seed{cfg.seed}", {"config_file": args.config, "lr": cfg.lr},
                    data_dir=cfg.data_dir):
         # Check 1: loss before any training, on the whole training set

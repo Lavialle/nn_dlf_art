@@ -31,7 +31,7 @@ def main() -> None:
     p.add_argument("--seeds", type=int, nargs="+", default=[0, 1, 2])
     args = p.parse_args()
     cfg = load_config(args.config)
-    subset = Path(cfg.data_dir).name
+    subset = cfg.subset  # the 224 px copy shares the experiments and folders of its subset
     figure = Path("reports/figures") / subset / f"lr_range_{cfg.name}.png"
     device = get_device()
 

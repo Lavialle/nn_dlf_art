@@ -37,7 +37,7 @@ class Config:
     batch_size: int = 64
     epochs: int = 30
     max_grad_norm: float | None = None  # gradient clipping, off by default
-    label_smoothing: float = 0.0  # training targets 0.9 / 0.025 instead of 1 / 0 (with 0.1 and 5 classes)
+    label_smoothing: float = 0.0  # training targets 0.92 / 0.02 instead of 1 / 0 (0.1 with 5 classes)
     scheduler: str = "none"  # none, cosine
     patience: int | None = None  # early stopping: stop after this many epochs without a better val loss
     backbone_lr: float | None = None  # resnet18: LR of the pre-trained layers (default: lr)
