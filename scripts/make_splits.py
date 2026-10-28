@@ -1,9 +1,12 @@
-"""Freeze the train/val/test split of a WikiArt subset into a CSV committed to git.
+r"""Freeze the train/val/test split of a WikiArt subset into a CSV committed to git.
 
     uv run python scripts/make_splits.py --data-dir data/wikiart_style5 --out splits/wikiart_style5.csv
 
-Provoked failure (Phase 4), a split NOT grouped by artist, kept out of splits/*.csv (the leakage tests would fail):
-    uv run python scripts/make_splits.py --data-dir data/wikiart_style5 --ungrouped         --out splits/failures/wikiart_style5_ungrouped.csv
+Provoked failure (Phase 4): a split NOT grouped by artist, kept out of splits/*.csv (the leakage tests would
+fail on it):
+
+    uv run python scripts/make_splits.py --data-dir data/wikiart_style5 --ungrouped \
+        --out splits/failures/wikiart_style5_ungrouped.csv
 """
 from __future__ import annotations
 
