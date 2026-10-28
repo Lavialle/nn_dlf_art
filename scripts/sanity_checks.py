@@ -17,9 +17,8 @@ from artguide.diagnostics.sanity import (INITIAL_LOSS_TOLERANCE, OVERFIT_MAX_LOS
                                          overfit_one_batch)
 from artguide.seed import seed_everything
 from artguide.tracking import log_scores, start_run
-from artguide.train.builders import get_device, make_loaders, make_model
+from artguide.train.builders import get_device, make_loaders, make_model, make_model_optimizer
 from artguide.train.loop import evaluate
-from artguide.train.optim import make_optimizer
 
 
 def main() -> None:
@@ -34,8 +33,7 @@ def main() -> None:
     train_loader, classes = loaders.train, loaders.classes
     model = make_model(cfg, len(classes)).to(device)
     loss_fn = nn.CrossEntropyLoss()
-    optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
-                               cfg.weight_decay)
+    optimizer = make_model_optimizer(cfg, model)
 
     experiment = f"{Path(cfg.data_dir).name}-sanity"
     with start_run(experiment, f"{cfg.name}-seed{cfg.seed}", {"config_file": args.config, "lr": cfg.lr},

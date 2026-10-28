@@ -1,0 +1,17 @@
+# ResNet18, full fine-tuning: every layer learns, the backbone at a 10x smaller LR than the new head.
+# Same data pipeline for the three levels (224 px, ImageNet statistics, crop + flip): only what learns changes.
+name: resnet_full
+data_dir: data/wikiart_style5_224
+group: resnet
+model: resnet18
+finetune: full
+image_size: 224
+augment: true
+
+optimizer: adamw
+lr: 1.0e-3  # the new head
+backbone_lr: 1.0e-4  # pre-trained weights need small corrections only
+weight_decay: 0.01  # AdamW's usual default
+batch_size: 64
+epochs: 30
+patience: 10

@@ -22,8 +22,7 @@ from artguide.config import load_config
 from artguide.diagnostics.sanity import lr_range_test, suggest_lr
 from artguide.seed import seed_everything
 from artguide.tracking import log_scores, start_run
-from artguide.train.builders import get_device, make_loaders, make_model
-from artguide.train.optim import make_optimizer
+from artguide.train.builders import get_device, make_loaders, make_model, make_model_optimizer
 
 
 def main() -> None:
@@ -42,8 +41,7 @@ def main() -> None:
         generator = seed_everything(seed)
         loaders = make_loaders(cfg, generator)
         model = make_model(cfg, len(loaders.classes)).to(device)  # a fresh model: the test destroys its weights
-        optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
-                                   cfg.weight_decay)
+        optimizer = make_model_optimizer(cfg, model)
         loss_fn = nn.CrossEntropyLoss(label_smoothing=cfg.label_smoothing)
         lrs, losses = lr_range_test(model, loaders.train, loss_fn, optimizer, device)
         suggestions.append(suggest_lr(lrs, losses))

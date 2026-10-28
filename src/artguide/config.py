@@ -6,15 +6,20 @@ from pathlib import Path
 
 import yaml
 
+FAILURES = (None, "shuffle_labels", "forget_eval")
+
 
 @dataclass(frozen=True)
 class Config:
     name: str  # run name in MLflow, e.g. "mlp_v0"
     data_dir: str  # e.g. "data/wikiart_style5"
-    split_file: str | None = None  # default: splits/<data_dir name>.csv
+    split_file: str | None = None  # default: splits/<subset>.csv
     seed: int = 0
+    group: str = "mlp"  # MLflow experiment <subset>-<group>: mlp, failures, resnet
 
-    # Model (see models/mlp.py)
+    # Model (see models/mlp.py and models/resnet.py)
+    model: str = "mlp"  # mlp, resnet18
+    finetune: str = "probe"  # resnet18 only: probe, partial, full
     hidden: tuple[int, ...] = (512,)
     activation: str = "relu"
     batchnorm: bool = False
@@ -35,18 +40,27 @@ class Config:
     label_smoothing: float = 0.0  # training targets 0.9 / 0.025 instead of 1 / 0 (with 0.1 and 5 classes)
     scheduler: str = "none"  # none, cosine
     patience: int | None = None  # early stopping: stop after this many epochs without a better val loss
+    backbone_lr: float | None = None  # resnet18: LR of the pre-trained layers (default: lr)
+
+    # Provoked failures (Phase 4), off by default
+    failure: str | None = None  # shuffle_labels, forget_eval
+
+    @property
+    def subset(self) -> str:
+        """data/wikiart_style5_224 -> wikiart_style5: the 224 px copy holds the same paintings and split."""
+        return Path(self.data_dir).name.removesuffix("_224")
 
     @property
     def experiment(self) -> str:
-        return f"{Path(self.data_dir).name}-mlp"  # e.g. "wikiart_style5-mlp"
+        return f"{self.subset}-{self.group}"  # e.g. "wikiart_style5-mlp"
 
     @property
     def splits_path(self) -> Path:
-        return Path(self.split_file) if self.split_file else Path("splits") / f"{Path(self.data_dir).name}.csv"
+        return Path(self.split_file) if self.split_file else Path("splits") / f"{self.subset}.csv"
 
     @property
     def checkpoint_path(self) -> Path:
-        return Path("checkpoints") / Path(self.data_dir).name / f"{self.name}-seed{self.seed}.pt"
+        return Path("checkpoints") / self.subset / f"{self.name}-seed{self.seed}.pt"
 
 
 def parse_overrides(pairs: list[str]) -> dict:
@@ -74,6 +88,8 @@ def load_config(path: str | Path, overrides: dict | None = None) -> Config:
     unknown = set(values) - {f.name for f in fields(Config)}
     if unknown:
         raise ValueError(f"{path}: unknown config keys {sorted(unknown)}")
+    if values.get("failure") not in FAILURES:
+        raise ValueError(f"{path}: unknown failure {values['failure']!r}, expected one of {FAILURES[1:]}")
     if "hidden" in values:
         values["hidden"] = tuple(values["hidden"])  # YAML gives a list; the dataclass is frozen, so a tuple
     return Config(**values)

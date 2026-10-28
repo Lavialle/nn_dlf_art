@@ -1,4 +1,4 @@
-"""Image transforms: uint8 (3, H, W) tensors -> normalised float tensors ready for a model."""
+"""Image transforms: uint8 (3, H, W) tensors -> normalised float tensors ready for a model (MLP or ResNet)."""
 from __future__ import annotations
 
 import torch
@@ -21,9 +21,10 @@ def augmentation(size: int) -> list[v2.Transform]:
     return [v2.RandomResizedCrop(size, scale=(0.6, 1.0), antialias=True), v2.RandomHorizontalFlip()]
 
 
-def mlp_transform(mean: list[float], std: list[float], size: int = MLP_SIZE, augment: bool = False) -> v2.Compose:
+def image_transform(mean: list[float], std: list[float], size: int = MLP_SIZE,
+                    augment: bool = False) -> v2.Compose:
     """Resize to size x size (randomly cropped and flipped if augment), scale to [0, 1], then standardise each
-    channel with the train statistics."""
+    channel: with the train statistics for the MLP, with ImageNet's for the pre-trained ResNet."""
     return v2.Compose([
         *(augmentation(size) if augment else [v2.Resize(size, antialias=True)]),
         v2.ToDtype(torch.float32, scale=True),  # uint8 [0, 255] -> float [0, 1]
