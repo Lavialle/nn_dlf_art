@@ -2,6 +2,7 @@
 
     uv run python scripts/train.py --config configs/style/mlp_v0.yaml
     uv run python scripts/train.py --config configs/style/mlp_v0.yaml --seeds 0 1 2
+    uv run python scripts/train.py --config configs/style/mlp_v3.yaml --set dropout=0.2   (run name: mlp_v3-dropout0.2)
 
 The kept model is the epoch with the lowest val loss (not the last one); its weights go to checkpoints/.
 """
@@ -16,7 +17,7 @@ import mlflow
 import torch
 from torch import nn
 
-from artguide.config import Config, load_config
+from artguide.config import Config, load_config, parse_overrides
 from artguide.evaluation.metrics import scores
 from artguide.models.mlp import n_parameters
 from artguide.seed import seed_everything
@@ -79,8 +80,10 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--config", required=True)
     p.add_argument("--seeds", type=int, nargs="+", help="override the seed of the config; one run per seed")
+    p.add_argument("--set", nargs="+", default=[], metavar="KEY=VALUE",
+                   help="override config values, e.g. --set dropout=0.2 lr=1.0e-3 (the run name gets a suffix)")
     args = p.parse_args()
-    cfg = load_config(args.config)
+    cfg = load_config(args.config, parse_overrides(args.set))
     seeds = args.seeds or [cfg.seed]
 
     results = []

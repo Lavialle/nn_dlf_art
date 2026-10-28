@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from artguide.config import load_config
+from artguide.config import load_config, parse_overrides
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_FILES = sorted((ROOT / "configs").rglob("*.yaml"))
@@ -27,3 +27,13 @@ def test_hidden_list_becomes_tuple(tmp_path):
     cfg_file = tmp_path / "ok.yaml"
     cfg_file.write_text("name: x\ndata_dir: data/wikiart_style5\nhidden: [512, 256]\n", encoding="utf-8")
     assert load_config(cfg_file).hidden == (512, 256)
+
+
+def test_overrides_replace_values_and_rename_the_run(tmp_path):
+    cfg_file = tmp_path / "ok.yaml"
+    cfg_file.write_text("name: mlp_v3\ndata_dir: data/wikiart_style5\ndropout: 0.5\n", encoding="utf-8")
+    cfg = load_config(cfg_file, parse_overrides(["dropout=0.2", "hidden=[256]"]))
+    assert cfg.dropout == 0.2 and cfg.hidden == (256,)
+    assert cfg.name == "mlp_v3-dropout0.2-hidden[256]"
+    with pytest.raises(ValueError, match="dropuot"):
+        load_config(cfg_file, {"dropuot": 0.2})  # typos in overrides are caught too
