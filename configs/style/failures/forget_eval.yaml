@@ -1,0 +1,16 @@
+# Failure 6: model.eval() forgotten at validation. Expected: dropout and BatchNorm stay in training mode,
+# the validation scores are noisy and the BatchNorm running statistics drift.
+name: forget_eval
+failure: forget_eval
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512, 256]
+batchnorm: true
+dropout: 0.5
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 1.1e-2
+epochs: 40

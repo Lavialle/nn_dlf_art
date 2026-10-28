@@ -1,0 +1,14 @@
+# Healthy reference for failure 6: v3 (BatchNorm + dropout 0.5), 40 epochs.
+name: reference_bn_dropout
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512, 256]
+batchnorm: true
+dropout: 0.5
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 1.1e-2
+epochs: 40

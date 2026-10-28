@@ -1,0 +1,13 @@
+# Failure 1, first aid: same LR x 100, gradient norm clipped to 1. Does clipping alone save the run?
+name: lr_x100_clipped
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512]
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 0.25
+max_grad_norm: 1.0
+epochs: 40

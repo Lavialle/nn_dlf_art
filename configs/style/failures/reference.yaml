@@ -1,0 +1,12 @@
+# Healthy reference for the provoked failures: v1 Nesterov (1 hidden layer, no BatchNorm), 40 epochs.
+name: reference
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512]
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 2.5e-3
+epochs: 40

@@ -1,0 +1,14 @@
+# Failure 4: 8 hidden layers with sigmoid, no BatchNorm. Expected: vanishing gradients in the first layers.
+name: deep_sigmoid
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [256, 256, 256, 256, 256, 256, 256, 256]
+activation: sigmoid
+init: xavier
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 2.5e-3
+epochs: 40
