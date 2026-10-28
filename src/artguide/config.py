@@ -21,6 +21,7 @@ class Config:
     dropout: float = 0.0
     init: str = "kaiming"
     image_size: int = 64
+    augment: bool = False  # random crop + horizontal flip on the training images
 
     # Training
     optimizer: str = "sgd"  # sgd, adam, adamw
@@ -31,6 +32,7 @@ class Config:
     batch_size: int = 64
     epochs: int = 30
     max_grad_norm: float | None = None  # gradient clipping, off by default
+    label_smoothing: float = 0.0  # training targets 0.9 / 0.025 instead of 1 / 0 (with 0.1 and 5 classes)
     scheduler: str = "none"  # none, cosine
     patience: int | None = None  # early stopping: stop after this many epochs without a better val loss
 

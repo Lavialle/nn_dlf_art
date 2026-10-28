@@ -13,10 +13,19 @@ def channel_stats(images: torch.Tensor) -> tuple[list[float], list[float]]:
     return x.mean(dim=(0, 2, 3)).tolist(), x.std(dim=(0, 2, 3)).tolist()
 
 
-def mlp_transform(mean: list[float], std: list[float], size: int = MLP_SIZE) -> v2.Compose:
-    """Resize to size x size, scale to [0, 1], then standardise each channel with the train statistics."""
+def augmentation(size: int) -> list[v2.Transform]:
+    """Random crop (60-100 % of the area) resized to size x size, and a horizontal flip half of the time.
+
+    Chosen for paintings: no colour jitter (the palette IS a clue to the style), no rotation, no vertical flip.
+    """
+    return [v2.RandomResizedCrop(size, scale=(0.6, 1.0), antialias=True), v2.RandomHorizontalFlip()]
+
+
+def mlp_transform(mean: list[float], std: list[float], size: int = MLP_SIZE, augment: bool = False) -> v2.Compose:
+    """Resize to size x size (randomly cropped and flipped if augment), scale to [0, 1], then standardise each
+    channel with the train statistics."""
     return v2.Compose([
-        v2.Resize(size, antialias=True),
+        *(augmentation(size) if augment else [v2.Resize(size, antialias=True)]),
         v2.ToDtype(torch.float32, scale=True),  # uint8 [0, 255] -> float [0, 1]
         v2.Normalize(mean, std),  # (x - mean) / std, channel by channel
     ])

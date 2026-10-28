@@ -31,9 +31,10 @@ def train(cfg: Config, config_file: str) -> dict[str, float]:
     """One run: train, keep the best val-loss epoch, save it, log everything. Returns its val scores."""
     device = get_device()
     generator = seed_everything(cfg.seed)
-    train_loader, val_loader, classes = make_loaders(cfg, generator)
-    model = make_model(cfg, len(classes)).to(device)
-    loss_fn = nn.CrossEntropyLoss()
+    loaders = make_loaders(cfg, generator)
+    model = make_model(cfg, len(loaders.classes)).to(device)
+    loss_fn = nn.CrossEntropyLoss(label_smoothing=cfg.label_smoothing)  # what the optimizer minimises
+    eval_loss_fn = nn.CrossEntropyLoss()  # what we report: plain cross-entropy, comparable across versions
     optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
                                cfg.weight_decay)
     scheduler = make_scheduler(optimizer, cfg.scheduler, cfg.epochs)
@@ -44,11 +45,11 @@ def train(cfg: Config, config_file: str) -> dict[str, float]:
         for epoch in range(1, cfg.epochs + 1):
             t0 = time.perf_counter()
             lr = optimizer.param_groups[0]["lr"]  # the LR used during this epoch
-            train_loss = train_one_epoch(model, train_loader, loss_fn, optimizer, device, cfg.max_grad_norm)
+            train_loss = train_one_epoch(model, loaders.train, loss_fn, optimizer, device, cfg.max_grad_norm)
             if scheduler is not None:
                 scheduler.step()  # once per epoch, after the optimizer steps
-            _, y_train, p_train = evaluate(model, train_loader, loss_fn, device)  # train scores in eval mode
-            val_loss, y_val, p_val = evaluate(model, val_loader, loss_fn, device)
+            _, y_train, p_train = evaluate(model, loaders.train_eval, eval_loss_fn, device)  # no augmentation
+            val_loss, y_val, p_val = evaluate(model, loaders.val, eval_loss_fn, device)
             val_scores = scores(y_val, p_val)
 
             log_scores({"loss": train_loss, **scores(y_train, p_train)}, "train", step=epoch)
@@ -64,8 +65,8 @@ def train(cfg: Config, config_file: str) -> dict[str, float]:
                 break
 
         cfg.checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
-        torch.save({"state_dict": stopper.best_state, "config": dataclasses.asdict(cfg), "classes": classes,
-                    "epoch": stopper.best_epoch}, cfg.checkpoint_path)
+        torch.save({"state_dict": stopper.best_state, "config": dataclasses.asdict(cfg),
+                    "classes": loaders.classes, "epoch": stopper.best_epoch}, cfg.checkpoint_path)
         mlflow.set_tag("checkpoint", cfg.checkpoint_path.as_posix())
         log_scores({"loss": stopper.best_loss, **best_scores, "epoch": stopper.best_epoch}, "best_val")
         log_scores({"epochs": epoch}, "trained")

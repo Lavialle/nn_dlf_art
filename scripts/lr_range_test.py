@@ -40,11 +40,12 @@ def main() -> None:
     suggestions, lowest, start = [], [], []
     for seed in args.seeds:
         generator = seed_everything(seed)
-        train_loader, _, classes = make_loaders(cfg, generator)
-        model = make_model(cfg, len(classes)).to(device)  # a fresh model: the test destroys its weights
+        loaders = make_loaders(cfg, generator)
+        model = make_model(cfg, len(loaders.classes)).to(device)  # a fresh model: the test destroys its weights
         optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
                                    cfg.weight_decay)
-        lrs, losses = lr_range_test(model, train_loader, nn.CrossEntropyLoss(), optimizer, device)
+        loss_fn = nn.CrossEntropyLoss(label_smoothing=cfg.label_smoothing)
+        lrs, losses = lr_range_test(model, loaders.train, loss_fn, optimizer, device)
         suggestions.append(suggest_lr(lrs, losses))
         lowest.append(min(losses))
         start.append(losses[0])

@@ -30,7 +30,8 @@ def main() -> None:
 
     device = get_device()
     generator = seed_everything(cfg.seed)
-    train_loader, _, classes = make_loaders(cfg, generator)
+    loaders = make_loaders(cfg, generator)
+    train_loader, classes = loaders.train, loaders.classes
     model = make_model(cfg, len(classes)).to(device)
     loss_fn = nn.CrossEntropyLoss()
     optimizer = make_optimizer(model.parameters(), cfg.optimizer, cfg.lr, cfg.momentum, cfg.nesterov,
