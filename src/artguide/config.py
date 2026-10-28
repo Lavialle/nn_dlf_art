@@ -31,6 +31,8 @@ class Config:
     batch_size: int = 64
     epochs: int = 30
     max_grad_norm: float | None = None  # gradient clipping, off by default
+    scheduler: str = "none"  # none, cosine
+    patience: int | None = None  # early stopping: stop after this many epochs without a better val loss
 
     @property
     def experiment(self) -> str:
@@ -39,6 +41,10 @@ class Config:
     @property
     def splits_path(self) -> Path:
         return Path(self.split_file) if self.split_file else Path("splits") / f"{Path(self.data_dir).name}.csv"
+
+    @property
+    def checkpoint_path(self) -> Path:
+        return Path("checkpoints") / Path(self.data_dir).name / f"{self.name}-seed{self.seed}.pt"
 
 
 def load_config(path: str | Path) -> Config:
