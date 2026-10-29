@@ -49,6 +49,17 @@ def markdown(table: pd.DataFrame, pairs: list[tuple[str, str, tuple[float, float
     return "\n".join(lines) + "\n"
 
 
+LABELS = [  # model name prefix -> short label, label offset in points (dx, dy), horizontal alignment
+    ("Majority", "majority class", (10, -4), "left"),
+    ("Logistic regression (pixels)", "logistic reg., pixels", (-10, 0), "right"),
+    ("Logistic regression (hsv)", "logistic reg., HSV histogram", (10, -4), "left"),
+    ("MLP", "MLP v6", (0, -48), "center"),
+    ("ResNet18 fine-tuned", "ResNet18 fine-tuned (layer4)", (-12, 14), "right"),
+    ("ResNet18 embeddings", "ResNet18 embeddings + logistic reg.", (-12, -2), "right"),
+    ("ResNet18 linear probe", "ResNet18 linear probe", (-12, -18), "right"),
+]
+
+
 def tradeoff_figure(table: pd.DataFrame, path: Path) -> None:
     fig, ax = plt.subplots(figsize=(8.5, 5))
     style(ax)
@@ -58,8 +69,9 @@ def tradeoff_figure(table: pd.DataFrame, path: Path) -> None:
                                                          [(r.accuracy_hi - r.accuracy) * 100]],
                     fmt="o", color=color, markersize=8, ecolor=color, elinewidth=1.2, capsize=3,
                     markeredgecolor="white", markeredgewidth=1.5)
-        ax.annotate(f"{r.model}\n{r.size_mb:.1f} MB", (r.median_ms, r.accuracy * 100), xytext=(8, -4),
-                    textcoords="offset points", fontsize=8, color=INK)
+        label, offset, ha = next((lab, off, ha) for prefix, lab, off, ha in LABELS if r.model.startswith(prefix))
+        ax.annotate(f"{label}, {r.size_mb:.1f} MB", (r.median_ms, r.accuracy * 100), xytext=offset,
+                    textcoords="offset points", fontsize=8, color=INK, ha=ha, va="center")
     for family, color in COLORS.items():
         ax.scatter([], [], color=color, label=family)
     ax.set(xscale="log", xlabel="CPU latency per image, 2 threads (ms, log scale)",
