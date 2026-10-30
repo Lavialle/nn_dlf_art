@@ -1,0 +1,18 @@
+# v4 = v3 + weight decay (SGD: an L2 pull of every weight towards 0 at each step).
+name: mlp_v4
+data_dir: data/wikiart_genre5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+dropout: 0.5
+init: kaiming
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 9.9e-3  # measured on v2 (same architecture)
+weight_decay: 5.0e-4  # value chosen on style, not re-swept on genre (style sweep differences were within seed noise)
+batch_size: 64
+epochs: 100
+patience: 10

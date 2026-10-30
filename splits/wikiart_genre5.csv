@@ -1,0 +1,1501 @@
+id,path,label,label_idx,artist,split
+s02_r0055,cityscape/s02_r0055.jpg,cityscape,0,camille-pissarro,train
+s02_r0076,cityscape/s02_r0076.jpg,cityscape,0,camille-pissarro,train
+s02_r0081,cityscape/s02_r0081.jpg,cityscape,0,john-singer-sargent,train
+s02_r0086,cityscape/s02_r0086.jpg,cityscape,0,martiros-saryan,train
+s02_r0094,cityscape/s02_r0094.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0098,cityscape/s02_r0098.jpg,cityscape,0,claude-monet,train
+s02_r0100,cityscape/s02_r0100.jpg,cityscape,0,childe-hassam,train
+s02_r0118,cityscape/s02_r0118.jpg,cityscape,0,ivan-aivazovsky,train
+s02_r0122,cityscape/s02_r0122.jpg,cityscape,0,nicholas-roerich,train
+s02_r0135,cityscape/s02_r0135.jpg,cityscape,0,claude-monet,train
+s02_r0160,cityscape/s02_r0160.jpg,cityscape,0,martiros-saryan,train
+s02_r0162,cityscape/s02_r0162.jpg,cityscape,0,ivan-aivazovsky,train
+s02_r0169,cityscape/s02_r0169.jpg,cityscape,0,nicholas-roerich,train
+s02_r0173,cityscape/s02_r0173.jpg,cityscape,0,ivan-shishkin,train
+s02_r0177,cityscape/s02_r0177.jpg,cityscape,0,camille-pissarro,train
+s02_r0186,cityscape/s02_r0186.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0188,cityscape/s02_r0188.jpg,cityscape,0,claude-monet,train
+s02_r0206,cityscape/s02_r0206.jpg,cityscape,0,nicholas-roerich,train
+s02_r0207,cityscape/s02_r0207.jpg,cityscape,0,nicholas-roerich,train
+s02_r0214,cityscape/s02_r0214.jpg,cityscape,0,john-singer-sargent,train
+s02_r0228,cityscape/s02_r0228.jpg,cityscape,0,nicholas-roerich,train
+s02_r0240,cityscape/s02_r0240.jpg,cityscape,0,eugene-boudin,test
+s02_r0260,cityscape/s02_r0260.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0261,cityscape/s02_r0261.jpg,cityscape,0,paul-cezanne,train
+s02_r0276,cityscape/s02_r0276.jpg,cityscape,0,pierre-auguste-renoir,train
+s02_r0302,cityscape/s02_r0302.jpg,cityscape,0,nicholas-roerich,train
+s02_r0320,cityscape/s02_r0320.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0325,cityscape/s02_r0325.jpg,cityscape,0,childe-hassam,train
+s02_r0339,cityscape/s02_r0339.jpg,cityscape,0,claude-monet,train
+s02_r0359,cityscape/s02_r0359.jpg,cityscape,0,john-singer-sargent,train
+s02_r0384,cityscape/s02_r0384.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0389,cityscape/s02_r0389.jpg,cityscape,0,camille-pissarro,train
+s02_r0392,cityscape/s02_r0392.jpg,cityscape,0,paul-cezanne,train
+s02_r0419,cityscape/s02_r0419.jpg,cityscape,0,camille-pissarro,train
+s02_r0439,cityscape/s02_r0439.jpg,cityscape,0,claude-monet,train
+s02_r0447,cityscape/s02_r0447.jpg,cityscape,0,camille-pissarro,train
+s02_r0458,cityscape/s02_r0458.jpg,cityscape,0,eugene-boudin,test
+s02_r0465,cityscape/s02_r0465.jpg,cityscape,0,martiros-saryan,train
+s02_r0481,cityscape/s02_r0481.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0495,cityscape/s02_r0495.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0500,cityscape/s02_r0500.jpg,cityscape,0,childe-hassam,train
+s02_r0506,cityscape/s02_r0506.jpg,cityscape,0,camille-pissarro,train
+s02_r0513,cityscape/s02_r0513.jpg,cityscape,0,eugene-boudin,test
+s02_r0515,cityscape/s02_r0515.jpg,cityscape,0,childe-hassam,train
+s02_r0520,cityscape/s02_r0520.jpg,cityscape,0,nicholas-roerich,train
+s02_r0523,cityscape/s02_r0523.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0546,cityscape/s02_r0546.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0572,cityscape/s02_r0572.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0585,cityscape/s02_r0585.jpg,cityscape,0,camille-pissarro,train
+s02_r0586,cityscape/s02_r0586.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0623,cityscape/s02_r0623.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0649,cityscape/s02_r0649.jpg,cityscape,0,childe-hassam,train
+s02_r0660,cityscape/s02_r0660.jpg,cityscape,0,john-singer-sargent,train
+s02_r0674,cityscape/s02_r0674.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0681,cityscape/s02_r0681.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0701,cityscape/s02_r0701.jpg,cityscape,0,camille-pissarro,train
+s02_r0741,cityscape/s02_r0741.jpg,cityscape,0,camille-pissarro,train
+s02_r0746,cityscape/s02_r0746.jpg,cityscape,0,paul-cezanne,train
+s02_r0750,cityscape/s02_r0750.jpg,cityscape,0,john-singer-sargent,train
+s02_r0759,cityscape/s02_r0759.jpg,cityscape,0,childe-hassam,train
+s02_r0760,cityscape/s02_r0760.jpg,cityscape,0,claude-monet,train
+s02_r0765,cityscape/s02_r0765.jpg,cityscape,0,childe-hassam,train
+s02_r0788,cityscape/s02_r0788.jpg,cityscape,0,boris-kustodiev,train
+s02_r0790,cityscape/s02_r0790.jpg,cityscape,0,ilya-repin,train
+s02_r0800,cityscape/s02_r0800.jpg,cityscape,0,camille-pissarro,train
+s02_r0809,cityscape/s02_r0809.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0820,cityscape/s02_r0820.jpg,cityscape,0,claude-monet,train
+s02_r0835,cityscape/s02_r0835.jpg,cityscape,0,camille-pissarro,train
+s02_r0841,cityscape/s02_r0841.jpg,cityscape,0,nicholas-roerich,train
+s02_r0843,cityscape/s02_r0843.jpg,cityscape,0,camille-pissarro,train
+s02_r0872,cityscape/s02_r0872.jpg,cityscape,0,camille-pissarro,train
+s02_r0875,cityscape/s02_r0875.jpg,cityscape,0,nicholas-roerich,train
+s02_r0876,cityscape/s02_r0876.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0887,cityscape/s02_r0887.jpg,cityscape,0,john-singer-sargent,train
+s02_r0891,cityscape/s02_r0891.jpg,cityscape,0,nicholas-roerich,train
+s02_r0897,cityscape/s02_r0897.jpg,cityscape,0,claude-monet,train
+s02_r0933,cityscape/s02_r0933.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0946,cityscape/s02_r0946.jpg,cityscape,0,eugene-boudin,test
+s02_r0955,cityscape/s02_r0955.jpg,cityscape,0,camille-pissarro,train
+s02_r0964,cityscape/s02_r0964.jpg,cityscape,0,ivan-aivazovsky,train
+s02_r0969,cityscape/s02_r0969.jpg,cityscape,0,eugene-boudin,test
+s02_r0973,cityscape/s02_r0973.jpg,cityscape,0,boris-kustodiev,train
+s02_r0974,cityscape/s02_r0974.jpg,cityscape,0,vincent-van-gogh,test
+s02_r0975,cityscape/s02_r0975.jpg,cityscape,0,pyotr-konchalovsky,train
+s02_r0989,cityscape/s02_r0989.jpg,cityscape,0,camille-pissarro,train
+s02_r1001,cityscape/s02_r1001.jpg,cityscape,0,claude-monet,train
+s02_r1015,cityscape/s02_r1015.jpg,cityscape,0,eugene-boudin,test
+s02_r1019,cityscape/s02_r1019.jpg,cityscape,0,childe-hassam,train
+s02_r1044,cityscape/s02_r1044.jpg,cityscape,0,martiros-saryan,train
+s02_r1051,cityscape/s02_r1051.jpg,cityscape,0,claude-monet,train
+s02_r1086,cityscape/s02_r1086.jpg,cityscape,0,claude-monet,train
+s02_r1115,cityscape/s02_r1115.jpg,cityscape,0,vincent-van-gogh,test
+s07_r0053,cityscape/s07_r0053.jpg,cityscape,0,vincent-van-gogh,test
+s07_r0113,cityscape/s07_r0113.jpg,cityscape,0,camille-pissarro,train
+s07_r0130,cityscape/s07_r0130.jpg,cityscape,0,john-singer-sargent,train
+s07_r0231,cityscape/s07_r0231.jpg,cityscape,0,eugene-boudin,test
+s07_r0237,cityscape/s07_r0237.jpg,cityscape,0,ivan-aivazovsky,train
+s07_r0238,cityscape/s07_r0238.jpg,cityscape,0,childe-hassam,train
+s07_r0242,cityscape/s07_r0242.jpg,cityscape,0,ivan-aivazovsky,train
+s07_r0247,cityscape/s07_r0247.jpg,cityscape,0,nicholas-roerich,train
+s07_r0269,cityscape/s07_r0269.jpg,cityscape,0,martiros-saryan,train
+s07_r0279,cityscape/s07_r0279.jpg,cityscape,0,claude-monet,train
+s07_r0301,cityscape/s07_r0301.jpg,cityscape,0,claude-monet,train
+s07_r0317,cityscape/s07_r0317.jpg,cityscape,0,claude-monet,train
+s07_r0352,cityscape/s07_r0352.jpg,cityscape,0,claude-monet,train
+s07_r0415,cityscape/s07_r0415.jpg,cityscape,0,pyotr-konchalovsky,train
+s07_r0427,cityscape/s07_r0427.jpg,cityscape,0,claude-monet,train
+s07_r0461,cityscape/s07_r0461.jpg,cityscape,0,camille-pissarro,train
+s07_r0503,cityscape/s07_r0503.jpg,cityscape,0,claude-monet,train
+s07_r0545,cityscape/s07_r0545.jpg,cityscape,0,claude-monet,train
+s07_r0571,cityscape/s07_r0571.jpg,cityscape,0,martiros-saryan,train
+s07_r0616,cityscape/s07_r0616.jpg,cityscape,0,childe-hassam,train
+s07_r0631,cityscape/s07_r0631.jpg,cityscape,0,pyotr-konchalovsky,train
+s07_r0715,cityscape/s07_r0715.jpg,cityscape,0,eugene-boudin,test
+s07_r0763,cityscape/s07_r0763.jpg,cityscape,0,john-singer-sargent,train
+s07_r0788,cityscape/s07_r0788.jpg,cityscape,0,camille-pissarro,train
+s07_r0817,cityscape/s07_r0817.jpg,cityscape,0,pyotr-konchalovsky,train
+s07_r0867,cityscape/s07_r0867.jpg,cityscape,0,albrecht-durer,train
+s07_r0919,cityscape/s07_r0919.jpg,cityscape,0,childe-hassam,train
+s07_r0998,cityscape/s07_r0998.jpg,cityscape,0,claude-monet,train
+s07_r1020,cityscape/s07_r1020.jpg,cityscape,0,claude-monet,train
+s07_r1060,cityscape/s07_r1060.jpg,cityscape,0,camille-pissarro,train
+s07_r1074,cityscape/s07_r1074.jpg,cityscape,0,salvador-dali,train
+s07_r1086,cityscape/s07_r1086.jpg,cityscape,0,claude-monet,train
+s07_r1094,cityscape/s07_r1094.jpg,cityscape,0,claude-monet,train
+s33_r0023,cityscape/s33_r0023.jpg,cityscape,0,antoine-blanchard,val
+s33_r0036,cityscape/s33_r0036.jpg,cityscape,0,Unknown Artist,train
+s33_r0085,cityscape/s33_r0085.jpg,cityscape,0,antoine-blanchard,val
+s33_r0096,cityscape/s33_r0096.jpg,cityscape,0,william-merritt-chase,train
+s33_r0098,cityscape/s33_r0098.jpg,cityscape,0,edouard-cortes,val
+s33_r0107,cityscape/s33_r0107.jpg,cityscape,0,Unknown Artist,train
+s33_r0108,cityscape/s33_r0108.jpg,cityscape,0,fernand-leger,train
+s33_r0110,cityscape/s33_r0110.jpg,cityscape,0,david-burliuk,train
+s33_r0118,cityscape/s33_r0118.jpg,cityscape,0,eugene-delacroix,train
+s33_r0149,cityscape/s33_r0149.jpg,cityscape,0,Unknown Artist,train
+s33_r0158,cityscape/s33_r0158.jpg,cityscape,0,Unknown Artist,train
+s33_r0159,cityscape/s33_r0159.jpg,cityscape,0,Unknown Artist,val
+s33_r0160,cityscape/s33_r0160.jpg,cityscape,0,edouard-cortes,val
+s33_r0233,cityscape/s33_r0233.jpg,cityscape,0,Unknown Artist,train
+s33_r0243,cityscape/s33_r0243.jpg,cityscape,0,Unknown Artist,train
+s33_r0245,cityscape/s33_r0245.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0246,cityscape/s33_r0246.jpg,cityscape,0,antoine-blanchard,val
+s33_r0249,cityscape/s33_r0249.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0266,cityscape/s33_r0266.jpg,cityscape,0,Unknown Artist,train
+s33_r0294,cityscape/s33_r0294.jpg,cityscape,0,Unknown Artist,val
+s33_r0298,cityscape/s33_r0298.jpg,cityscape,0,Unknown Artist,train
+s33_r0300,cityscape/s33_r0300.jpg,cityscape,0,Unknown Artist,test
+s33_r0318,cityscape/s33_r0318.jpg,cityscape,0,Unknown Artist,test
+s33_r0327,cityscape/s33_r0327.jpg,cityscape,0,camille-corot,val
+s33_r0336,cityscape/s33_r0336.jpg,cityscape,0,Unknown Artist,train
+s33_r0337,cityscape/s33_r0337.jpg,cityscape,0,Unknown Artist,train
+s33_r0343,cityscape/s33_r0343.jpg,cityscape,0,pierre-bonnard,train
+s33_r0357,cityscape/s33_r0357.jpg,cityscape,0,edouard-cortes,val
+s33_r0382,cityscape/s33_r0382.jpg,cityscape,0,ilya-mashkov,train
+s33_r0384,cityscape/s33_r0384.jpg,cityscape,0,antoine-blanchard,val
+s33_r0392,cityscape/s33_r0392.jpg,cityscape,0,gustave-loiseau,train
+s33_r0432,cityscape/s33_r0432.jpg,cityscape,0,Unknown Artist,test
+s33_r0451,cityscape/s33_r0451.jpg,cityscape,0,gustave-loiseau,train
+s33_r0452,cityscape/s33_r0452.jpg,cityscape,0,john-henry-twachtman,train
+s33_r0455,cityscape/s33_r0455.jpg,cityscape,0,edouard-cortes,val
+s33_r0465,cityscape/s33_r0465.jpg,cityscape,0,gustave-caillebotte,train
+s33_r0496,cityscape/s33_r0496.jpg,cityscape,0,Unknown Artist,val
+s33_r0500,cityscape/s33_r0500.jpg,cityscape,0,Unknown Artist,train
+s33_r0506,cityscape/s33_r0506.jpg,cityscape,0,Unknown Artist,train
+s33_r0507,cityscape/s33_r0507.jpg,cityscape,0,Unknown Artist,train
+s33_r0517,cityscape/s33_r0517.jpg,cityscape,0,Unknown Artist,train
+s33_r0519,cityscape/s33_r0519.jpg,cityscape,0,Unknown Artist,train
+s33_r0533,cityscape/s33_r0533.jpg,cityscape,0,Unknown Artist,train
+s33_r0544,cityscape/s33_r0544.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0548,cityscape/s33_r0548.jpg,cityscape,0,edouard-cortes,val
+s33_r0553,cityscape/s33_r0553.jpg,cityscape,0,Unknown Artist,test
+s33_r0561,cityscape/s33_r0561.jpg,cityscape,0,antoine-blanchard,val
+s33_r0569,cityscape/s33_r0569.jpg,cityscape,0,Unknown Artist,train
+s33_r0582,cityscape/s33_r0582.jpg,cityscape,0,Unknown Artist,train
+s33_r0584,cityscape/s33_r0584.jpg,cityscape,0,Unknown Artist,train
+s33_r0614,cityscape/s33_r0614.jpg,cityscape,0,ilya-mashkov,train
+s33_r0623,cityscape/s33_r0623.jpg,cityscape,0,maurice-prendergast,train
+s33_r0624,cityscape/s33_r0624.jpg,cityscape,0,canaletto,val
+s33_r0631,cityscape/s33_r0631.jpg,cityscape,0,Unknown Artist,train
+s33_r0647,cityscape/s33_r0647.jpg,cityscape,0,Unknown Artist,train
+s33_r0663,cityscape/s33_r0663.jpg,cityscape,0,joaquã­n-sorolla,train
+s33_r0687,cityscape/s33_r0687.jpg,cityscape,0,joaquã­n-sorolla,train
+s33_r0702,cityscape/s33_r0702.jpg,cityscape,0,antoine-blanchard,val
+s33_r0713,cityscape/s33_r0713.jpg,cityscape,0,Unknown Artist,train
+s33_r0715,cityscape/s33_r0715.jpg,cityscape,0,Unknown Artist,train
+s33_r0728,cityscape/s33_r0728.jpg,cityscape,0,konstantin-korovin,train
+s33_r0732,cityscape/s33_r0732.jpg,cityscape,0,Unknown Artist,test
+s33_r0763,cityscape/s33_r0763.jpg,cityscape,0,edouard-cortes,val
+s33_r0777,cityscape/s33_r0777.jpg,cityscape,0,david-burliuk,train
+s33_r0789,cityscape/s33_r0789.jpg,cityscape,0,edouard-cortes,val
+s33_r0818,cityscape/s33_r0818.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0826,cityscape/s33_r0826.jpg,cityscape,0,alfred-sisley,train
+s33_r0827,cityscape/s33_r0827.jpg,cityscape,0,Unknown Artist,train
+s33_r0844,cityscape/s33_r0844.jpg,cityscape,0,konstantin-korovin,train
+s33_r0846,cityscape/s33_r0846.jpg,cityscape,0,antoine-blanchard,val
+s33_r0850,cityscape/s33_r0850.jpg,cityscape,0,Unknown Artist,train
+s33_r0862,cityscape/s33_r0862.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0864,cityscape/s33_r0864.jpg,cityscape,0,Unknown Artist,train
+s33_r0874,cityscape/s33_r0874.jpg,cityscape,0,maurice-prendergast,train
+s33_r0881,cityscape/s33_r0881.jpg,cityscape,0,Unknown Artist,train
+s33_r0882,cityscape/s33_r0882.jpg,cityscape,0,Unknown Artist,train
+s33_r0887,cityscape/s33_r0887.jpg,cityscape,0,Unknown Artist,val
+s33_r0893,cityscape/s33_r0893.jpg,cityscape,0,Unknown Artist,train
+s33_r0921,cityscape/s33_r0921.jpg,cityscape,0,edouard-cortes,val
+s33_r0961,cityscape/s33_r0961.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s33_r0966,cityscape/s33_r0966.jpg,cityscape,0,Unknown Artist,val
+s33_r0970,cityscape/s33_r0970.jpg,cityscape,0,Unknown Artist,test
+s33_r0982,cityscape/s33_r0982.jpg,cityscape,0,antoine-blanchard,val
+s33_r0991,cityscape/s33_r0991.jpg,cityscape,0,antoine-blanchard,val
+s33_r1037,cityscape/s33_r1037.jpg,cityscape,0,canaletto,val
+s33_r1073,cityscape/s33_r1073.jpg,cityscape,0,edouard-cortes,val
+s33_r1081,cityscape/s33_r1081.jpg,cityscape,0,Unknown Artist,train
+s33_r1089,cityscape/s33_r1089.jpg,cityscape,0,william-turner,test
+s33_r1116,cityscape/s33_r1116.jpg,cityscape,0,Unknown Artist,train
+s33_r1117,cityscape/s33_r1117.jpg,cityscape,0,Unknown Artist,train
+s33_r1118,cityscape/s33_r1118.jpg,cityscape,0,Unknown Artist,test
+s33_r1124,cityscape/s33_r1124.jpg,cityscape,0,Unknown Artist,train
+s33_r1128,cityscape/s33_r1128.jpg,cityscape,0,Unknown Artist,val
+s38_r0011,cityscape/s38_r0011.jpg,cityscape,0,Unknown Artist,test
+s38_r0070,cityscape/s38_r0070.jpg,cityscape,0,Unknown Artist,train
+s38_r0079,cityscape/s38_r0079.jpg,cityscape,0,konstantin-korovin,train
+s38_r0085,cityscape/s38_r0085.jpg,cityscape,0,antoine-blanchard,val
+s38_r0086,cityscape/s38_r0086.jpg,cityscape,0,Unknown Artist,train
+s38_r0098,cityscape/s38_r0098.jpg,cityscape,0,gustave-loiseau,train
+s38_r0101,cityscape/s38_r0101.jpg,cityscape,0,henri-matisse,train
+s38_r0111,cityscape/s38_r0111.jpg,cityscape,0,edouard-cortes,val
+s38_r0129,cityscape/s38_r0129.jpg,cityscape,0,zinaida-serebriakova,train
+s38_r0145,cityscape/s38_r0145.jpg,cityscape,0,Unknown Artist,train
+s38_r0169,cityscape/s38_r0169.jpg,cityscape,0,raoul-dufy,train
+s38_r0198,cityscape/s38_r0198.jpg,cityscape,0,Unknown Artist,val
+s38_r0204,cityscape/s38_r0204.jpg,cityscape,0,zinaida-serebriakova,train
+s38_r0209,cityscape/s38_r0209.jpg,cityscape,0,Unknown Artist,train
+s38_r0219,cityscape/s38_r0219.jpg,cityscape,0,edouard-cortes,val
+s38_r0223,cityscape/s38_r0223.jpg,cityscape,0,edouard-cortes,val
+s38_r0231,cityscape/s38_r0231.jpg,cityscape,0,Unknown Artist,test
+s38_r0233,cityscape/s38_r0233.jpg,cityscape,0,Unknown Artist,train
+s38_r0234,cityscape/s38_r0234.jpg,cityscape,0,mikhail-vrubel,train
+s38_r0236,cityscape/s38_r0236.jpg,cityscape,0,Unknown Artist,train
+s38_r0237,cityscape/s38_r0237.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s38_r0248,cityscape/s38_r0248.jpg,cityscape,0,vasily-surikov,val
+s38_r0252,cityscape/s38_r0252.jpg,cityscape,0,antoine-blanchard,val
+s38_r0260,cityscape/s38_r0260.jpg,cityscape,0,Unknown Artist,val
+s38_r0263,cityscape/s38_r0263.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s38_r0267,cityscape/s38_r0267.jpg,cityscape,0,william-turner,test
+s38_r0277,cityscape/s38_r0277.jpg,cityscape,0,Unknown Artist,train
+s38_r0312,cityscape/s38_r0312.jpg,cityscape,0,Unknown Artist,train
+s38_r0317,cityscape/s38_r0317.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s38_r0322,cityscape/s38_r0322.jpg,cityscape,0,william-turner,test
+s38_r0323,cityscape/s38_r0323.jpg,cityscape,0,Unknown Artist,train
+s38_r0328,cityscape/s38_r0328.jpg,cityscape,0,william-turner,test
+s38_r0334,cityscape/s38_r0334.jpg,cityscape,0,william-turner,test
+s38_r0348,cityscape/s38_r0348.jpg,cityscape,0,edouard-cortes,val
+s38_r0361,cityscape/s38_r0361.jpg,cityscape,0,Unknown Artist,train
+s38_r0381,cityscape/s38_r0381.jpg,cityscape,0,Unknown Artist,test
+s38_r0382,cityscape/s38_r0382.jpg,cityscape,0,odilon-redon,test
+s38_r0437,cityscape/s38_r0437.jpg,cityscape,0,konstantin-korovin,train
+s38_r0451,cityscape/s38_r0451.jpg,cityscape,0,Unknown Artist,train
+s38_r0477,cityscape/s38_r0477.jpg,cityscape,0,konstantin-korovin,train
+s38_r0484,cityscape/s38_r0484.jpg,cityscape,0,Unknown Artist,train
+s38_r0497,cityscape/s38_r0497.jpg,cityscape,0,Unknown Artist,train
+s38_r0520,cityscape/s38_r0520.jpg,cityscape,0,Unknown Artist,train
+s38_r0572,cityscape/s38_r0572.jpg,cityscape,0,joaquã­n-sorolla,train
+s38_r0600,cityscape/s38_r0600.jpg,cityscape,0,Unknown Artist,train
+s38_r0602,cityscape/s38_r0602.jpg,cityscape,0,Unknown Artist,train
+s38_r0608,cityscape/s38_r0608.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s38_r0619,cityscape/s38_r0619.jpg,cityscape,0,Unknown Artist,train
+s38_r0623,cityscape/s38_r0623.jpg,cityscape,0,Unknown Artist,train
+s38_r0624,cityscape/s38_r0624.jpg,cityscape,0,Unknown Artist,val
+s38_r0634,cityscape/s38_r0634.jpg,cityscape,0,Unknown Artist,train
+s38_r0646,cityscape/s38_r0646.jpg,cityscape,0,Unknown Artist,test
+s38_r0670,cityscape/s38_r0670.jpg,cityscape,0,Unknown Artist,train
+s38_r0676,cityscape/s38_r0676.jpg,cityscape,0,georges-braque,train
+s38_r0677,cityscape/s38_r0677.jpg,cityscape,0,Unknown Artist,val
+s38_r0697,cityscape/s38_r0697.jpg,cityscape,0,Unknown Artist,train
+s38_r0698,cityscape/s38_r0698.jpg,cityscape,0,canaletto,val
+s38_r0705,cityscape/s38_r0705.jpg,cityscape,0,paul-gauguin,train
+s38_r0732,cityscape/s38_r0732.jpg,cityscape,0,Unknown Artist,train
+s38_r0742,cityscape/s38_r0742.jpg,cityscape,0,camille-corot,val
+s38_r0757,cityscape/s38_r0757.jpg,cityscape,0,Unknown Artist,train
+s38_r0773,cityscape/s38_r0773.jpg,cityscape,0,henri-matisse,train
+s38_r0793,cityscape/s38_r0793.jpg,cityscape,0,maurice-prendergast,train
+s38_r0796,cityscape/s38_r0796.jpg,cityscape,0,alfred-sisley,train
+s38_r0820,cityscape/s38_r0820.jpg,cityscape,0,Unknown Artist,train
+s38_r0822,cityscape/s38_r0822.jpg,cityscape,0,Unknown Artist,train
+s38_r0831,cityscape/s38_r0831.jpg,cityscape,0,henri-martin,train
+s38_r0833,cityscape/s38_r0833.jpg,cityscape,0,fernand-leger,train
+s38_r0898,cityscape/s38_r0898.jpg,cityscape,0,Unknown Artist,train
+s38_r0918,cityscape/s38_r0918.jpg,cityscape,0,Unknown Artist,val
+s38_r0919,cityscape/s38_r0919.jpg,cityscape,0,Unknown Artist,test
+s38_r0942,cityscape/s38_r0942.jpg,cityscape,0,gustave-loiseau,train
+s38_r0943,cityscape/s38_r0943.jpg,cityscape,0,Unknown Artist,train
+s38_r0987,cityscape/s38_r0987.jpg,cityscape,0,william-turner,test
+s38_r0989,cityscape/s38_r0989.jpg,cityscape,0,konstantin-korovin,train
+s38_r0996,cityscape/s38_r0996.jpg,cityscape,0,Unknown Artist,train
+s38_r1044,cityscape/s38_r1044.jpg,cityscape,0,Unknown Artist,train
+s38_r1045,cityscape/s38_r1045.jpg,cityscape,0,Unknown Artist,test
+s38_r1058,cityscape/s38_r1058.jpg,cityscape,0,Unknown Artist,test
+s38_r1084,cityscape/s38_r1084.jpg,cityscape,0,antoine-blanchard,val
+s38_r1090,cityscape/s38_r1090.jpg,cityscape,0,mstislav-dobuzhinsky,train
+s38_r1105,cityscape/s38_r1105.jpg,cityscape,0,edouard-cortes,val
+s33_r0005,landscape/s33_r0005.jpg,landscape,1,Unknown Artist,train
+s33_r0033,landscape/s33_r0033.jpg,landscape,1,james-mcneill-whistler,train
+s33_r0045,landscape/s33_r0045.jpg,landscape,1,Unknown Artist,train
+s33_r0056,landscape/s33_r0056.jpg,landscape,1,john-henry-twachtman,train
+s33_r0065,landscape/s33_r0065.jpg,landscape,1,isaac-levitan,test
+s33_r0083,landscape/s33_r0083.jpg,landscape,1,Unknown Artist,train
+s33_r0093,landscape/s33_r0093.jpg,landscape,1,Unknown Artist,test
+s33_r0103,landscape/s33_r0103.jpg,landscape,1,aleksey-savrasov,test
+s33_r0121,landscape/s33_r0121.jpg,landscape,1,alfred-sisley,train
+s33_r0124,landscape/s33_r0124.jpg,landscape,1,Unknown Artist,train
+s33_r0129,landscape/s33_r0129.jpg,landscape,1,Unknown Artist,val
+s33_r0146,landscape/s33_r0146.jpg,landscape,1,Unknown Artist,val
+s33_r0163,landscape/s33_r0163.jpg,landscape,1,Unknown Artist,train
+s33_r0177,landscape/s33_r0177.jpg,landscape,1,alfred-sisley,train
+s33_r0196,landscape/s33_r0196.jpg,landscape,1,arkhip-kuindzhi,train
+s33_r0202,landscape/s33_r0202.jpg,landscape,1,david-burliuk,train
+s33_r0204,landscape/s33_r0204.jpg,landscape,1,konstantin-korovin,train
+s33_r0218,landscape/s33_r0218.jpg,landscape,1,Unknown Artist,train
+s33_r0222,landscape/s33_r0222.jpg,landscape,1,Unknown Artist,train
+s33_r0227,landscape/s33_r0227.jpg,landscape,1,isaac-levitan,test
+s33_r0303,landscape/s33_r0303.jpg,landscape,1,Unknown Artist,train
+s33_r0312,landscape/s33_r0312.jpg,landscape,1,william-merritt-chase,train
+s33_r0316,landscape/s33_r0316.jpg,landscape,1,isaac-levitan,test
+s33_r0329,landscape/s33_r0329.jpg,landscape,1,Unknown Artist,train
+s33_r0348,landscape/s33_r0348.jpg,landscape,1,john-henry-twachtman,train
+s33_r0359,landscape/s33_r0359.jpg,landscape,1,Unknown Artist,train
+s33_r0367,landscape/s33_r0367.jpg,landscape,1,Unknown Artist,val
+s33_r0370,landscape/s33_r0370.jpg,landscape,1,isaac-levitan,test
+s33_r0374,landscape/s33_r0374.jpg,landscape,1,Unknown Artist,train
+s33_r0388,landscape/s33_r0388.jpg,landscape,1,alfred-sisley,train
+s33_r0396,landscape/s33_r0396.jpg,landscape,1,Unknown Artist,val
+s33_r0405,landscape/s33_r0405.jpg,landscape,1,Unknown Artist,train
+s33_r0442,landscape/s33_r0442.jpg,landscape,1,egon-schiele,test
+s33_r0450,landscape/s33_r0450.jpg,landscape,1,Unknown Artist,train
+s33_r0464,landscape/s33_r0464.jpg,landscape,1,Unknown Artist,train
+s33_r0466,landscape/s33_r0466.jpg,landscape,1,john-henry-twachtman,train
+s33_r0481,landscape/s33_r0481.jpg,landscape,1,Unknown Artist,train
+s33_r0485,landscape/s33_r0485.jpg,landscape,1,Unknown Artist,test
+s33_r0490,landscape/s33_r0490.jpg,landscape,1,Unknown Artist,train
+s33_r0495,landscape/s33_r0495.jpg,landscape,1,Unknown Artist,val
+s33_r0499,landscape/s33_r0499.jpg,landscape,1,Unknown Artist,val
+s33_r0501,landscape/s33_r0501.jpg,landscape,1,Unknown Artist,train
+s33_r0504,landscape/s33_r0504.jpg,landscape,1,ferdinand-hodler,test
+s33_r0512,landscape/s33_r0512.jpg,landscape,1,john-henry-twachtman,train
+s33_r0573,landscape/s33_r0573.jpg,landscape,1,Unknown Artist,train
+s33_r0609,landscape/s33_r0609.jpg,landscape,1,Unknown Artist,train
+s33_r0637,landscape/s33_r0637.jpg,landscape,1,konstantin-korovin,train
+s33_r0746,landscape/s33_r0746.jpg,landscape,1,maurice-prendergast,train
+s33_r0765,landscape/s33_r0765.jpg,landscape,1,gustave-courbet,val
+s33_r0791,landscape/s33_r0791.jpg,landscape,1,Unknown Artist,val
+s33_r0795,landscape/s33_r0795.jpg,landscape,1,alfred-sisley,train
+s33_r0809,landscape/s33_r0809.jpg,landscape,1,Unknown Artist,train
+s33_r0845,landscape/s33_r0845.jpg,landscape,1,Unknown Artist,val
+s33_r0870,landscape/s33_r0870.jpg,landscape,1,Unknown Artist,train
+s33_r0886,landscape/s33_r0886.jpg,landscape,1,Unknown Artist,train
+s33_r0895,landscape/s33_r0895.jpg,landscape,1,Unknown Artist,train
+s33_r0908,landscape/s33_r0908.jpg,landscape,1,Unknown Artist,train
+s33_r0917,landscape/s33_r0917.jpg,landscape,1,camille-corot,val
+s33_r0941,landscape/s33_r0941.jpg,landscape,1,vasily-vereshchagin,train
+s33_r0946,landscape/s33_r0946.jpg,landscape,1,henri-martin,train
+s33_r0954,landscape/s33_r0954.jpg,landscape,1,william-turner,test
+s33_r0956,landscape/s33_r0956.jpg,landscape,1,Unknown Artist,val
+s33_r0960,landscape/s33_r0960.jpg,landscape,1,Unknown Artist,train
+s33_r0992,landscape/s33_r0992.jpg,landscape,1,Unknown Artist,train
+s33_r0996,landscape/s33_r0996.jpg,landscape,1,Unknown Artist,train
+s33_r1015,landscape/s33_r1015.jpg,landscape,1,camille-corot,val
+s33_r1084,landscape/s33_r1084.jpg,landscape,1,Unknown Artist,train
+s33_r1098,landscape/s33_r1098.jpg,landscape,1,Unknown Artist,train
+s33_r1102,landscape/s33_r1102.jpg,landscape,1,berthe-morisot,train
+s33_r1104,landscape/s33_r1104.jpg,landscape,1,camille-corot,val
+s33_r1129,landscape/s33_r1129.jpg,landscape,1,gustave-loiseau,train
+s38_r0007,landscape/s38_r0007.jpg,landscape,1,alfred-sisley,train
+s38_r0021,landscape/s38_r0021.jpg,landscape,1,Unknown Artist,val
+s38_r0026,landscape/s38_r0026.jpg,landscape,1,isaac-levitan,test
+s38_r0035,landscape/s38_r0035.jpg,landscape,1,Unknown Artist,train
+s38_r0047,landscape/s38_r0047.jpg,landscape,1,Unknown Artist,train
+s38_r0052,landscape/s38_r0052.jpg,landscape,1,isaac-levitan,test
+s38_r0058,landscape/s38_r0058.jpg,landscape,1,Unknown Artist,train
+s38_r0062,landscape/s38_r0062.jpg,landscape,1,Unknown Artist,train
+s38_r0063,landscape/s38_r0063.jpg,landscape,1,william-merritt-chase,train
+s38_r0069,landscape/s38_r0069.jpg,landscape,1,Unknown Artist,train
+s38_r0071,landscape/s38_r0071.jpg,landscape,1,Unknown Artist,train
+s38_r0072,landscape/s38_r0072.jpg,landscape,1,Unknown Artist,train
+s38_r0075,landscape/s38_r0075.jpg,landscape,1,isaac-levitan,test
+s38_r0080,landscape/s38_r0080.jpg,landscape,1,alfred-sisley,train
+s38_r0083,landscape/s38_r0083.jpg,landscape,1,Unknown Artist,val
+s38_r0093,landscape/s38_r0093.jpg,landscape,1,Unknown Artist,train
+s38_r0100,landscape/s38_r0100.jpg,landscape,1,Unknown Artist,train
+s38_r0106,landscape/s38_r0106.jpg,landscape,1,katsushika-hokusai,train
+s38_r0107,landscape/s38_r0107.jpg,landscape,1,vasily-polenov,train
+s38_r0112,landscape/s38_r0112.jpg,landscape,1,Unknown Artist,train
+s38_r0126,landscape/s38_r0126.jpg,landscape,1,raoul-dufy,train
+s38_r0136,landscape/s38_r0136.jpg,landscape,1,mikalojus-ciurlionis,train
+s38_r0138,landscape/s38_r0138.jpg,landscape,1,Unknown Artist,train
+s38_r0139,landscape/s38_r0139.jpg,landscape,1,Unknown Artist,val
+s38_r0140,landscape/s38_r0140.jpg,landscape,1,Unknown Artist,train
+s38_r0141,landscape/s38_r0141.jpg,landscape,1,Unknown Artist,train
+s38_r0144,landscape/s38_r0144.jpg,landscape,1,camille-corot,val
+s38_r0147,landscape/s38_r0147.jpg,landscape,1,Unknown Artist,test
+s38_r0148,landscape/s38_r0148.jpg,landscape,1,Unknown Artist,train
+s38_r0150,landscape/s38_r0150.jpg,landscape,1,alfred-sisley,train
+s38_r0151,landscape/s38_r0151.jpg,landscape,1,Unknown Artist,train
+s38_r0154,landscape/s38_r0154.jpg,landscape,1,Unknown Artist,train
+s38_r0156,landscape/s38_r0156.jpg,landscape,1,Unknown Artist,train
+s38_r0166,landscape/s38_r0166.jpg,landscape,1,gustav-klimt,train
+s38_r0183,landscape/s38_r0183.jpg,landscape,1,alfred-sisley,train
+s38_r0186,landscape/s38_r0186.jpg,landscape,1,Unknown Artist,train
+s38_r0194,landscape/s38_r0194.jpg,landscape,1,Unknown Artist,train
+s38_r0195,landscape/s38_r0195.jpg,landscape,1,camille-corot,val
+s38_r0196,landscape/s38_r0196.jpg,landscape,1,aleksey-savrasov,test
+s38_r0202,landscape/s38_r0202.jpg,landscape,1,Unknown Artist,train
+s38_r0213,landscape/s38_r0213.jpg,landscape,1,Unknown Artist,train
+s38_r0215,landscape/s38_r0215.jpg,landscape,1,david-burliuk,train
+s38_r0216,landscape/s38_r0216.jpg,landscape,1,edvard-munch,val
+s38_r0217,landscape/s38_r0217.jpg,landscape,1,william-turner,test
+s38_r0228,landscape/s38_r0228.jpg,landscape,1,gustave-loiseau,train
+s38_r0230,landscape/s38_r0230.jpg,landscape,1,Unknown Artist,train
+s38_r0240,landscape/s38_r0240.jpg,landscape,1,Unknown Artist,train
+s38_r0242,landscape/s38_r0242.jpg,landscape,1,gustav-klimt,train
+s38_r0247,landscape/s38_r0247.jpg,landscape,1,Unknown Artist,train
+s38_r0251,landscape/s38_r0251.jpg,landscape,1,Unknown Artist,test
+s38_r0259,landscape/s38_r0259.jpg,landscape,1,Unknown Artist,train
+s38_r0279,landscape/s38_r0279.jpg,landscape,1,john-henry-twachtman,train
+s38_r0284,landscape/s38_r0284.jpg,landscape,1,Unknown Artist,train
+s38_r0287,landscape/s38_r0287.jpg,landscape,1,Unknown Artist,test
+s38_r0289,landscape/s38_r0289.jpg,landscape,1,gustave-loiseau,train
+s38_r0298,landscape/s38_r0298.jpg,landscape,1,Unknown Artist,train
+s38_r0304,landscape/s38_r0304.jpg,landscape,1,Unknown Artist,train
+s38_r0307,landscape/s38_r0307.jpg,landscape,1,camille-corot,val
+s38_r0311,landscape/s38_r0311.jpg,landscape,1,Unknown Artist,train
+s38_r0319,landscape/s38_r0319.jpg,landscape,1,Unknown Artist,train
+s38_r0330,landscape/s38_r0330.jpg,landscape,1,alfred-sisley,train
+s38_r0338,landscape/s38_r0338.jpg,landscape,1,Unknown Artist,train
+s38_r0340,landscape/s38_r0340.jpg,landscape,1,Unknown Artist,train
+s38_r0347,landscape/s38_r0347.jpg,landscape,1,Unknown Artist,train
+s38_r0352,landscape/s38_r0352.jpg,landscape,1,Unknown Artist,train
+s38_r0358,landscape/s38_r0358.jpg,landscape,1,egon-schiele,test
+s38_r0365,landscape/s38_r0365.jpg,landscape,1,Unknown Artist,val
+s38_r0373,landscape/s38_r0373.jpg,landscape,1,Unknown Artist,train
+s38_r0375,landscape/s38_r0375.jpg,landscape,1,isaac-levitan,test
+s38_r0387,landscape/s38_r0387.jpg,landscape,1,Unknown Artist,val
+s38_r0388,landscape/s38_r0388.jpg,landscape,1,Unknown Artist,train
+s38_r0389,landscape/s38_r0389.jpg,landscape,1,vasily-polenov,train
+s38_r0399,landscape/s38_r0399.jpg,landscape,1,camille-corot,val
+s38_r0400,landscape/s38_r0400.jpg,landscape,1,felix-vallotton,train
+s38_r0416,landscape/s38_r0416.jpg,landscape,1,Unknown Artist,train
+s38_r0422,landscape/s38_r0422.jpg,landscape,1,isaac-levitan,test
+s38_r0425,landscape/s38_r0425.jpg,landscape,1,Unknown Artist,test
+s38_r0426,landscape/s38_r0426.jpg,landscape,1,isaac-levitan,test
+s38_r0427,landscape/s38_r0427.jpg,landscape,1,katsushika-hokusai,train
+s38_r0428,landscape/s38_r0428.jpg,landscape,1,Unknown Artist,train
+s38_r0433,landscape/s38_r0433.jpg,landscape,1,Unknown Artist,train
+s38_r0438,landscape/s38_r0438.jpg,landscape,1,pierre-bonnard,train
+s38_r0453,landscape/s38_r0453.jpg,landscape,1,henri-matisse,train
+s38_r0459,landscape/s38_r0459.jpg,landscape,1,aleksey-savrasov,test
+s38_r0460,landscape/s38_r0460.jpg,landscape,1,Unknown Artist,train
+s38_r0468,landscape/s38_r0468.jpg,landscape,1,camille-corot,val
+s38_r0473,landscape/s38_r0473.jpg,landscape,1,maxime-maufra,val
+s38_r0474,landscape/s38_r0474.jpg,landscape,1,gustave-loiseau,train
+s38_r0476,landscape/s38_r0476.jpg,landscape,1,Unknown Artist,train
+s38_r0479,landscape/s38_r0479.jpg,landscape,1,isaac-levitan,test
+s38_r0482,landscape/s38_r0482.jpg,landscape,1,Unknown Artist,train
+s38_r0485,landscape/s38_r0485.jpg,landscape,1,Unknown Artist,train
+s38_r0488,landscape/s38_r0488.jpg,landscape,1,Unknown Artist,test
+s38_r0489,landscape/s38_r0489.jpg,landscape,1,Unknown Artist,train
+s38_r0496,landscape/s38_r0496.jpg,landscape,1,william-turner,test
+s38_r0498,landscape/s38_r0498.jpg,landscape,1,david-burliuk,train
+s38_r0503,landscape/s38_r0503.jpg,landscape,1,georges-braque,train
+s38_r0506,landscape/s38_r0506.jpg,landscape,1,mikalojus-ciurlionis,train
+s38_r0508,landscape/s38_r0508.jpg,landscape,1,arkhip-kuindzhi,train
+s38_r0510,landscape/s38_r0510.jpg,landscape,1,Unknown Artist,val
+s38_r0511,landscape/s38_r0511.jpg,landscape,1,vasily-polenov,train
+s38_r0514,landscape/s38_r0514.jpg,landscape,1,Unknown Artist,val
+s38_r0523,landscape/s38_r0523.jpg,landscape,1,Unknown Artist,train
+s38_r0524,landscape/s38_r0524.jpg,landscape,1,Unknown Artist,val
+s38_r0536,landscape/s38_r0536.jpg,landscape,1,zinaida-serebriakova,train
+s38_r0537,landscape/s38_r0537.jpg,landscape,1,Unknown Artist,train
+s38_r0539,landscape/s38_r0539.jpg,landscape,1,Unknown Artist,train
+s38_r0545,landscape/s38_r0545.jpg,landscape,1,Unknown Artist,train
+s38_r0546,landscape/s38_r0546.jpg,landscape,1,Unknown Artist,test
+s38_r0549,landscape/s38_r0549.jpg,landscape,1,paul-gauguin,train
+s38_r0551,landscape/s38_r0551.jpg,landscape,1,Unknown Artist,train
+s38_r0559,landscape/s38_r0559.jpg,landscape,1,william-merritt-chase,train
+s38_r0563,landscape/s38_r0563.jpg,landscape,1,Unknown Artist,test
+s38_r0570,landscape/s38_r0570.jpg,landscape,1,gustave-loiseau,train
+s38_r0575,landscape/s38_r0575.jpg,landscape,1,gustave-caillebotte,train
+s38_r0577,landscape/s38_r0577.jpg,landscape,1,james-mcneill-whistler,train
+s38_r0581,landscape/s38_r0581.jpg,landscape,1,vasily-polenov,train
+s38_r0584,landscape/s38_r0584.jpg,landscape,1,Unknown Artist,train
+s38_r0591,landscape/s38_r0591.jpg,landscape,1,zinaida-serebriakova,train
+s38_r0592,landscape/s38_r0592.jpg,landscape,1,Unknown Artist,train
+s38_r0594,landscape/s38_r0594.jpg,landscape,1,Unknown Artist,train
+s38_r0596,landscape/s38_r0596.jpg,landscape,1,arkhip-kuindzhi,train
+s38_r0611,landscape/s38_r0611.jpg,landscape,1,gustave-courbet,val
+s38_r0613,landscape/s38_r0613.jpg,landscape,1,Unknown Artist,train
+s38_r0616,landscape/s38_r0616.jpg,landscape,1,Unknown Artist,train
+s38_r0625,landscape/s38_r0625.jpg,landscape,1,Unknown Artist,train
+s38_r0629,landscape/s38_r0629.jpg,landscape,1,Unknown Artist,train
+s38_r0630,landscape/s38_r0630.jpg,landscape,1,gustave-caillebotte,train
+s38_r0641,landscape/s38_r0641.jpg,landscape,1,maxime-maufra,val
+s38_r0645,landscape/s38_r0645.jpg,landscape,1,Unknown Artist,train
+s38_r0647,landscape/s38_r0647.jpg,landscape,1,isaac-levitan,test
+s38_r0661,landscape/s38_r0661.jpg,landscape,1,Unknown Artist,train
+s38_r0663,landscape/s38_r0663.jpg,landscape,1,mikalojus-ciurlionis,train
+s38_r0671,landscape/s38_r0671.jpg,landscape,1,Unknown Artist,train
+s38_r0675,landscape/s38_r0675.jpg,landscape,1,Unknown Artist,val
+s38_r0685,landscape/s38_r0685.jpg,landscape,1,john-henry-twachtman,train
+s38_r0687,landscape/s38_r0687.jpg,landscape,1,Unknown Artist,train
+s38_r0689,landscape/s38_r0689.jpg,landscape,1,Unknown Artist,train
+s38_r0695,landscape/s38_r0695.jpg,landscape,1,Unknown Artist,train
+s38_r0696,landscape/s38_r0696.jpg,landscape,1,Unknown Artist,train
+s38_r0701,landscape/s38_r0701.jpg,landscape,1,Unknown Artist,val
+s38_r0702,landscape/s38_r0702.jpg,landscape,1,john-henry-twachtman,train
+s38_r0708,landscape/s38_r0708.jpg,landscape,1,Unknown Artist,train
+s38_r0712,landscape/s38_r0712.jpg,landscape,1,Unknown Artist,train
+s38_r0716,landscape/s38_r0716.jpg,landscape,1,gustave-loiseau,train
+s38_r0718,landscape/s38_r0718.jpg,landscape,1,Unknown Artist,test
+s38_r0726,landscape/s38_r0726.jpg,landscape,1,isaac-levitan,test
+s38_r0733,landscape/s38_r0733.jpg,landscape,1,zinaida-serebriakova,train
+s38_r0735,landscape/s38_r0735.jpg,landscape,1,Unknown Artist,test
+s38_r0738,landscape/s38_r0738.jpg,landscape,1,Unknown Artist,train
+s38_r0750,landscape/s38_r0750.jpg,landscape,1,fernand-leger,train
+s38_r0754,landscape/s38_r0754.jpg,landscape,1,Unknown Artist,train
+s38_r0755,landscape/s38_r0755.jpg,landscape,1,joaquã­n-sorolla,train
+s38_r0756,landscape/s38_r0756.jpg,landscape,1,Unknown Artist,train
+s38_r0760,landscape/s38_r0760.jpg,landscape,1,vasily-polenov,train
+s38_r0777,landscape/s38_r0777.jpg,landscape,1,Unknown Artist,train
+s38_r0779,landscape/s38_r0779.jpg,landscape,1,Unknown Artist,test
+s38_r0792,landscape/s38_r0792.jpg,landscape,1,aleksey-savrasov,test
+s38_r0799,landscape/s38_r0799.jpg,landscape,1,Unknown Artist,train
+s38_r0802,landscape/s38_r0802.jpg,landscape,1,Unknown Artist,val
+s38_r0806,landscape/s38_r0806.jpg,landscape,1,Unknown Artist,train
+s38_r0812,landscape/s38_r0812.jpg,landscape,1,Unknown Artist,train
+s38_r0813,landscape/s38_r0813.jpg,landscape,1,Unknown Artist,test
+s38_r0818,landscape/s38_r0818.jpg,landscape,1,alfred-sisley,train
+s38_r0821,landscape/s38_r0821.jpg,landscape,1,isaac-levitan,test
+s38_r0824,landscape/s38_r0824.jpg,landscape,1,mstislav-dobuzhinsky,train
+s38_r0828,landscape/s38_r0828.jpg,landscape,1,Unknown Artist,train
+s38_r0832,landscape/s38_r0832.jpg,landscape,1,Unknown Artist,train
+s38_r0837,landscape/s38_r0837.jpg,landscape,1,Unknown Artist,train
+s38_r0843,landscape/s38_r0843.jpg,landscape,1,vasily-polenov,train
+s38_r0844,landscape/s38_r0844.jpg,landscape,1,Unknown Artist,train
+s38_r0848,landscape/s38_r0848.jpg,landscape,1,maxime-maufra,val
+s38_r0853,landscape/s38_r0853.jpg,landscape,1,Unknown Artist,train
+s38_r0864,landscape/s38_r0864.jpg,landscape,1,Unknown Artist,train
+s38_r0865,landscape/s38_r0865.jpg,landscape,1,Unknown Artist,val
+s38_r0869,landscape/s38_r0869.jpg,landscape,1,alfred-sisley,train
+s38_r0877,landscape/s38_r0877.jpg,landscape,1,james-mcneill-whistler,train
+s38_r0878,landscape/s38_r0878.jpg,landscape,1,Unknown Artist,train
+s38_r0884,landscape/s38_r0884.jpg,landscape,1,aleksey-savrasov,test
+s38_r0885,landscape/s38_r0885.jpg,landscape,1,Unknown Artist,val
+s38_r0888,landscape/s38_r0888.jpg,landscape,1,Unknown Artist,train
+s38_r0889,landscape/s38_r0889.jpg,landscape,1,Unknown Artist,test
+s38_r0901,landscape/s38_r0901.jpg,landscape,1,alfred-sisley,train
+s38_r0903,landscape/s38_r0903.jpg,landscape,1,aleksey-savrasov,test
+s38_r0909,landscape/s38_r0909.jpg,landscape,1,Unknown Artist,val
+s38_r0920,landscape/s38_r0920.jpg,landscape,1,alfred-sisley,train
+s38_r0928,landscape/s38_r0928.jpg,landscape,1,ernst-ludwig-kirchner,train
+s38_r0933,landscape/s38_r0933.jpg,landscape,1,camille-corot,val
+s38_r0949,landscape/s38_r0949.jpg,landscape,1,konstantin-korovin,train
+s38_r0955,landscape/s38_r0955.jpg,landscape,1,Unknown Artist,test
+s38_r0958,landscape/s38_r0958.jpg,landscape,1,alfred-sisley,train
+s38_r0959,landscape/s38_r0959.jpg,landscape,1,camille-corot,val
+s38_r0964,landscape/s38_r0964.jpg,landscape,1,alfred-sisley,train
+s38_r0966,landscape/s38_r0966.jpg,landscape,1,Unknown Artist,train
+s38_r0967,landscape/s38_r0967.jpg,landscape,1,Unknown Artist,val
+s38_r0969,landscape/s38_r0969.jpg,landscape,1,gustave-loiseau,train
+s38_r0970,landscape/s38_r0970.jpg,landscape,1,john-henry-twachtman,train
+s38_r0972,landscape/s38_r0972.jpg,landscape,1,camille-corot,val
+s38_r0974,landscape/s38_r0974.jpg,landscape,1,Unknown Artist,train
+s38_r0977,landscape/s38_r0977.jpg,landscape,1,gustave-loiseau,train
+s38_r0978,landscape/s38_r0978.jpg,landscape,1,Unknown Artist,train
+s38_r0982,landscape/s38_r0982.jpg,landscape,1,Unknown Artist,val
+s38_r0990,landscape/s38_r0990.jpg,landscape,1,Unknown Artist,train
+s38_r0991,landscape/s38_r0991.jpg,landscape,1,Unknown Artist,test
+s38_r0998,landscape/s38_r0998.jpg,landscape,1,Unknown Artist,val
+s38_r1001,landscape/s38_r1001.jpg,landscape,1,paul-gauguin,train
+s38_r1002,landscape/s38_r1002.jpg,landscape,1,Unknown Artist,train
+s38_r1026,landscape/s38_r1026.jpg,landscape,1,Unknown Artist,train
+s38_r1027,landscape/s38_r1027.jpg,landscape,1,arkhip-kuindzhi,train
+s38_r1028,landscape/s38_r1028.jpg,landscape,1,Unknown Artist,train
+s38_r1033,landscape/s38_r1033.jpg,landscape,1,Unknown Artist,train
+s38_r1034,landscape/s38_r1034.jpg,landscape,1,Unknown Artist,train
+s38_r1046,landscape/s38_r1046.jpg,landscape,1,aleksey-savrasov,test
+s38_r1048,landscape/s38_r1048.jpg,landscape,1,Unknown Artist,train
+s38_r1052,landscape/s38_r1052.jpg,landscape,1,eugene-delacroix,train
+s38_r1060,landscape/s38_r1060.jpg,landscape,1,isaac-levitan,test
+s38_r1064,landscape/s38_r1064.jpg,landscape,1,mikalojus-ciurlionis,train
+s38_r1068,landscape/s38_r1068.jpg,landscape,1,Unknown Artist,train
+s38_r1071,landscape/s38_r1071.jpg,landscape,1,Unknown Artist,train
+s38_r1075,landscape/s38_r1075.jpg,landscape,1,Unknown Artist,test
+s38_r1085,landscape/s38_r1085.jpg,landscape,1,Unknown Artist,train
+s38_r1089,landscape/s38_r1089.jpg,landscape,1,Unknown Artist,train
+s38_r1097,landscape/s38_r1097.jpg,landscape,1,Unknown Artist,train
+s38_r1108,landscape/s38_r1108.jpg,landscape,1,Unknown Artist,train
+s38_r1111,landscape/s38_r1111.jpg,landscape,1,Unknown Artist,train
+s38_r1117,landscape/s38_r1117.jpg,landscape,1,david-burliuk,train
+s38_r1121,landscape/s38_r1121.jpg,landscape,1,camille-corot,val
+s38_r1123,landscape/s38_r1123.jpg,landscape,1,camille-corot,val
+s38_r1126,landscape/s38_r1126.jpg,landscape,1,arkhip-kuindzhi,train
+s33_r0025,portrait/s33_r0025.jpg,portrait,2,Unknown Artist,train
+s33_r0135,portrait/s33_r0135.jpg,portrait,2,Unknown Artist,test
+s33_r0155,portrait/s33_r0155.jpg,portrait,2,Unknown Artist,val
+s33_r0166,portrait/s33_r0166.jpg,portrait,2,edvard-munch,val
+s33_r0199,portrait/s33_r0199.jpg,portrait,2,Unknown Artist,test
+s33_r0251,portrait/s33_r0251.jpg,portrait,2,amedeo-modigliani,train
+s33_r0378,portrait/s33_r0378.jpg,portrait,2,lucas-cranach-the-elder,train
+s33_r0401,portrait/s33_r0401.jpg,portrait,2,joshua-reynolds,train
+s33_r0403,portrait/s33_r0403.jpg,portrait,2,peter-paul-rubens,test
+s33_r0411,portrait/s33_r0411.jpg,portrait,2,Unknown Artist,train
+s33_r0437,portrait/s33_r0437.jpg,portrait,2,Unknown Artist,val
+s33_r0473,portrait/s33_r0473.jpg,portrait,2,Unknown Artist,train
+s33_r0513,portrait/s33_r0513.jpg,portrait,2,Unknown Artist,train
+s33_r0521,portrait/s33_r0521.jpg,portrait,2,Unknown Artist,train
+s33_r0543,portrait/s33_r0543.jpg,portrait,2,vasily-perov,train
+s33_r0556,portrait/s33_r0556.jpg,portrait,2,francisco-goya,test
+s33_r0560,portrait/s33_r0560.jpg,portrait,2,Unknown Artist,val
+s33_r0572,portrait/s33_r0572.jpg,portrait,2,juan-gris,test
+s33_r0596,portrait/s33_r0596.jpg,portrait,2,theo-van-rysselberghe,val
+s33_r0630,portrait/s33_r0630.jpg,portrait,2,Unknown Artist,test
+s33_r0643,portrait/s33_r0643.jpg,portrait,2,Unknown Artist,train
+s33_r0651,portrait/s33_r0651.jpg,portrait,2,koloman-moser,train
+s33_r0655,portrait/s33_r0655.jpg,portrait,2,Unknown Artist,val
+s33_r0659,portrait/s33_r0659.jpg,portrait,2,Unknown Artist,train
+s33_r0668,portrait/s33_r0668.jpg,portrait,2,jan-matejko,train
+s33_r0719,portrait/s33_r0719.jpg,portrait,2,Unknown Artist,val
+s33_r0747,portrait/s33_r0747.jpg,portrait,2,Unknown Artist,train
+s33_r0863,portrait/s33_r0863.jpg,portrait,2,fernando-botero,val
+s33_r0977,portrait/s33_r0977.jpg,portrait,2,mstislav-dobuzhinsky,train
+s33_r0979,portrait/s33_r0979.jpg,portrait,2,Unknown Artist,train
+s33_r1019,portrait/s33_r1019.jpg,portrait,2,Unknown Artist,val
+s33_r1026,portrait/s33_r1026.jpg,portrait,2,konstantin-makovsky,train
+s33_r1030,portrait/s33_r1030.jpg,portrait,2,konstantin-somov,val
+s33_r1039,portrait/s33_r1039.jpg,portrait,2,Unknown Artist,train
+s33_r1047,portrait/s33_r1047.jpg,portrait,2,thomas-gainsborough,train
+s33_r1115,portrait/s33_r1115.jpg,portrait,2,Unknown Artist,train
+s38_r0001,portrait/s38_r0001.jpg,portrait,2,Unknown Artist,train
+s38_r0004,portrait/s38_r0004.jpg,portrait,2,Unknown Artist,val
+s38_r0008,portrait/s38_r0008.jpg,portrait,2,amedeo-modigliani,train
+s38_r0018,portrait/s38_r0018.jpg,portrait,2,Unknown Artist,val
+s38_r0019,portrait/s38_r0019.jpg,portrait,2,Unknown Artist,train
+s38_r0020,portrait/s38_r0020.jpg,portrait,2,edouard-manet,val
+s38_r0023,portrait/s38_r0023.jpg,portrait,2,thomas-gainsborough,train
+s38_r0025,portrait/s38_r0025.jpg,portrait,2,ernst-ludwig-kirchner,train
+s38_r0034,portrait/s38_r0034.jpg,portrait,2,edouard-manet,val
+s38_r0038,portrait/s38_r0038.jpg,portrait,2,Unknown Artist,train
+s38_r0039,portrait/s38_r0039.jpg,portrait,2,Unknown Artist,train
+s38_r0041,portrait/s38_r0041.jpg,portrait,2,orest-kiprensky,train
+s38_r0046,portrait/s38_r0046.jpg,portrait,2,Unknown Artist,test
+s38_r0054,portrait/s38_r0054.jpg,portrait,2,m.c.-escher,test
+s38_r0059,portrait/s38_r0059.jpg,portrait,2,henri-matisse,train
+s38_r0060,portrait/s38_r0060.jpg,portrait,2,frans-hals,val
+s38_r0065,portrait/s38_r0065.jpg,portrait,2,Unknown Artist,train
+s38_r0081,portrait/s38_r0081.jpg,portrait,2,amedeo-modigliani,train
+s38_r0084,portrait/s38_r0084.jpg,portrait,2,konstantin-makovsky,train
+s38_r0091,portrait/s38_r0091.jpg,portrait,2,joseph-wright,train
+s38_r0099,portrait/s38_r0099.jpg,portrait,2,henri-fantin-latour,train
+s38_r0102,portrait/s38_r0102.jpg,portrait,2,dante-gabriel-rossetti,train
+s38_r0103,portrait/s38_r0103.jpg,portrait,2,Unknown Artist,train
+s38_r0105,portrait/s38_r0105.jpg,portrait,2,william-merritt-chase,train
+s38_r0109,portrait/s38_r0109.jpg,portrait,2,hans-holbein-the-younger,train
+s38_r0114,portrait/s38_r0114.jpg,portrait,2,gustav-klimt,train
+s38_r0115,portrait/s38_r0115.jpg,portrait,2,amedeo-modigliani,train
+s38_r0117,portrait/s38_r0117.jpg,portrait,2,camille-corot,val
+s38_r0121,portrait/s38_r0121.jpg,portrait,2,Unknown Artist,train
+s38_r0123,portrait/s38_r0123.jpg,portrait,2,henri-matisse,train
+s38_r0125,portrait/s38_r0125.jpg,portrait,2,thomas-eakins,train
+s38_r0128,portrait/s38_r0128.jpg,portrait,2,Unknown Artist,train
+s38_r0130,portrait/s38_r0130.jpg,portrait,2,Unknown Artist,train
+s38_r0135,portrait/s38_r0135.jpg,portrait,2,joshua-reynolds,train
+s38_r0149,portrait/s38_r0149.jpg,portrait,2,andy-warhol,train
+s38_r0161,portrait/s38_r0161.jpg,portrait,2,Unknown Artist,test
+s38_r0163,portrait/s38_r0163.jpg,portrait,2,Unknown Artist,train
+s38_r0164,portrait/s38_r0164.jpg,portrait,2,Unknown Artist,test
+s38_r0165,portrait/s38_r0165.jpg,portrait,2,joseph-wright,train
+s38_r0167,portrait/s38_r0167.jpg,portrait,2,Unknown Artist,train
+s38_r0170,portrait/s38_r0170.jpg,portrait,2,Unknown Artist,train
+s38_r0175,portrait/s38_r0175.jpg,portrait,2,orest-kiprensky,train
+s38_r0187,portrait/s38_r0187.jpg,portrait,2,lucas-cranach-the-elder,train
+s38_r0190,portrait/s38_r0190.jpg,portrait,2,giovanni-boldini,train
+s38_r0197,portrait/s38_r0197.jpg,portrait,2,sir-lawrence-alma-tadema,train
+s38_r0199,portrait/s38_r0199.jpg,portrait,2,lucian-freud,train
+s38_r0203,portrait/s38_r0203.jpg,portrait,2,Unknown Artist,train
+s38_r0205,portrait/s38_r0205.jpg,portrait,2,henri-matisse,train
+s38_r0206,portrait/s38_r0206.jpg,portrait,2,Unknown Artist,val
+s38_r0207,portrait/s38_r0207.jpg,portrait,2,Unknown Artist,test
+s38_r0212,portrait/s38_r0212.jpg,portrait,2,Unknown Artist,train
+s38_r0218,portrait/s38_r0218.jpg,portrait,2,frans-hals,val
+s38_r0222,portrait/s38_r0222.jpg,portrait,2,Unknown Artist,train
+s38_r0224,portrait/s38_r0224.jpg,portrait,2,Unknown Artist,test
+s38_r0225,portrait/s38_r0225.jpg,portrait,2,Unknown Artist,train
+s38_r0235,portrait/s38_r0235.jpg,portrait,2,anthony-van-dyck,test
+s38_r0239,portrait/s38_r0239.jpg,portrait,2,william-merritt-chase,train
+s38_r0244,portrait/s38_r0244.jpg,portrait,2,Unknown Artist,test
+s38_r0246,portrait/s38_r0246.jpg,portrait,2,anthony-van-dyck,test
+s38_r0254,portrait/s38_r0254.jpg,portrait,2,Unknown Artist,train
+s38_r0269,portrait/s38_r0269.jpg,portrait,2,maurice-prendergast,train
+s38_r0272,portrait/s38_r0272.jpg,portrait,2,Unknown Artist,train
+s38_r0273,portrait/s38_r0273.jpg,portrait,2,Unknown Artist,train
+s38_r0274,portrait/s38_r0274.jpg,portrait,2,Unknown Artist,train
+s38_r0276,portrait/s38_r0276.jpg,portrait,2,gustave-courbet,val
+s38_r0278,portrait/s38_r0278.jpg,portrait,2,ferdinand-hodler,test
+s38_r0281,portrait/s38_r0281.jpg,portrait,2,amedeo-modigliani,train
+s38_r0283,portrait/s38_r0283.jpg,portrait,2,konstantin-makovsky,train
+s38_r0290,portrait/s38_r0290.jpg,portrait,2,Unknown Artist,train
+s38_r0291,portrait/s38_r0291.jpg,portrait,2,Unknown Artist,val
+s38_r0293,portrait/s38_r0293.jpg,portrait,2,ferdinand-hodler,test
+s38_r0296,portrait/s38_r0296.jpg,portrait,2,william-merritt-chase,train
+s38_r0297,portrait/s38_r0297.jpg,portrait,2,Unknown Artist,train
+s38_r0305,portrait/s38_r0305.jpg,portrait,2,thomas-gainsborough,train
+s38_r0308,portrait/s38_r0308.jpg,portrait,2,Unknown Artist,train
+s38_r0314,portrait/s38_r0314.jpg,portrait,2,lucian-freud,train
+s38_r0325,portrait/s38_r0325.jpg,portrait,2,michelangelo,train
+s38_r0327,portrait/s38_r0327.jpg,portrait,2,henri-de-toulouse-lautrec,train
+s38_r0332,portrait/s38_r0332.jpg,portrait,2,francisco-goya,test
+s38_r0333,portrait/s38_r0333.jpg,portrait,2,henri-de-toulouse-lautrec,train
+s38_r0335,portrait/s38_r0335.jpg,portrait,2,thomas-gainsborough,train
+s38_r0342,portrait/s38_r0342.jpg,portrait,2,Unknown Artist,train
+s38_r0344,portrait/s38_r0344.jpg,portrait,2,mary-cassatt,val
+s38_r0346,portrait/s38_r0346.jpg,portrait,2,Unknown Artist,test
+s38_r0356,portrait/s38_r0356.jpg,portrait,2,Unknown Artist,train
+s38_r0360,portrait/s38_r0360.jpg,portrait,2,titian,test
+s38_r0374,portrait/s38_r0374.jpg,portrait,2,anthony-van-dyck,test
+s38_r0377,portrait/s38_r0377.jpg,portrait,2,nikolay-bogdanov-belsky,train
+s38_r0384,portrait/s38_r0384.jpg,portrait,2,Unknown Artist,train
+s38_r0385,portrait/s38_r0385.jpg,portrait,2,Unknown Artist,train
+s38_r0393,portrait/s38_r0393.jpg,portrait,2,Unknown Artist,train
+s38_r0394,portrait/s38_r0394.jpg,portrait,2,berthe-morisot,train
+s38_r0398,portrait/s38_r0398.jpg,portrait,2,titian,test
+s38_r0407,portrait/s38_r0407.jpg,portrait,2,Unknown Artist,train
+s38_r0420,portrait/s38_r0420.jpg,portrait,2,Unknown Artist,val
+s38_r0421,portrait/s38_r0421.jpg,portrait,2,Unknown Artist,train
+s38_r0423,portrait/s38_r0423.jpg,portrait,2,arkhip-kuindzhi,train
+s38_r0429,portrait/s38_r0429.jpg,portrait,2,Unknown Artist,train
+s38_r0434,portrait/s38_r0434.jpg,portrait,2,berthe-morisot,train
+s38_r0442,portrait/s38_r0442.jpg,portrait,2,juan-gris,test
+s38_r0443,portrait/s38_r0443.jpg,portrait,2,utagawa-kuniyoshi,val
+s38_r0450,portrait/s38_r0450.jpg,portrait,2,valentin-serov,val
+s38_r0455,portrait/s38_r0455.jpg,portrait,2,Unknown Artist,test
+s38_r0456,portrait/s38_r0456.jpg,portrait,2,egon-schiele,test
+s38_r0462,portrait/s38_r0462.jpg,portrait,2,Unknown Artist,train
+s38_r0465,portrait/s38_r0465.jpg,portrait,2,berthe-morisot,train
+s38_r0466,portrait/s38_r0466.jpg,portrait,2,andy-warhol,train
+s38_r0478,portrait/s38_r0478.jpg,portrait,2,Unknown Artist,train
+s38_r0480,portrait/s38_r0480.jpg,portrait,2,ivan-kramskoy,test
+s38_r0486,portrait/s38_r0486.jpg,portrait,2,Unknown Artist,train
+s38_r0493,portrait/s38_r0493.jpg,portrait,2,konstantin-makovsky,train
+s38_r0501,portrait/s38_r0501.jpg,portrait,2,frans-hals,val
+s38_r0512,portrait/s38_r0512.jpg,portrait,2,ilya-mashkov,train
+s38_r0517,portrait/s38_r0517.jpg,portrait,2,Unknown Artist,test
+s38_r0522,portrait/s38_r0522.jpg,portrait,2,Unknown Artist,val
+s38_r0525,portrait/s38_r0525.jpg,portrait,2,Unknown Artist,test
+s38_r0529,portrait/s38_r0529.jpg,portrait,2,sir-lawrence-alma-tadema,train
+s38_r0530,portrait/s38_r0530.jpg,portrait,2,Unknown Artist,train
+s38_r0531,portrait/s38_r0531.jpg,portrait,2,Unknown Artist,train
+s38_r0534,portrait/s38_r0534.jpg,portrait,2,joshua-reynolds,train
+s38_r0538,portrait/s38_r0538.jpg,portrait,2,Unknown Artist,train
+s38_r0541,portrait/s38_r0541.jpg,portrait,2,lucian-freud,train
+s38_r0548,portrait/s38_r0548.jpg,portrait,2,amedeo-modigliani,train
+s38_r0550,portrait/s38_r0550.jpg,portrait,2,orest-kiprensky,train
+s38_r0552,portrait/s38_r0552.jpg,portrait,2,Unknown Artist,train
+s38_r0554,portrait/s38_r0554.jpg,portrait,2,dante-gabriel-rossetti,train
+s38_r0555,portrait/s38_r0555.jpg,portrait,2,Unknown Artist,train
+s38_r0560,portrait/s38_r0560.jpg,portrait,2,Unknown Artist,train
+s38_r0562,portrait/s38_r0562.jpg,portrait,2,Unknown Artist,train
+s38_r0565,portrait/s38_r0565.jpg,portrait,2,konstantin-makovsky,train
+s38_r0566,portrait/s38_r0566.jpg,portrait,2,Unknown Artist,train
+s38_r0574,portrait/s38_r0574.jpg,portrait,2,david-burliuk,train
+s38_r0578,portrait/s38_r0578.jpg,portrait,2,felix-vallotton,train
+s38_r0585,portrait/s38_r0585.jpg,portrait,2,lucian-freud,train
+s38_r0586,portrait/s38_r0586.jpg,portrait,2,Unknown Artist,train
+s38_r0587,portrait/s38_r0587.jpg,portrait,2,anthony-van-dyck,test
+s38_r0589,portrait/s38_r0589.jpg,portrait,2,Unknown Artist,train
+s38_r0593,portrait/s38_r0593.jpg,portrait,2,Unknown Artist,val
+s38_r0598,portrait/s38_r0598.jpg,portrait,2,james-tissot,test
+s38_r0601,portrait/s38_r0601.jpg,portrait,2,ivan-kramskoy,test
+s38_r0603,portrait/s38_r0603.jpg,portrait,2,hans-memling,train
+s38_r0607,portrait/s38_r0607.jpg,portrait,2,jan-matejko,train
+s38_r0610,portrait/s38_r0610.jpg,portrait,2,Unknown Artist,train
+s38_r0614,portrait/s38_r0614.jpg,portrait,2,Unknown Artist,train
+s38_r0617,portrait/s38_r0617.jpg,portrait,2,mary-cassatt,val
+s38_r0621,portrait/s38_r0621.jpg,portrait,2,paolo-veronese,train
+s38_r0627,portrait/s38_r0627.jpg,portrait,2,hans-holbein-the-younger,train
+s38_r0637,portrait/s38_r0637.jpg,portrait,2,utagawa-kuniyoshi,val
+s38_r0639,portrait/s38_r0639.jpg,portrait,2,Unknown Artist,test
+s38_r0642,portrait/s38_r0642.jpg,portrait,2,Unknown Artist,test
+s38_r0649,portrait/s38_r0649.jpg,portrait,2,Unknown Artist,test
+s38_r0650,portrait/s38_r0650.jpg,portrait,2,anthony-van-dyck,test
+s38_r0657,portrait/s38_r0657.jpg,portrait,2,fernand-leger,train
+s38_r0659,portrait/s38_r0659.jpg,portrait,2,peter-paul-rubens,test
+s38_r0664,portrait/s38_r0664.jpg,portrait,2,james-tissot,test
+s38_r0666,portrait/s38_r0666.jpg,portrait,2,konstantin-makovsky,train
+s38_r0672,portrait/s38_r0672.jpg,portrait,2,paul-gauguin,train
+s38_r0674,portrait/s38_r0674.jpg,portrait,2,lucian-freud,train
+s38_r0678,portrait/s38_r0678.jpg,portrait,2,orest-kiprensky,train
+s38_r0683,portrait/s38_r0683.jpg,portrait,2,hans-holbein-the-younger,train
+s38_r0692,portrait/s38_r0692.jpg,portrait,2,Unknown Artist,train
+s38_r0699,portrait/s38_r0699.jpg,portrait,2,Unknown Artist,train
+s38_r0703,portrait/s38_r0703.jpg,portrait,2,vasily-surikov,val
+s38_r0706,portrait/s38_r0706.jpg,portrait,2,Unknown Artist,train
+s38_r0713,portrait/s38_r0713.jpg,portrait,2,david-burliuk,train
+s38_r0715,portrait/s38_r0715.jpg,portrait,2,Unknown Artist,train
+s38_r0719,portrait/s38_r0719.jpg,portrait,2,Unknown Artist,test
+s38_r0720,portrait/s38_r0720.jpg,portrait,2,vasily-surikov,val
+s38_r0721,portrait/s38_r0721.jpg,portrait,2,zinaida-serebriakova,train
+s38_r0722,portrait/s38_r0722.jpg,portrait,2,Unknown Artist,train
+s38_r0725,portrait/s38_r0725.jpg,portrait,2,valentin-serov,val
+s38_r0727,portrait/s38_r0727.jpg,portrait,2,ernst-ludwig-kirchner,train
+s38_r0729,portrait/s38_r0729.jpg,portrait,2,orest-kiprensky,train
+s38_r0734,portrait/s38_r0734.jpg,portrait,2,Unknown Artist,train
+s38_r0743,portrait/s38_r0743.jpg,portrait,2,konstantin-makovsky,train
+s38_r0744,portrait/s38_r0744.jpg,portrait,2,Unknown Artist,val
+s38_r0751,portrait/s38_r0751.jpg,portrait,2,ernst-ludwig-kirchner,train
+s38_r0759,portrait/s38_r0759.jpg,portrait,2,ernst-ludwig-kirchner,train
+s38_r0765,portrait/s38_r0765.jpg,portrait,2,felix-vallotton,train
+s38_r0766,portrait/s38_r0766.jpg,portrait,2,jacob-jordaens,train
+s38_r0770,portrait/s38_r0770.jpg,portrait,2,Unknown Artist,test
+s38_r0776,portrait/s38_r0776.jpg,portrait,2,giovanni-boldini,train
+s38_r0780,portrait/s38_r0780.jpg,portrait,2,Unknown Artist,val
+s38_r0782,portrait/s38_r0782.jpg,portrait,2,theo-van-rysselberghe,val
+s38_r0783,portrait/s38_r0783.jpg,portrait,2,Unknown Artist,test
+s38_r0786,portrait/s38_r0786.jpg,portrait,2,Unknown Artist,train
+s38_r0801,portrait/s38_r0801.jpg,portrait,2,Unknown Artist,train
+s38_r0817,portrait/s38_r0817.jpg,portrait,2,lucian-freud,train
+s38_r0823,portrait/s38_r0823.jpg,portrait,2,amedeo-modigliani,train
+s38_r0825,portrait/s38_r0825.jpg,portrait,2,nikolay-bogdanov-belsky,train
+s38_r0829,portrait/s38_r0829.jpg,portrait,2,konstantin-makovsky,train
+s38_r0834,portrait/s38_r0834.jpg,portrait,2,Unknown Artist,train
+s38_r0847,portrait/s38_r0847.jpg,portrait,2,joshua-reynolds,train
+s38_r0849,portrait/s38_r0849.jpg,portrait,2,Unknown Artist,train
+s38_r0854,portrait/s38_r0854.jpg,portrait,2,Unknown Artist,train
+s38_r0855,portrait/s38_r0855.jpg,portrait,2,koloman-moser,train
+s38_r0856,portrait/s38_r0856.jpg,portrait,2,zinaida-serebriakova,train
+s38_r0866,portrait/s38_r0866.jpg,portrait,2,Unknown Artist,val
+s38_r0871,portrait/s38_r0871.jpg,portrait,2,Unknown Artist,val
+s38_r0872,portrait/s38_r0872.jpg,portrait,2,Unknown Artist,train
+s38_r0873,portrait/s38_r0873.jpg,portrait,2,Unknown Artist,train
+s38_r0874,portrait/s38_r0874.jpg,portrait,2,Unknown Artist,train
+s38_r0883,portrait/s38_r0883.jpg,portrait,2,joshua-reynolds,train
+s38_r0886,portrait/s38_r0886.jpg,portrait,2,karl-bryullov,val
+s38_r0891,portrait/s38_r0891.jpg,portrait,2,joshua-reynolds,train
+s38_r0894,portrait/s38_r0894.jpg,portrait,2,Unknown Artist,train
+s38_r0896,portrait/s38_r0896.jpg,portrait,2,Unknown Artist,test
+s38_r0899,portrait/s38_r0899.jpg,portrait,2,lucian-freud,train
+s38_r0902,portrait/s38_r0902.jpg,portrait,2,Unknown Artist,train
+s38_r0910,portrait/s38_r0910.jpg,portrait,2,ernst-ludwig-kirchner,train
+s38_r0912,portrait/s38_r0912.jpg,portrait,2,Unknown Artist,train
+s38_r0921,portrait/s38_r0921.jpg,portrait,2,amedeo-modigliani,train
+s38_r0926,portrait/s38_r0926.jpg,portrait,2,zinaida-serebriakova,train
+s38_r0941,portrait/s38_r0941.jpg,portrait,2,joshua-reynolds,train
+s38_r0944,portrait/s38_r0944.jpg,portrait,2,zinaida-serebriakova,train
+s38_r0945,portrait/s38_r0945.jpg,portrait,2,Unknown Artist,train
+s38_r0948,portrait/s38_r0948.jpg,portrait,2,Unknown Artist,train
+s38_r0950,portrait/s38_r0950.jpg,portrait,2,Unknown Artist,train
+s38_r0951,portrait/s38_r0951.jpg,portrait,2,Unknown Artist,train
+s38_r0954,portrait/s38_r0954.jpg,portrait,2,orest-kiprensky,train
+s38_r0956,portrait/s38_r0956.jpg,portrait,2,Unknown Artist,train
+s38_r0957,portrait/s38_r0957.jpg,portrait,2,Unknown Artist,train
+s38_r0973,portrait/s38_r0973.jpg,portrait,2,Unknown Artist,train
+s38_r0983,portrait/s38_r0983.jpg,portrait,2,Unknown Artist,train
+s38_r0992,portrait/s38_r0992.jpg,portrait,2,pierre-bonnard,train
+s38_r1005,portrait/s38_r1005.jpg,portrait,2,Unknown Artist,test
+s38_r1007,portrait/s38_r1007.jpg,portrait,2,gustave-courbet,val
+s38_r1008,portrait/s38_r1008.jpg,portrait,2,Unknown Artist,train
+s38_r1009,portrait/s38_r1009.jpg,portrait,2,dante-gabriel-rossetti,train
+s38_r1011,portrait/s38_r1011.jpg,portrait,2,Unknown Artist,train
+s38_r1014,portrait/s38_r1014.jpg,portrait,2,gustave-courbet,val
+s38_r1015,portrait/s38_r1015.jpg,portrait,2,jacek-malczewski,train
+s38_r1017,portrait/s38_r1017.jpg,portrait,2,fernand-leger,train
+s38_r1022,portrait/s38_r1022.jpg,portrait,2,Unknown Artist,val
+s38_r1023,portrait/s38_r1023.jpg,portrait,2,Unknown Artist,train
+s38_r1029,portrait/s38_r1029.jpg,portrait,2,Unknown Artist,train
+s38_r1032,portrait/s38_r1032.jpg,portrait,2,Unknown Artist,train
+s38_r1035,portrait/s38_r1035.jpg,portrait,2,Unknown Artist,train
+s38_r1038,portrait/s38_r1038.jpg,portrait,2,frans-hals,val
+s38_r1041,portrait/s38_r1041.jpg,portrait,2,mary-cassatt,val
+s38_r1042,portrait/s38_r1042.jpg,portrait,2,felix-vallotton,train
+s38_r1047,portrait/s38_r1047.jpg,portrait,2,Unknown Artist,train
+s38_r1050,portrait/s38_r1050.jpg,portrait,2,ivan-kramskoy,test
+s38_r1056,portrait/s38_r1056.jpg,portrait,2,Unknown Artist,train
+s38_r1062,portrait/s38_r1062.jpg,portrait,2,egon-schiele,test
+s38_r1063,portrait/s38_r1063.jpg,portrait,2,Unknown Artist,train
+s38_r1065,portrait/s38_r1065.jpg,portrait,2,camille-corot,val
+s38_r1067,portrait/s38_r1067.jpg,portrait,2,Unknown Artist,train
+s38_r1074,portrait/s38_r1074.jpg,portrait,2,vasily-polenov,train
+s38_r1076,portrait/s38_r1076.jpg,portrait,2,giovanni-boldini,train
+s38_r1077,portrait/s38_r1077.jpg,portrait,2,Unknown Artist,train
+s38_r1080,portrait/s38_r1080.jpg,portrait,2,joshua-reynolds,train
+s38_r1088,portrait/s38_r1088.jpg,portrait,2,giovanni-boldini,train
+s38_r1094,portrait/s38_r1094.jpg,portrait,2,Unknown Artist,test
+s38_r1098,portrait/s38_r1098.jpg,portrait,2,Unknown Artist,train
+s38_r1102,portrait/s38_r1102.jpg,portrait,2,Unknown Artist,train
+s38_r1112,portrait/s38_r1112.jpg,portrait,2,zinaida-serebriakova,train
+s38_r1114,portrait/s38_r1114.jpg,portrait,2,frans-hals,val
+s38_r1115,portrait/s38_r1115.jpg,portrait,2,Unknown Artist,train
+s38_r1116,portrait/s38_r1116.jpg,portrait,2,amedeo-modigliani,train
+s38_r1118,portrait/s38_r1118.jpg,portrait,2,Unknown Artist,train
+s38_r1124,portrait/s38_r1124.jpg,portrait,2,orest-kiprensky,train
+s38_r1127,portrait/s38_r1127.jpg,portrait,2,vasily-vereshchagin,train
+s38_r1130,portrait/s38_r1130.jpg,portrait,2,amedeo-modigliani,train
+s02_r0006,religious_painting/s02_r0006.jpg,religious_painting,3,albrecht-durer,train
+s02_r0012,religious_painting/s02_r0012.jpg,religious_painting,3,marc-chagall,train
+s02_r0074,religious_painting/s02_r0074.jpg,religious_painting,3,salvador-dali,train
+s02_r0080,religious_painting/s02_r0080.jpg,religious_painting,3,albrecht-durer,train
+s02_r0096,religious_painting/s02_r0096.jpg,religious_painting,3,rembrandt,val
+s02_r0115,religious_painting/s02_r0115.jpg,religious_painting,3,rembrandt,val
+s02_r0136,religious_painting/s02_r0136.jpg,religious_painting,3,rembrandt,val
+s02_r0158,religious_painting/s02_r0158.jpg,religious_painting,3,rembrandt,val
+s02_r0180,religious_painting/s02_r0180.jpg,religious_painting,3,gustave-dore,train
+s02_r0201,religious_painting/s02_r0201.jpg,religious_painting,3,albrecht-durer,train
+s02_r0244,religious_painting/s02_r0244.jpg,religious_painting,3,salvador-dali,train
+s02_r0266,religious_painting/s02_r0266.jpg,religious_painting,3,albrecht-durer,train
+s02_r0347,religious_painting/s02_r0347.jpg,religious_painting,3,rembrandt,val
+s02_r0354,religious_painting/s02_r0354.jpg,religious_painting,3,marc-chagall,train
+s02_r0367,religious_painting/s02_r0367.jpg,religious_painting,3,gustave-dore,train
+s02_r0370,religious_painting/s02_r0370.jpg,religious_painting,3,marc-chagall,train
+s02_r0377,religious_painting/s02_r0377.jpg,religious_painting,3,marc-chagall,train
+s02_r0383,religious_painting/s02_r0383.jpg,religious_painting,3,rembrandt,val
+s02_r0452,religious_painting/s02_r0452.jpg,religious_painting,3,salvador-dali,train
+s02_r0483,religious_painting/s02_r0483.jpg,religious_painting,3,albrecht-durer,train
+s02_r0622,religious_painting/s02_r0622.jpg,religious_painting,3,albrecht-durer,train
+s02_r0648,religious_painting/s02_r0648.jpg,religious_painting,3,marc-chagall,train
+s02_r0664,religious_painting/s02_r0664.jpg,religious_painting,3,gustave-dore,train
+s02_r0686,religious_painting/s02_r0686.jpg,religious_painting,3,albrecht-durer,train
+s02_r0709,religious_painting/s02_r0709.jpg,religious_painting,3,salvador-dali,train
+s02_r0758,religious_painting/s02_r0758.jpg,religious_painting,3,albrecht-durer,train
+s02_r0766,religious_painting/s02_r0766.jpg,religious_painting,3,marc-chagall,train
+s02_r0783,religious_painting/s02_r0783.jpg,religious_painting,3,salvador-dali,train
+s02_r0785,religious_painting/s02_r0785.jpg,religious_painting,3,marc-chagall,train
+s02_r0893,religious_painting/s02_r0893.jpg,religious_painting,3,marc-chagall,train
+s02_r0896,religious_painting/s02_r0896.jpg,religious_painting,3,marc-chagall,train
+s02_r0926,religious_painting/s02_r0926.jpg,religious_painting,3,rembrandt,val
+s02_r0939,religious_painting/s02_r0939.jpg,religious_painting,3,albrecht-durer,train
+s02_r0987,religious_painting/s02_r0987.jpg,religious_painting,3,albrecht-durer,train
+s02_r1082,religious_painting/s02_r1082.jpg,religious_painting,3,marc-chagall,train
+s02_r1109,religious_painting/s02_r1109.jpg,religious_painting,3,albrecht-durer,train
+s33_r0009,religious_painting/s33_r0009.jpg,religious_painting,3,Unknown Artist,train
+s33_r0026,religious_painting/s33_r0026.jpg,religious_painting,3,Unknown Artist,test
+s33_r0027,religious_painting/s33_r0027.jpg,religious_painting,3,Unknown Artist,val
+s33_r0028,religious_painting/s33_r0028.jpg,religious_painting,3,Unknown Artist,train
+s33_r0031,religious_painting/s33_r0031.jpg,religious_painting,3,Unknown Artist,test
+s33_r0050,religious_painting/s33_r0050.jpg,religious_painting,3,Unknown Artist,train
+s33_r0075,religious_painting/s33_r0075.jpg,religious_painting,3,michelangelo,train
+s33_r0078,religious_painting/s33_r0078.jpg,religious_painting,3,peter-paul-rubens,test
+s33_r0081,religious_painting/s33_r0081.jpg,religious_painting,3,Unknown Artist,test
+s33_r0082,religious_painting/s33_r0082.jpg,religious_painting,3,Unknown Artist,train
+s33_r0094,religious_painting/s33_r0094.jpg,religious_painting,3,Unknown Artist,train
+s33_r0095,religious_painting/s33_r0095.jpg,religious_painting,3,Unknown Artist,train
+s33_r0114,religious_painting/s33_r0114.jpg,religious_painting,3,Unknown Artist,train
+s33_r0117,religious_painting/s33_r0117.jpg,religious_painting,3,Unknown Artist,train
+s33_r0122,religious_painting/s33_r0122.jpg,religious_painting,3,pietro-perugino,train
+s33_r0123,religious_painting/s33_r0123.jpg,religious_painting,3,Unknown Artist,val
+s33_r0131,religious_painting/s33_r0131.jpg,religious_painting,3,Unknown Artist,train
+s33_r0132,religious_painting/s33_r0132.jpg,religious_painting,3,hans-memling,train
+s33_r0151,religious_painting/s33_r0151.jpg,religious_painting,3,titian,test
+s33_r0176,religious_painting/s33_r0176.jpg,religious_painting,3,pietro-perugino,train
+s33_r0178,religious_painting/s33_r0178.jpg,religious_painting,3,Unknown Artist,train
+s33_r0180,religious_painting/s33_r0180.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s33_r0181,religious_painting/s33_r0181.jpg,religious_painting,3,Unknown Artist,train
+s33_r0182,religious_painting/s33_r0182.jpg,religious_painting,3,Unknown Artist,train
+s33_r0187,religious_painting/s33_r0187.jpg,religious_painting,3,Unknown Artist,val
+s33_r0192,religious_painting/s33_r0192.jpg,religious_painting,3,james-tissot,test
+s33_r0194,religious_painting/s33_r0194.jpg,religious_painting,3,Unknown Artist,train
+s33_r0206,religious_painting/s33_r0206.jpg,religious_painting,3,Unknown Artist,train
+s33_r0213,religious_painting/s33_r0213.jpg,religious_painting,3,Unknown Artist,val
+s33_r0236,religious_painting/s33_r0236.jpg,religious_painting,3,hieronymus-bosch,val
+s33_r0242,religious_painting/s33_r0242.jpg,religious_painting,3,Unknown Artist,train
+s33_r0248,religious_painting/s33_r0248.jpg,religious_painting,3,fra-angelico,train
+s33_r0261,religious_painting/s33_r0261.jpg,religious_painting,3,Unknown Artist,train
+s33_r0267,religious_painting/s33_r0267.jpg,religious_painting,3,hans-memling,train
+s33_r0269,religious_painting/s33_r0269.jpg,religious_painting,3,Unknown Artist,train
+s33_r0270,religious_painting/s33_r0270.jpg,religious_painting,3,Unknown Artist,train
+s33_r0288,religious_painting/s33_r0288.jpg,religious_painting,3,hans-memling,train
+s33_r0291,religious_painting/s33_r0291.jpg,religious_painting,3,Unknown Artist,train
+s33_r0314,religious_painting/s33_r0314.jpg,religious_painting,3,Unknown Artist,train
+s33_r0319,religious_painting/s33_r0319.jpg,religious_painting,3,Unknown Artist,test
+s33_r0338,religious_painting/s33_r0338.jpg,religious_painting,3,raphael,train
+s33_r0344,religious_painting/s33_r0344.jpg,religious_painting,3,Unknown Artist,test
+s33_r0349,religious_painting/s33_r0349.jpg,religious_painting,3,Unknown Artist,test
+s33_r0387,religious_painting/s33_r0387.jpg,religious_painting,3,Unknown Artist,val
+s33_r0389,religious_painting/s33_r0389.jpg,religious_painting,3,Unknown Artist,train
+s33_r0394,religious_painting/s33_r0394.jpg,religious_painting,3,el-greco,val
+s33_r0399,religious_painting/s33_r0399.jpg,religious_painting,3,michelangelo,train
+s33_r0426,religious_painting/s33_r0426.jpg,religious_painting,3,Unknown Artist,val
+s33_r0429,religious_painting/s33_r0429.jpg,religious_painting,3,pietro-perugino,train
+s33_r0435,religious_painting/s33_r0435.jpg,religious_painting,3,fra-angelico,train
+s33_r0444,religious_painting/s33_r0444.jpg,religious_painting,3,Unknown Artist,train
+s33_r0456,religious_painting/s33_r0456.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s33_r0470,religious_painting/s33_r0470.jpg,religious_painting,3,Unknown Artist,train
+s33_r0493,religious_painting/s33_r0493.jpg,religious_painting,3,Unknown Artist,train
+s33_r0536,religious_painting/s33_r0536.jpg,religious_painting,3,Unknown Artist,train
+s33_r0537,religious_painting/s33_r0537.jpg,religious_painting,3,raphael,train
+s33_r0546,religious_painting/s33_r0546.jpg,religious_painting,3,Unknown Artist,val
+s33_r0585,religious_painting/s33_r0585.jpg,religious_painting,3,jacob-jordaens,train
+s33_r0588,religious_painting/s33_r0588.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s33_r0597,religious_painting/s33_r0597.jpg,religious_painting,3,Unknown Artist,train
+s33_r0599,religious_painting/s33_r0599.jpg,religious_painting,3,Unknown Artist,train
+s33_r0603,religious_painting/s33_r0603.jpg,religious_painting,3,Unknown Artist,train
+s33_r0617,religious_painting/s33_r0617.jpg,religious_painting,3,Unknown Artist,train
+s33_r0629,religious_painting/s33_r0629.jpg,religious_painting,3,Unknown Artist,train
+s33_r0646,religious_painting/s33_r0646.jpg,religious_painting,3,Unknown Artist,train
+s33_r0649,religious_painting/s33_r0649.jpg,religious_painting,3,james-tissot,test
+s33_r0654,religious_painting/s33_r0654.jpg,religious_painting,3,peter-paul-rubens,test
+s33_r0656,religious_painting/s33_r0656.jpg,religious_painting,3,Unknown Artist,train
+s33_r0658,religious_painting/s33_r0658.jpg,religious_painting,3,francisco-goya,test
+s33_r0672,religious_painting/s33_r0672.jpg,religious_painting,3,gustave-moreau,test
+s33_r0673,religious_painting/s33_r0673.jpg,religious_painting,3,Unknown Artist,train
+s33_r0679,religious_painting/s33_r0679.jpg,religious_painting,3,paolo-veronese,train
+s33_r0684,religious_painting/s33_r0684.jpg,religious_painting,3,hieronymus-bosch,val
+s33_r0691,religious_painting/s33_r0691.jpg,religious_painting,3,Unknown Artist,test
+s33_r0699,religious_painting/s33_r0699.jpg,religious_painting,3,Unknown Artist,test
+s33_r0710,religious_painting/s33_r0710.jpg,religious_painting,3,mikhail-vrubel,train
+s33_r0721,religious_painting/s33_r0721.jpg,religious_painting,3,pietro-perugino,train
+s33_r0723,religious_painting/s33_r0723.jpg,religious_painting,3,titian,test
+s33_r0727,religious_painting/s33_r0727.jpg,religious_painting,3,tintoretto,train
+s33_r0730,religious_painting/s33_r0730.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s33_r0733,religious_painting/s33_r0733.jpg,religious_painting,3,Unknown Artist,train
+s33_r0740,religious_painting/s33_r0740.jpg,religious_painting,3,Unknown Artist,train
+s33_r0741,religious_painting/s33_r0741.jpg,religious_painting,3,Unknown Artist,train
+s33_r0752,religious_painting/s33_r0752.jpg,religious_painting,3,Unknown Artist,train
+s33_r0756,religious_painting/s33_r0756.jpg,religious_painting,3,leonardo-da-vinci,train
+s33_r0760,religious_painting/s33_r0760.jpg,religious_painting,3,Unknown Artist,train
+s33_r0770,religious_painting/s33_r0770.jpg,religious_painting,3,peter-paul-rubens,test
+s33_r0780,religious_painting/s33_r0780.jpg,religious_painting,3,Unknown Artist,train
+s33_r0787,religious_painting/s33_r0787.jpg,religious_painting,3,Unknown Artist,train
+s33_r0796,religious_painting/s33_r0796.jpg,religious_painting,3,fra-angelico,train
+s33_r0800,religious_painting/s33_r0800.jpg,religious_painting,3,Unknown Artist,test
+s33_r0807,religious_painting/s33_r0807.jpg,religious_painting,3,Unknown Artist,val
+s33_r0814,religious_painting/s33_r0814.jpg,religious_painting,3,leonardo-da-vinci,train
+s33_r0830,religious_painting/s33_r0830.jpg,religious_painting,3,Unknown Artist,train
+s33_r0854,religious_painting/s33_r0854.jpg,religious_painting,3,Unknown Artist,train
+s33_r0861,religious_painting/s33_r0861.jpg,religious_painting,3,titian,test
+s33_r0871,religious_painting/s33_r0871.jpg,religious_painting,3,peter-paul-rubens,test
+s33_r0872,religious_painting/s33_r0872.jpg,religious_painting,3,jacob-jordaens,train
+s33_r0875,religious_painting/s33_r0875.jpg,religious_painting,3,Unknown Artist,train
+s33_r0879,religious_painting/s33_r0879.jpg,religious_painting,3,jacob-jordaens,train
+s33_r0885,religious_painting/s33_r0885.jpg,religious_painting,3,Unknown Artist,train
+s33_r0889,religious_painting/s33_r0889.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s33_r0891,religious_painting/s33_r0891.jpg,religious_painting,3,hieronymus-bosch,val
+s33_r0902,religious_painting/s33_r0902.jpg,religious_painting,3,Unknown Artist,test
+s33_r0906,religious_painting/s33_r0906.jpg,religious_painting,3,Unknown Artist,train
+s33_r0912,religious_painting/s33_r0912.jpg,religious_painting,3,Unknown Artist,val
+s33_r0913,religious_painting/s33_r0913.jpg,religious_painting,3,Unknown Artist,train
+s33_r0922,religious_painting/s33_r0922.jpg,religious_painting,3,Unknown Artist,test
+s33_r0934,religious_painting/s33_r0934.jpg,religious_painting,3,Unknown Artist,val
+s33_r0938,religious_painting/s33_r0938.jpg,religious_painting,3,el-greco,val
+s33_r0943,religious_painting/s33_r0943.jpg,religious_painting,3,Unknown Artist,val
+s33_r0944,religious_painting/s33_r0944.jpg,religious_painting,3,Unknown Artist,train
+s33_r0947,religious_painting/s33_r0947.jpg,religious_painting,3,hieronymus-bosch,val
+s33_r0952,religious_painting/s33_r0952.jpg,religious_painting,3,fra-angelico,train
+s33_r0965,religious_painting/s33_r0965.jpg,religious_painting,3,hans-memling,train
+s33_r0967,religious_painting/s33_r0967.jpg,religious_painting,3,Unknown Artist,train
+s33_r0971,religious_painting/s33_r0971.jpg,religious_painting,3,Unknown Artist,train
+s33_r0981,religious_painting/s33_r0981.jpg,religious_painting,3,Unknown Artist,train
+s33_r0989,religious_painting/s33_r0989.jpg,religious_painting,3,raphael,train
+s33_r0993,religious_painting/s33_r0993.jpg,religious_painting,3,fra-angelico,train
+s33_r0998,religious_painting/s33_r0998.jpg,religious_painting,3,Unknown Artist,train
+s33_r1004,religious_painting/s33_r1004.jpg,religious_painting,3,Unknown Artist,test
+s33_r1008,religious_painting/s33_r1008.jpg,religious_painting,3,odilon-redon,test
+s33_r1016,religious_painting/s33_r1016.jpg,religious_painting,3,Unknown Artist,train
+s33_r1042,religious_painting/s33_r1042.jpg,religious_painting,3,odilon-redon,test
+s33_r1053,religious_painting/s33_r1053.jpg,religious_painting,3,Unknown Artist,train
+s33_r1054,religious_painting/s33_r1054.jpg,religious_painting,3,Unknown Artist,test
+s33_r1060,religious_painting/s33_r1060.jpg,religious_painting,3,kuzma-petrov-vodkin,test
+s33_r1062,religious_painting/s33_r1062.jpg,religious_painting,3,Unknown Artist,train
+s33_r1077,religious_painting/s33_r1077.jpg,religious_painting,3,Unknown Artist,train
+s33_r1078,religious_painting/s33_r1078.jpg,religious_painting,3,jacob-jordaens,train
+s33_r1080,religious_painting/s33_r1080.jpg,religious_painting,3,Unknown Artist,val
+s33_r1106,religious_painting/s33_r1106.jpg,religious_painting,3,pietro-perugino,train
+s33_r1120,religious_painting/s33_r1120.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s33_r1123,religious_painting/s33_r1123.jpg,religious_painting,3,Unknown Artist,train
+s33_r1126,religious_painting/s33_r1126.jpg,religious_painting,3,Unknown Artist,train
+s38_r0002,religious_painting/s38_r0002.jpg,religious_painting,3,james-tissot,test
+s38_r0003,religious_painting/s38_r0003.jpg,religious_painting,3,Unknown Artist,train
+s38_r0005,religious_painting/s38_r0005.jpg,religious_painting,3,el-greco,val
+s38_r0031,religious_painting/s38_r0031.jpg,religious_painting,3,Unknown Artist,train
+s38_r0042,religious_painting/s38_r0042.jpg,religious_painting,3,paolo-veronese,train
+s38_r0043,religious_painting/s38_r0043.jpg,religious_painting,3,Unknown Artist,val
+s38_r0044,religious_painting/s38_r0044.jpg,religious_painting,3,jan-matejko,train
+s38_r0049,religious_painting/s38_r0049.jpg,religious_painting,3,Unknown Artist,test
+s38_r0056,religious_painting/s38_r0056.jpg,religious_painting,3,Unknown Artist,val
+s38_r0057,religious_painting/s38_r0057.jpg,religious_painting,3,viktor-vasnetsov,train
+s38_r0074,religious_painting/s38_r0074.jpg,religious_painting,3,Unknown Artist,train
+s38_r0076,religious_painting/s38_r0076.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0092,religious_painting/s38_r0092.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0104,religious_painting/s38_r0104.jpg,religious_painting,3,Unknown Artist,train
+s38_r0108,religious_painting/s38_r0108.jpg,religious_painting,3,michelangelo,train
+s38_r0116,religious_painting/s38_r0116.jpg,religious_painting,3,Unknown Artist,test
+s38_r0122,religious_painting/s38_r0122.jpg,religious_painting,3,Unknown Artist,test
+s38_r0142,religious_painting/s38_r0142.jpg,religious_painting,3,Unknown Artist,test
+s38_r0146,religious_painting/s38_r0146.jpg,religious_painting,3,leonardo-da-vinci,train
+s38_r0160,religious_painting/s38_r0160.jpg,religious_painting,3,Unknown Artist,train
+s38_r0176,religious_painting/s38_r0176.jpg,religious_painting,3,Unknown Artist,val
+s38_r0180,religious_painting/s38_r0180.jpg,religious_painting,3,Unknown Artist,train
+s38_r0184,religious_painting/s38_r0184.jpg,religious_painting,3,Unknown Artist,train
+s38_r0201,religious_painting/s38_r0201.jpg,religious_painting,3,Unknown Artist,train
+s38_r0208,religious_painting/s38_r0208.jpg,religious_painting,3,Unknown Artist,train
+s38_r0214,religious_painting/s38_r0214.jpg,religious_painting,3,Unknown Artist,val
+s38_r0221,religious_painting/s38_r0221.jpg,religious_painting,3,edward-burne-jones,train
+s38_r0229,religious_painting/s38_r0229.jpg,religious_painting,3,fra-angelico,train
+s38_r0238,religious_painting/s38_r0238.jpg,religious_painting,3,Unknown Artist,train
+s38_r0241,religious_painting/s38_r0241.jpg,religious_painting,3,Unknown Artist,train
+s38_r0245,religious_painting/s38_r0245.jpg,religious_painting,3,Unknown Artist,train
+s38_r0249,religious_painting/s38_r0249.jpg,religious_painting,3,Unknown Artist,train
+s38_r0275,religious_painting/s38_r0275.jpg,religious_painting,3,vasily-polenov,train
+s38_r0282,religious_painting/s38_r0282.jpg,religious_painting,3,fra-angelico,train
+s38_r0306,religious_painting/s38_r0306.jpg,religious_painting,3,paolo-veronese,train
+s38_r0315,religious_painting/s38_r0315.jpg,religious_painting,3,Unknown Artist,train
+s38_r0324,religious_painting/s38_r0324.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0359,religious_painting/s38_r0359.jpg,religious_painting,3,el-greco,val
+s38_r0367,religious_painting/s38_r0367.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0370,religious_painting/s38_r0370.jpg,religious_painting,3,paolo-veronese,train
+s38_r0379,religious_painting/s38_r0379.jpg,religious_painting,3,pietro-perugino,train
+s38_r0390,religious_painting/s38_r0390.jpg,religious_painting,3,jan-matejko,train
+s38_r0396,religious_painting/s38_r0396.jpg,religious_painting,3,Unknown Artist,val
+s38_r0397,religious_painting/s38_r0397.jpg,religious_painting,3,hieronymus-bosch,val
+s38_r0401,religious_painting/s38_r0401.jpg,religious_painting,3,edward-burne-jones,train
+s38_r0415,religious_painting/s38_r0415.jpg,religious_painting,3,Unknown Artist,test
+s38_r0424,religious_painting/s38_r0424.jpg,religious_painting,3,Unknown Artist,train
+s38_r0440,religious_painting/s38_r0440.jpg,religious_painting,3,Unknown Artist,train
+s38_r0448,religious_painting/s38_r0448.jpg,religious_painting,3,Unknown Artist,train
+s38_r0463,religious_painting/s38_r0463.jpg,religious_painting,3,Unknown Artist,train
+s38_r0471,religious_painting/s38_r0471.jpg,religious_painting,3,Unknown Artist,test
+s38_r0475,religious_painting/s38_r0475.jpg,religious_painting,3,Unknown Artist,train
+s38_r0504,religious_painting/s38_r0504.jpg,religious_painting,3,Unknown Artist,train
+s38_r0509,religious_painting/s38_r0509.jpg,religious_painting,3,edward-burne-jones,train
+s38_r0515,religious_painting/s38_r0515.jpg,religious_painting,3,Unknown Artist,val
+s38_r0527,religious_painting/s38_r0527.jpg,religious_painting,3,Unknown Artist,test
+s38_r0542,religious_painting/s38_r0542.jpg,religious_painting,3,edward-burne-jones,train
+s38_r0553,religious_painting/s38_r0553.jpg,religious_painting,3,Unknown Artist,train
+s38_r0561,religious_painting/s38_r0561.jpg,religious_painting,3,Unknown Artist,train
+s38_r0567,religious_painting/s38_r0567.jpg,religious_painting,3,hans-memling,train
+s38_r0576,religious_painting/s38_r0576.jpg,religious_painting,3,peter-paul-rubens,test
+s38_r0579,religious_painting/s38_r0579.jpg,religious_painting,3,Unknown Artist,train
+s38_r0580,religious_painting/s38_r0580.jpg,religious_painting,3,Unknown Artist,train
+s38_r0590,religious_painting/s38_r0590.jpg,religious_painting,3,Unknown Artist,train
+s38_r0599,religious_painting/s38_r0599.jpg,religious_painting,3,hans-memling,train
+s38_r0605,religious_painting/s38_r0605.jpg,religious_painting,3,pietro-perugino,train
+s38_r0636,religious_painting/s38_r0636.jpg,religious_painting,3,Unknown Artist,train
+s38_r0638,religious_painting/s38_r0638.jpg,religious_painting,3,Unknown Artist,train
+s38_r0653,religious_painting/s38_r0653.jpg,religious_painting,3,titian,test
+s38_r0679,religious_painting/s38_r0679.jpg,religious_painting,3,michelangelo,train
+s38_r0684,religious_painting/s38_r0684.jpg,religious_painting,3,Unknown Artist,train
+s38_r0700,religious_painting/s38_r0700.jpg,religious_painting,3,Unknown Artist,val
+s38_r0714,religious_painting/s38_r0714.jpg,religious_painting,3,anthony-van-dyck,test
+s38_r0730,religious_painting/s38_r0730.jpg,religious_painting,3,hieronymus-bosch,val
+s38_r0736,religious_painting/s38_r0736.jpg,religious_painting,3,Unknown Artist,train
+s38_r0749,religious_painting/s38_r0749.jpg,religious_painting,3,Unknown Artist,train
+s38_r0752,religious_painting/s38_r0752.jpg,religious_painting,3,Unknown Artist,test
+s38_r0753,religious_painting/s38_r0753.jpg,religious_painting,3,Unknown Artist,train
+s38_r0758,religious_painting/s38_r0758.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0761,religious_painting/s38_r0761.jpg,religious_painting,3,fra-angelico,train
+s38_r0768,religious_painting/s38_r0768.jpg,religious_painting,3,Unknown Artist,val
+s38_r0784,religious_painting/s38_r0784.jpg,religious_painting,3,Unknown Artist,train
+s38_r0791,religious_painting/s38_r0791.jpg,religious_painting,3,Unknown Artist,train
+s38_r0798,religious_painting/s38_r0798.jpg,religious_painting,3,Unknown Artist,val
+s38_r0804,religious_painting/s38_r0804.jpg,religious_painting,3,Unknown Artist,train
+s38_r0816,religious_painting/s38_r0816.jpg,religious_painting,3,Unknown Artist,train
+s38_r0836,religious_painting/s38_r0836.jpg,religious_painting,3,pietro-perugino,train
+s38_r0841,religious_painting/s38_r0841.jpg,religious_painting,3,Unknown Artist,val
+s38_r0852,religious_painting/s38_r0852.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s38_r0859,religious_painting/s38_r0859.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s38_r0862,religious_painting/s38_r0862.jpg,religious_painting,3,jacob-jordaens,train
+s38_r0868,religious_painting/s38_r0868.jpg,religious_painting,3,Unknown Artist,test
+s38_r0875,religious_painting/s38_r0875.jpg,religious_painting,3,Unknown Artist,train
+s38_r0879,religious_painting/s38_r0879.jpg,religious_painting,3,Unknown Artist,train
+s38_r0881,religious_painting/s38_r0881.jpg,religious_painting,3,el-greco,val
+s38_r0892,religious_painting/s38_r0892.jpg,religious_painting,3,Unknown Artist,train
+s38_r0900,religious_painting/s38_r0900.jpg,religious_painting,3,hieronymus-bosch,val
+s38_r0904,religious_painting/s38_r0904.jpg,religious_painting,3,Unknown Artist,train
+s38_r0906,religious_painting/s38_r0906.jpg,religious_painting,3,Unknown Artist,train
+s38_r0911,religious_painting/s38_r0911.jpg,religious_painting,3,Unknown Artist,val
+s38_r0913,religious_painting/s38_r0913.jpg,religious_painting,3,Unknown Artist,train
+s38_r0916,religious_painting/s38_r0916.jpg,religious_painting,3,peter-paul-rubens,test
+s38_r0934,religious_painting/s38_r0934.jpg,religious_painting,3,vasily-polenov,train
+s38_r0935,religious_painting/s38_r0935.jpg,religious_painting,3,james-tissot,test
+s38_r0952,religious_painting/s38_r0952.jpg,religious_painting,3,Unknown Artist,val
+s38_r0953,religious_painting/s38_r0953.jpg,religious_painting,3,pietro-perugino,train
+s38_r0962,religious_painting/s38_r0962.jpg,religious_painting,3,Unknown Artist,test
+s38_r0968,religious_painting/s38_r0968.jpg,religious_painting,3,bartolome-esteban-murillo,train
+s38_r0979,religious_painting/s38_r0979.jpg,religious_painting,3,francisco-goya,test
+s38_r0986,religious_painting/s38_r0986.jpg,religious_painting,3,Unknown Artist,train
+s38_r0997,religious_painting/s38_r0997.jpg,religious_painting,3,Unknown Artist,train
+s38_r0999,religious_painting/s38_r0999.jpg,religious_painting,3,vasily-polenov,train
+s38_r1004,religious_painting/s38_r1004.jpg,religious_painting,3,fra-angelico,train
+s38_r1020,religious_painting/s38_r1020.jpg,religious_painting,3,Unknown Artist,val
+s38_r1040,religious_painting/s38_r1040.jpg,religious_painting,3,Unknown Artist,train
+s38_r1049,religious_painting/s38_r1049.jpg,religious_painting,3,Unknown Artist,train
+s38_r1054,religious_painting/s38_r1054.jpg,religious_painting,3,Unknown Artist,train
+s38_r1055,religious_painting/s38_r1055.jpg,religious_painting,3,Unknown Artist,train
+s38_r1061,religious_painting/s38_r1061.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s38_r1072,religious_painting/s38_r1072.jpg,religious_painting,3,lucas-cranach-the-elder,train
+s38_r1078,religious_painting/s38_r1078.jpg,religious_painting,3,Unknown Artist,train
+s38_r1092,religious_painting/s38_r1092.jpg,religious_painting,3,Unknown Artist,train
+s38_r1093,religious_painting/s38_r1093.jpg,religious_painting,3,raphael,train
+s38_r1095,religious_painting/s38_r1095.jpg,religious_painting,3,paolo-veronese,train
+s38_r1106,religious_painting/s38_r1106.jpg,religious_painting,3,Unknown Artist,test
+s38_r1107,religious_painting/s38_r1107.jpg,religious_painting,3,Unknown Artist,val
+s38_r1113,religious_painting/s38_r1113.jpg,religious_painting,3,edward-burne-jones,train
+s38_r1128,religious_painting/s38_r1128.jpg,religious_painting,3,tintoretto,train
+s33_r0020,still_life/s33_r0020.jpg,still_life,4,Unknown Artist,test
+s33_r0035,still_life/s33_r0035.jpg,still_life,4,juan-gris,test
+s33_r0060,still_life/s33_r0060.jpg,still_life,4,Unknown Artist,test
+s33_r0072,still_life/s33_r0072.jpg,still_life,4,Unknown Artist,train
+s33_r0073,still_life/s33_r0073.jpg,still_life,4,Unknown Artist,train
+s33_r0115,still_life/s33_r0115.jpg,still_life,4,Unknown Artist,train
+s33_r0119,still_life/s33_r0119.jpg,still_life,4,pierre-bonnard,train
+s33_r0133,still_life/s33_r0133.jpg,still_life,4,Unknown Artist,train
+s33_r0188,still_life/s33_r0188.jpg,still_life,4,Unknown Artist,train
+s33_r0201,still_life/s33_r0201.jpg,still_life,4,Unknown Artist,train
+s33_r0209,still_life/s33_r0209.jpg,still_life,4,Unknown Artist,val
+s33_r0216,still_life/s33_r0216.jpg,still_life,4,kuzma-petrov-vodkin,test
+s33_r0278,still_life/s33_r0278.jpg,still_life,4,mstislav-dobuzhinsky,train
+s33_r0287,still_life/s33_r0287.jpg,still_life,4,Unknown Artist,train
+s33_r0355,still_life/s33_r0355.jpg,still_life,4,Unknown Artist,train
+s33_r0361,still_life/s33_r0361.jpg,still_life,4,Unknown Artist,test
+s33_r0363,still_life/s33_r0363.jpg,still_life,4,juan-gris,test
+s33_r0373,still_life/s33_r0373.jpg,still_life,4,Unknown Artist,val
+s33_r0474,still_life/s33_r0474.jpg,still_life,4,juan-gris,test
+s33_r0492,still_life/s33_r0492.jpg,still_life,4,Unknown Artist,train
+s33_r0564,still_life/s33_r0564.jpg,still_life,4,juan-gris,test
+s33_r0602,still_life/s33_r0602.jpg,still_life,4,Unknown Artist,train
+s33_r0638,still_life/s33_r0638.jpg,still_life,4,ilya-mashkov,train
+s33_r0650,still_life/s33_r0650.jpg,still_life,4,juan-gris,test
+s33_r0660,still_life/s33_r0660.jpg,still_life,4,m.c.-escher,test
+s33_r0701,still_life/s33_r0701.jpg,still_life,4,henri-fantin-latour,train
+s33_r0705,still_life/s33_r0705.jpg,still_life,4,georges-braque,train
+s33_r0709,still_life/s33_r0709.jpg,still_life,4,Unknown Artist,train
+s33_r0714,still_life/s33_r0714.jpg,still_life,4,Unknown Artist,val
+s33_r0771,still_life/s33_r0771.jpg,still_life,4,Unknown Artist,train
+s33_r0782,still_life/s33_r0782.jpg,still_life,4,Unknown Artist,train
+s33_r0802,still_life/s33_r0802.jpg,still_life,4,Unknown Artist,train
+s33_r0816,still_life/s33_r0816.jpg,still_life,4,ilya-mashkov,train
+s33_r0820,still_life/s33_r0820.jpg,still_life,4,Unknown Artist,val
+s33_r0841,still_life/s33_r0841.jpg,still_life,4,Unknown Artist,val
+s33_r0853,still_life/s33_r0853.jpg,still_life,4,ilya-mashkov,train
+s33_r0877,still_life/s33_r0877.jpg,still_life,4,georges-braque,train
+s33_r0883,still_life/s33_r0883.jpg,still_life,4,Unknown Artist,train
+s33_r0919,still_life/s33_r0919.jpg,still_life,4,konstantin-korovin,train
+s33_r0930,still_life/s33_r0930.jpg,still_life,4,georges-braque,train
+s33_r0937,still_life/s33_r0937.jpg,still_life,4,Unknown Artist,train
+s33_r0978,still_life/s33_r0978.jpg,still_life,4,juan-gris,test
+s33_r0986,still_life/s33_r0986.jpg,still_life,4,Unknown Artist,train
+s33_r0987,still_life/s33_r0987.jpg,still_life,4,georges-braque,train
+s33_r1057,still_life/s33_r1057.jpg,still_life,4,zinaida-serebriakova,train
+s33_r1066,still_life/s33_r1066.jpg,still_life,4,Unknown Artist,val
+s33_r1092,still_life/s33_r1092.jpg,still_life,4,Unknown Artist,train
+s33_r1093,still_life/s33_r1093.jpg,still_life,4,Unknown Artist,val
+s33_r1125,still_life/s33_r1125.jpg,still_life,4,Unknown Artist,train
+s33_r1127,still_life/s33_r1127.jpg,still_life,4,fernand-leger,train
+s38_r0012,still_life/s38_r0012.jpg,still_life,4,zinaida-serebriakova,train
+s38_r0017,still_life/s38_r0017.jpg,still_life,4,Unknown Artist,val
+s38_r0028,still_life/s38_r0028.jpg,still_life,4,paul-gauguin,train
+s38_r0030,still_life/s38_r0030.jpg,still_life,4,Unknown Artist,test
+s38_r0040,still_life/s38_r0040.jpg,still_life,4,Unknown Artist,train
+s38_r0082,still_life/s38_r0082.jpg,still_life,4,Unknown Artist,val
+s38_r0094,still_life/s38_r0094.jpg,still_life,4,Unknown Artist,train
+s38_r0110,still_life/s38_r0110.jpg,still_life,4,edouard-manet,val
+s38_r0118,still_life/s38_r0118.jpg,still_life,4,Unknown Artist,train
+s38_r0124,still_life/s38_r0124.jpg,still_life,4,Unknown Artist,val
+s38_r0162,still_life/s38_r0162.jpg,still_life,4,henri-fantin-latour,train
+s38_r0172,still_life/s38_r0172.jpg,still_life,4,henri-matisse,train
+s38_r0179,still_life/s38_r0179.jpg,still_life,4,Unknown Artist,train
+s38_r0250,still_life/s38_r0250.jpg,still_life,4,henri-fantin-latour,train
+s38_r0255,still_life/s38_r0255.jpg,still_life,4,henri-matisse,train
+s38_r0299,still_life/s38_r0299.jpg,still_life,4,juan-gris,test
+s38_r0376,still_life/s38_r0376.jpg,still_life,4,paul-gauguin,train
+s38_r0411,still_life/s38_r0411.jpg,still_life,4,Unknown Artist,train
+s38_r0452,still_life/s38_r0452.jpg,still_life,4,henri-matisse,train
+s38_r0470,still_life/s38_r0470.jpg,still_life,4,Unknown Artist,train
+s38_r0487,still_life/s38_r0487.jpg,still_life,4,Unknown Artist,test
+s38_r0491,still_life/s38_r0491.jpg,still_life,4,Unknown Artist,test
+s38_r0521,still_life/s38_r0521.jpg,still_life,4,Unknown Artist,train
+s38_r0540,still_life/s38_r0540.jpg,still_life,4,henri-matisse,train
+s38_r0571,still_life/s38_r0571.jpg,still_life,4,Unknown Artist,test
+s38_r0583,still_life/s38_r0583.jpg,still_life,4,Unknown Artist,train
+s38_r0606,still_life/s38_r0606.jpg,still_life,4,Unknown Artist,train
+s38_r0651,still_life/s38_r0651.jpg,still_life,4,henri-fantin-latour,train
+s38_r0668,still_life/s38_r0668.jpg,still_life,4,georges-braque,train
+s38_r0704,still_life/s38_r0704.jpg,still_life,4,georges-braque,train
+s38_r0772,still_life/s38_r0772.jpg,still_life,4,georges-braque,train
+s38_r0774,still_life/s38_r0774.jpg,still_life,4,Unknown Artist,test
+s38_r0788,still_life/s38_r0788.jpg,still_life,4,Unknown Artist,train
+s38_r0794,still_life/s38_r0794.jpg,still_life,4,georges-braque,train
+s38_r0819,still_life/s38_r0819.jpg,still_life,4,Unknown Artist,val
+s38_r0835,still_life/s38_r0835.jpg,still_life,4,Unknown Artist,train
+s38_r0923,still_life/s38_r0923.jpg,still_life,4,Unknown Artist,train
+s38_r0938,still_life/s38_r0938.jpg,still_life,4,Unknown Artist,test
+s38_r0981,still_life/s38_r0981.jpg,still_life,4,Unknown Artist,train
+s38_r0985,still_life/s38_r0985.jpg,still_life,4,ilya-mashkov,train
+s38_r0994,still_life/s38_r0994.jpg,still_life,4,juan-gris,test
+s38_r1025,still_life/s38_r1025.jpg,still_life,4,maurice-prendergast,train
+s54_r0224,still_life/s54_r0224.jpg,still_life,4,Unknown Artist,train
+s54_r0225,still_life/s54_r0225.jpg,still_life,4,katsushika-hokusai,train
+s54_r0227,still_life/s54_r0227.jpg,still_life,4,henri-matisse,train
+s54_r0230,still_life/s54_r0230.jpg,still_life,4,henri-fantin-latour,train
+s54_r0233,still_life/s54_r0233.jpg,still_life,4,Unknown Artist,train
+s54_r0236,still_life/s54_r0236.jpg,still_life,4,Unknown Artist,train
+s54_r0239,still_life/s54_r0239.jpg,still_life,4,georges-braque,train
+s54_r0240,still_life/s54_r0240.jpg,still_life,4,Unknown Artist,train
+s54_r0246,still_life/s54_r0246.jpg,still_life,4,Unknown Artist,val
+s54_r0250,still_life/s54_r0250.jpg,still_life,4,nikolay-bogdanov-belsky,train
+s54_r0256,still_life/s54_r0256.jpg,still_life,4,Unknown Artist,val
+s54_r0259,still_life/s54_r0259.jpg,still_life,4,Unknown Artist,train
+s54_r0262,still_life/s54_r0262.jpg,still_life,4,Unknown Artist,train
+s54_r0263,still_life/s54_r0263.jpg,still_life,4,henri-fantin-latour,train
+s54_r0265,still_life/s54_r0265.jpg,still_life,4,Unknown Artist,test
+s54_r0266,still_life/s54_r0266.jpg,still_life,4,Unknown Artist,val
+s54_r0268,still_life/s54_r0268.jpg,still_life,4,edouard-manet,val
+s54_r0269,still_life/s54_r0269.jpg,still_life,4,lucian-freud,train
+s54_r0270,still_life/s54_r0270.jpg,still_life,4,Unknown Artist,train
+s54_r0274,still_life/s54_r0274.jpg,still_life,4,kuzma-petrov-vodkin,test
+s54_r0275,still_life/s54_r0275.jpg,still_life,4,zinaida-serebriakova,train
+s54_r0277,still_life/s54_r0277.jpg,still_life,4,Unknown Artist,train
+s54_r0280,still_life/s54_r0280.jpg,still_life,4,fernand-leger,train
+s54_r0282,still_life/s54_r0282.jpg,still_life,4,Unknown Artist,train
+s54_r0285,still_life/s54_r0285.jpg,still_life,4,Unknown Artist,train
+s54_r0291,still_life/s54_r0291.jpg,still_life,4,henri-matisse,train
+s54_r0293,still_life/s54_r0293.jpg,still_life,4,Unknown Artist,train
+s54_r0295,still_life/s54_r0295.jpg,still_life,4,Unknown Artist,test
+s54_r0296,still_life/s54_r0296.jpg,still_life,4,Unknown Artist,train
+s54_r0297,still_life/s54_r0297.jpg,still_life,4,paul-gauguin,train
+s54_r0299,still_life/s54_r0299.jpg,still_life,4,ilya-mashkov,train
+s54_r0305,still_life/s54_r0305.jpg,still_life,4,Unknown Artist,train
+s54_r0309,still_life/s54_r0309.jpg,still_life,4,georges-braque,train
+s54_r0311,still_life/s54_r0311.jpg,still_life,4,frans-hals,val
+s54_r0312,still_life/s54_r0312.jpg,still_life,4,paul-gauguin,train
+s54_r0314,still_life/s54_r0314.jpg,still_life,4,Unknown Artist,train
+s54_r0316,still_life/s54_r0316.jpg,still_life,4,william-merritt-chase,train
+s54_r0323,still_life/s54_r0323.jpg,still_life,4,Unknown Artist,train
+s54_r0325,still_life/s54_r0325.jpg,still_life,4,Unknown Artist,test
+s54_r0342,still_life/s54_r0342.jpg,still_life,4,georges-braque,train
+s54_r0343,still_life/s54_r0343.jpg,still_life,4,paul-gauguin,train
+s54_r0345,still_life/s54_r0345.jpg,still_life,4,Unknown Artist,train
+s54_r0347,still_life/s54_r0347.jpg,still_life,4,juan-gris,test
+s54_r0351,still_life/s54_r0351.jpg,still_life,4,ilya-mashkov,train
+s54_r0356,still_life/s54_r0356.jpg,still_life,4,Unknown Artist,train
+s54_r0358,still_life/s54_r0358.jpg,still_life,4,mikhail-vrubel,train
+s54_r0359,still_life/s54_r0359.jpg,still_life,4,Unknown Artist,train
+s54_r0362,still_life/s54_r0362.jpg,still_life,4,Unknown Artist,train
+s54_r0364,still_life/s54_r0364.jpg,still_life,4,edouard-manet,val
+s54_r0369,still_life/s54_r0369.jpg,still_life,4,Unknown Artist,train
+s54_r0372,still_life/s54_r0372.jpg,still_life,4,theo-van-rysselberghe,val
+s54_r0379,still_life/s54_r0379.jpg,still_life,4,ilya-mashkov,train
+s54_r0380,still_life/s54_r0380.jpg,still_life,4,henri-fantin-latour,train
+s54_r0383,still_life/s54_r0383.jpg,still_life,4,Unknown Artist,train
+s54_r0386,still_life/s54_r0386.jpg,still_life,4,maxime-maufra,val
+s54_r0388,still_life/s54_r0388.jpg,still_life,4,Unknown Artist,val
+s54_r0394,still_life/s54_r0394.jpg,still_life,4,Unknown Artist,train
+s54_r0399,still_life/s54_r0399.jpg,still_life,4,fernand-leger,train
+s54_r0401,still_life/s54_r0401.jpg,still_life,4,Unknown Artist,test
+s54_r0406,still_life/s54_r0406.jpg,still_life,4,georges-braque,train
+s54_r0409,still_life/s54_r0409.jpg,still_life,4,ilya-mashkov,train
+s54_r0410,still_life/s54_r0410.jpg,still_life,4,georges-braque,train
+s54_r0411,still_life/s54_r0411.jpg,still_life,4,Unknown Artist,val
+s54_r0413,still_life/s54_r0413.jpg,still_life,4,juan-gris,test
+s54_r0414,still_life/s54_r0414.jpg,still_life,4,Unknown Artist,train
+s54_r0415,still_life/s54_r0415.jpg,still_life,4,Unknown Artist,train
+s54_r0416,still_life/s54_r0416.jpg,still_life,4,juan-gris,test
+s54_r0417,still_life/s54_r0417.jpg,still_life,4,Unknown Artist,test
+s54_r0419,still_life/s54_r0419.jpg,still_life,4,Unknown Artist,train
+s54_r0423,still_life/s54_r0423.jpg,still_life,4,Unknown Artist,train
+s54_r0425,still_life/s54_r0425.jpg,still_life,4,Unknown Artist,val
+s54_r0447,still_life/s54_r0447.jpg,still_life,4,Unknown Artist,train
+s54_r0450,still_life/s54_r0450.jpg,still_life,4,ilya-mashkov,train
+s54_r0453,still_life/s54_r0453.jpg,still_life,4,francisco-goya,test
+s54_r0455,still_life/s54_r0455.jpg,still_life,4,henri-matisse,train
+s54_r0457,still_life/s54_r0457.jpg,still_life,4,Unknown Artist,train
+s54_r0458,still_life/s54_r0458.jpg,still_life,4,georges-braque,train
+s54_r0462,still_life/s54_r0462.jpg,still_life,4,Unknown Artist,train
+s54_r0468,still_life/s54_r0468.jpg,still_life,4,Unknown Artist,val
+s54_r0469,still_life/s54_r0469.jpg,still_life,4,Unknown Artist,train
+s54_r0470,still_life/s54_r0470.jpg,still_life,4,zinaida-serebriakova,train
+s54_r0476,still_life/s54_r0476.jpg,still_life,4,Unknown Artist,train
+s54_r0479,still_life/s54_r0479.jpg,still_life,4,ilya-mashkov,train
+s54_r0482,still_life/s54_r0482.jpg,still_life,4,Unknown Artist,train
+s54_r0486,still_life/s54_r0486.jpg,still_life,4,edouard-manet,val
+s54_r0487,still_life/s54_r0487.jpg,still_life,4,edouard-manet,val
+s54_r0493,still_life/s54_r0493.jpg,still_life,4,Unknown Artist,train
+s54_r0495,still_life/s54_r0495.jpg,still_life,4,Unknown Artist,test
+s54_r0508,still_life/s54_r0508.jpg,still_life,4,Unknown Artist,test
+s54_r0510,still_life/s54_r0510.jpg,still_life,4,andy-warhol,train
+s54_r0515,still_life/s54_r0515.jpg,still_life,4,juan-gris,test
+s54_r0516,still_life/s54_r0516.jpg,still_life,4,Unknown Artist,train
+s54_r0521,still_life/s54_r0521.jpg,still_life,4,Unknown Artist,val
+s54_r0525,still_life/s54_r0525.jpg,still_life,4,Unknown Artist,val
+s54_r0532,still_life/s54_r0532.jpg,still_life,4,Unknown Artist,train
+s54_r0537,still_life/s54_r0537.jpg,still_life,4,Unknown Artist,train
+s54_r0539,still_life/s54_r0539.jpg,still_life,4,georges-braque,train
+s54_r0545,still_life/s54_r0545.jpg,still_life,4,francisco-goya,test
+s54_r0546,still_life/s54_r0546.jpg,still_life,4,Unknown Artist,train
+s54_r0547,still_life/s54_r0547.jpg,still_life,4,edouard-manet,val
+s54_r0555,still_life/s54_r0555.jpg,still_life,4,gustave-caillebotte,train
+s54_r0557,still_life/s54_r0557.jpg,still_life,4,Unknown Artist,val
+s54_r0558,still_life/s54_r0558.jpg,still_life,4,georges-braque,train
+s54_r0560,still_life/s54_r0560.jpg,still_life,4,Unknown Artist,val
+s54_r0567,still_life/s54_r0567.jpg,still_life,4,paul-gauguin,train
+s54_r0568,still_life/s54_r0568.jpg,still_life,4,paul-gauguin,train
+s54_r0569,still_life/s54_r0569.jpg,still_life,4,georges-braque,train
+s54_r0574,still_life/s54_r0574.jpg,still_life,4,Unknown Artist,train
+s54_r0575,still_life/s54_r0575.jpg,still_life,4,Unknown Artist,train
+s54_r0579,still_life/s54_r0579.jpg,still_life,4,Unknown Artist,train
+s54_r0586,still_life/s54_r0586.jpg,still_life,4,Unknown Artist,train
+s54_r0590,still_life/s54_r0590.jpg,still_life,4,Unknown Artist,train
+s54_r0593,still_life/s54_r0593.jpg,still_life,4,Unknown Artist,train
+s54_r0594,still_life/s54_r0594.jpg,still_life,4,Unknown Artist,train
+s54_r0599,still_life/s54_r0599.jpg,still_life,4,pierre-bonnard,train
+s54_r0602,still_life/s54_r0602.jpg,still_life,4,georges-braque,train
+s54_r0604,still_life/s54_r0604.jpg,still_life,4,Unknown Artist,test
+s54_r0607,still_life/s54_r0607.jpg,still_life,4,Unknown Artist,train
+s54_r0613,still_life/s54_r0613.jpg,still_life,4,georges-braque,train
+s54_r0614,still_life/s54_r0614.jpg,still_life,4,Unknown Artist,train
+s54_r0619,still_life/s54_r0619.jpg,still_life,4,gustave-caillebotte,train
+s54_r0621,still_life/s54_r0621.jpg,still_life,4,Unknown Artist,test
+s54_r0622,still_life/s54_r0622.jpg,still_life,4,Unknown Artist,train
+s54_r0625,still_life/s54_r0625.jpg,still_life,4,juan-gris,test
+s54_r0630,still_life/s54_r0630.jpg,still_life,4,Unknown Artist,train
+s54_r0631,still_life/s54_r0631.jpg,still_life,4,Unknown Artist,test
+s54_r0632,still_life/s54_r0632.jpg,still_life,4,ilya-mashkov,train
+s54_r0636,still_life/s54_r0636.jpg,still_life,4,konstantin-makovsky,train
+s54_r0643,still_life/s54_r0643.jpg,still_life,4,Unknown Artist,val
+s54_r0644,still_life/s54_r0644.jpg,still_life,4,katsushika-hokusai,train
+s54_r0648,still_life/s54_r0648.jpg,still_life,4,Unknown Artist,train
+s54_r0651,still_life/s54_r0651.jpg,still_life,4,Unknown Artist,train
+s54_r0652,still_life/s54_r0652.jpg,still_life,4,Unknown Artist,val
+s54_r0655,still_life/s54_r0655.jpg,still_life,4,Unknown Artist,train
+s54_r0656,still_life/s54_r0656.jpg,still_life,4,zinaida-serebriakova,train
+s54_r0659,still_life/s54_r0659.jpg,still_life,4,Unknown Artist,train
+s54_r0660,still_life/s54_r0660.jpg,still_life,4,paul-gauguin,train
+s54_r0661,still_life/s54_r0661.jpg,still_life,4,Unknown Artist,train
+s54_r0662,still_life/s54_r0662.jpg,still_life,4,Unknown Artist,val
+s54_r0665,still_life/s54_r0665.jpg,still_life,4,Unknown Artist,val
+s54_r0667,still_life/s54_r0667.jpg,still_life,4,Unknown Artist,val
+s54_r0669,still_life/s54_r0669.jpg,still_life,4,georges-braque,train
+s54_r0670,still_life/s54_r0670.jpg,still_life,4,Unknown Artist,test
+s54_r0671,still_life/s54_r0671.jpg,still_life,4,georges-braque,train
+s54_r0672,still_life/s54_r0672.jpg,still_life,4,Unknown Artist,test
+s54_r0673,still_life/s54_r0673.jpg,still_life,4,Unknown Artist,test
+s54_r0679,still_life/s54_r0679.jpg,still_life,4,Unknown Artist,test
+s54_r0681,still_life/s54_r0681.jpg,still_life,4,Unknown Artist,train
+s54_r0682,still_life/s54_r0682.jpg,still_life,4,Unknown Artist,train
+s54_r0684,still_life/s54_r0684.jpg,still_life,4,Unknown Artist,train
+s54_r0692,still_life/s54_r0692.jpg,still_life,4,Unknown Artist,train
+s54_r0694,still_life/s54_r0694.jpg,still_life,4,georges-braque,train
+s54_r0695,still_life/s54_r0695.jpg,still_life,4,henri-fantin-latour,train
+s54_r0696,still_life/s54_r0696.jpg,still_life,4,Unknown Artist,train
+s54_r0698,still_life/s54_r0698.jpg,still_life,4,Unknown Artist,train
+s54_r0699,still_life/s54_r0699.jpg,still_life,4,konstantin-korovin,train
+s54_r0701,still_life/s54_r0701.jpg,still_life,4,niko-pirosmani,val
+s54_r0704,still_life/s54_r0704.jpg,still_life,4,fernando-botero,val
+s54_r0706,still_life/s54_r0706.jpg,still_life,4,Unknown Artist,train
+s54_r0708,still_life/s54_r0708.jpg,still_life,4,Unknown Artist,train
+s54_r0709,still_life/s54_r0709.jpg,still_life,4,edouard-manet,val
+s54_r0714,still_life/s54_r0714.jpg,still_life,4,maurice-prendergast,train
+s54_r0715,still_life/s54_r0715.jpg,still_life,4,Unknown Artist,train
+s54_r0718,still_life/s54_r0718.jpg,still_life,4,Unknown Artist,train
+s54_r0719,still_life/s54_r0719.jpg,still_life,4,fernando-botero,val
+s54_r0721,still_life/s54_r0721.jpg,still_life,4,juan-gris,test
+s54_r0728,still_life/s54_r0728.jpg,still_life,4,henri-de-toulouse-lautrec,train
+s54_r0729,still_life/s54_r0729.jpg,still_life,4,Unknown Artist,train
+s54_r0733,still_life/s54_r0733.jpg,still_life,4,juan-gris,test
+s54_r0740,still_life/s54_r0740.jpg,still_life,4,mstislav-dobuzhinsky,train
+s54_r0743,still_life/s54_r0743.jpg,still_life,4,Unknown Artist,train
+s54_r0745,still_life/s54_r0745.jpg,still_life,4,Unknown Artist,train
+s54_r0746,still_life/s54_r0746.jpg,still_life,4,henri-matisse,train
+s54_r0747,still_life/s54_r0747.jpg,still_life,4,Unknown Artist,train
+s54_r0754,still_life/s54_r0754.jpg,still_life,4,Unknown Artist,train
+s54_r0756,still_life/s54_r0756.jpg,still_life,4,georges-braque,train
+s54_r0759,still_life/s54_r0759.jpg,still_life,4,Unknown Artist,val
+s54_r0764,still_life/s54_r0764.jpg,still_life,4,juan-gris,test
+s54_r0765,still_life/s54_r0765.jpg,still_life,4,Unknown Artist,val
+s54_r0767,still_life/s54_r0767.jpg,still_life,4,gustave-caillebotte,train
+s54_r0769,still_life/s54_r0769.jpg,still_life,4,Unknown Artist,train
+s54_r0770,still_life/s54_r0770.jpg,still_life,4,paul-gauguin,train
+s54_r0771,still_life/s54_r0771.jpg,still_life,4,Unknown Artist,train
+s54_r0778,still_life/s54_r0778.jpg,still_life,4,georges-braque,train
+s54_r0779,still_life/s54_r0779.jpg,still_life,4,Unknown Artist,train
+s54_r0782,still_life/s54_r0782.jpg,still_life,4,fernando-botero,val
+s54_r0784,still_life/s54_r0784.jpg,still_life,4,Unknown Artist,train
+s54_r0785,still_life/s54_r0785.jpg,still_life,4,Unknown Artist,train
+s54_r0788,still_life/s54_r0788.jpg,still_life,4,Unknown Artist,train
+s54_r0791,still_life/s54_r0791.jpg,still_life,4,paul-gauguin,train
+s54_r0805,still_life/s54_r0805.jpg,still_life,4,henri-fantin-latour,train
+s54_r0809,still_life/s54_r0809.jpg,still_life,4,Unknown Artist,train
+s54_r0811,still_life/s54_r0811.jpg,still_life,4,juan-gris,test
+s54_r0814,still_life/s54_r0814.jpg,still_life,4,jan-matejko,train
+s54_r0815,still_life/s54_r0815.jpg,still_life,4,Unknown Artist,train
+s54_r0821,still_life/s54_r0821.jpg,still_life,4,henri-matisse,train
+s54_r0823,still_life/s54_r0823.jpg,still_life,4,Unknown Artist,train
+s54_r0826,still_life/s54_r0826.jpg,still_life,4,Unknown Artist,train
+s54_r0830,still_life/s54_r0830.jpg,still_life,4,juan-gris,test
+s54_r0831,still_life/s54_r0831.jpg,still_life,4,Unknown Artist,train
+s54_r0833,still_life/s54_r0833.jpg,still_life,4,juan-gris,test
+s54_r0835,still_life/s54_r0835.jpg,still_life,4,Unknown Artist,test
+s54_r0839,still_life/s54_r0839.jpg,still_life,4,Unknown Artist,train
+s54_r0845,still_life/s54_r0845.jpg,still_life,4,Unknown Artist,val
+s54_r0846,still_life/s54_r0846.jpg,still_life,4,ilya-mashkov,train
+s54_r0848,still_life/s54_r0848.jpg,still_life,4,Unknown Artist,train
+s54_r0857,still_life/s54_r0857.jpg,still_life,4,Unknown Artist,train
+s54_r0859,still_life/s54_r0859.jpg,still_life,4,juan-gris,test

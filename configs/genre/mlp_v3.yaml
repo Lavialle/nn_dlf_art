@@ -1,0 +1,17 @@
+# v3 = v2 + dropout after each hidden layer (Linear -> BatchNorm -> ReLU -> Dropout).
+name: mlp_v3
+data_dir: data/wikiart_genre5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+dropout: 0.5  # value chosen on style, not re-swept on genre (style sweep differences were within seed noise)
+init: kaiming
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 9.9e-3  # measured on v2 (same architecture)
+batch_size: 64
+epochs: 100
+patience: 10

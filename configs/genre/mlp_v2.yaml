@@ -1,0 +1,17 @@
+# v2 = v1 Nesterov + BatchNorm + a 2nd hidden layer (512 -> 256).
+# BatchNorm changes the loss landscape, so the LR is measured again (LR range test on this config).
+name: mlp_v2
+data_dir: data/wikiart_genre5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+init: kaiming
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 9.9e-3  # LR range test on genre, median of seeds 0-2 (v1 Nesterov without BatchNorm: 2.1e-3)
+batch_size: 64
+epochs: 100
+patience: 10

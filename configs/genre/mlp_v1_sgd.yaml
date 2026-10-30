@@ -1,0 +1,14 @@
+# v1: v0 + early stopping, with a learning rate measured by the LR range test (block 16) instead of guessed.
+# Three v1 configs compare optimizers, each at its own best LR: sgd, nesterov, adamw.
+name: mlp_v1_sgd
+data_dir: data/wikiart_genre5
+
+hidden: [512]
+activation: relu
+init: kaiming
+
+optimizer: sgd
+lr: 4.8e-3  # LR range test on genre (mlp_v0 config, plain SGD), median of seeds 0-2
+batch_size: 64
+epochs: 60
+patience: 10

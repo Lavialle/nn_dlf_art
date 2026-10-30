@@ -1,0 +1,20 @@
+# v5 = v4 + data augmentation on the training images: random crop (60-100 % of the area) and horizontal flip.
+# No colour jitter: the palette is a clue to the style.
+name: mlp_v5
+data_dir: data/wikiart_genre5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+dropout: 0.5
+init: kaiming
+augment: true
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 9.9e-3  # measured on v2 (same architecture)
+weight_decay: 5.0e-4
+batch_size: 64
+epochs: 100
+patience: 10
