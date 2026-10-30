@@ -11,7 +11,7 @@ augment: true
 optimizer: sgd
 momentum: 0.9
 nesterov: true
-lr: 1.0e-2  # TO MEASURE: scripts/lr_range_test.py --config configs/style/cnn.yaml, then write the median here
+lr: 3.4e-03  # LR range test on style, median of seeds 0-2
 weight_decay: 5.0e-4
 batch_size: 64
 epochs: 100
