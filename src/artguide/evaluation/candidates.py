@@ -26,8 +26,13 @@ from artguide.reporting import latest_per_name, runs
 from artguide.train.builders import make_model
 
 SEEDS = (0, 1, 2)
+CHUNK = 64  # images per forward pass: ResNet on 1 000 images at once needs > 7 GB of RAM on the CPU
 MLP_CONFIGS = ["mlp_v0", "mlp_v1_sgd", "mlp_v1_nesterov", "mlp_v1_adamw", "mlp_v2", "mlp_v3", "mlp_v4", "mlp_v5",
-               "mlp_v6"]
+               "mlp_v6",
+               # hyperparameter sweeps (scripts/sweep_table.py): candidates too, chosen by the same val-loss rule
+               "mlp_v5-bs16", "mlp_v5-bs32", "mlp_v5-bs128", "mlp_v6-ep60", "mlp_v6-ep80", "mlp_v5-crop0.4",
+               "mlp_v5-crop0.8", "mlp_v5-crop1.0"]
+CNN_CONFIGS = ["cnn", "cnn-bs16", "cnn-bs32", "cnn-bs128", "cnn-crop0.4", "cnn-crop0.8", "cnn-crop1.0", "cnn-128px"]
 FINETUNED = ["resnet_partial", "resnet_full"]
 
 
@@ -43,6 +48,9 @@ class Candidate:
 
     @torch.no_grad()
     def predict(self, images: torch.Tensor) -> np.ndarray:
+        return np.concatenate([self._predict(chunk) for chunk in images.split(CHUNK)])
+
+    def _predict(self, images: torch.Tensor) -> np.ndarray:
         x = self.prepare(images)
         if isinstance(self.model, nn.Module):
             return self.model(x).argmax(dim=1).numpy()
@@ -112,12 +120,17 @@ def build_candidates(subset: str) -> list[Candidate]:
 
     mlp_name = best_config(mlp, MLP_CONFIGS)
     candidates += torch_candidates(subset, mlp_name, "mlp", f"MLP ({mlp_name})")
+    cnn = runs(f"{subset}-cnn")
+    if not cnn.empty:  # the small CNN came after the first style evaluation
+        cnn_name = best_config(cnn, CNN_CONFIGS)
+        candidates += torch_candidates(subset, cnn_name, "cnn", f"CNN from scratch ({cnn_name})")
 
     backbone = embedding_model()
     embed = stack(image_transform(*imagenet_stats(), size=224))
     to_features = lambda images: backbone(embed(images)).numpy()  # noqa: E731
     with torch.no_grad():
-        train_features = to_features(WikiArtSplit(data_dir_224, split_file, "train").images)
+        train_images = WikiArtSplit(data_dir_224, split_file, "train").images
+        train_features = np.concatenate([to_features(chunk) for chunk in train_images.split(CHUNK)])
     model = logistic_regression(best_c(resnet, "resnet_embed_logreg")).fit(train_features, y_train)
     candidates.append(Candidate("ResNet18 embeddings + logistic regression", "resnet", data_dir_224,
                                 torch.no_grad()(to_features), model, other_parts=[backbone]))

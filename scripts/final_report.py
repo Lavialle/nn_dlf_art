@@ -15,9 +15,9 @@ import numpy as np
 import pandas as pd
 
 from artguide.evaluation.metrics import confusion, paired_bootstrap
-from artguide.reporting import BLUE, INK, INK_MUTED, ORANGE, style
+from artguide.reporting import AQUA, BLUE, INK, INK_MUTED, ORANGE, style
 
-COLORS = {"baseline": INK_MUTED, "mlp": BLUE, "resnet": ORANGE}
+COLORS = {"baseline": INK_MUTED, "mlp": BLUE, "cnn": AQUA, "resnet": ORANGE}
 
 
 def summary(test: pd.DataFrame) -> pd.DataFrame:
@@ -30,8 +30,8 @@ def summary(test: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def find(table: pd.DataFrame, prefix: str) -> str:
-    return next(m for m in table["model"] if m.startswith(prefix))
+def find(table: pd.DataFrame, prefix: str) -> str | None:
+    return next((m for m in table["model"] if m.startswith(prefix)), None)
 
 
 def markdown(table: pd.DataFrame, pairs: list[tuple[str, str, tuple[float, float, float]]]) -> str:
@@ -53,7 +53,8 @@ LABELS = [  # model name prefix -> short label, label offset in points (dx, dy),
     ("Majority", "majority class", (10, -4), "left"),
     ("Logistic regression (pixels)", "logistic reg., pixels", (-10, 0), "right"),
     ("Logistic regression (hsv)", "logistic reg., HSV histogram", (10, -4), "left"),
-    ("MLP", "MLP v6", (0, -48), "center"),
+    ("MLP", "best MLP", (0, -48), "center"),
+    ("CNN", "small CNN from scratch", (10, -4), "left"),
     ("ResNet18 fine-tuned", "ResNet18 fine-tuned (layer4)", (-12, 14), "right"),
     ("ResNet18 embeddings", "ResNet18 embeddings + logistic reg.", (-12, -2), "right"),
     ("ResNet18 linear probe", "ResNet18 linear probe", (-12, -18), "right"),
@@ -97,7 +98,7 @@ def confusion_figure(preds: pd.DataFrame, classes: list[str], columns: list[str]
         acc = (preds["label"] == preds[column]).mean() * 100
         ax.set_title(f"{title}\n{acc:.1f} %", fontsize=10, color=INK)
         ax.set_xlabel("predicted")
-    axes[0].set_ylabel("true style")
+    axes[0].set_ylabel("true class")
     fig.tight_layout()
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
@@ -116,8 +117,11 @@ def main() -> None:
     probe, tuned = find(table, "ResNet18 linear probe"), find(table, "ResNet18 fine-tuned")
     embed = find(table, "ResNet18 embeddings")
     col = lambda model: next(c for c in preds.columns if c.startswith(f"{model} | seed"))  # noqa: E731
-    pairs = [(a, b, paired_bootstrap(preds["label"], preds[col(a)], preds[col(b)]))
-             for a, b in [(mlp, hsv), (tuned, hsv), (tuned, mlp), (tuned, probe), (tuned, embed)]]
+    cnn = find(table, "CNN")
+    compared = [(mlp, hsv), (tuned, hsv), (tuned, mlp), (tuned, probe), (tuned, embed)]
+    if cnn is not None:
+        compared += [(cnn, mlp), (tuned, cnn)]
+    pairs = [(a, b, paired_bootstrap(preds["label"], preds[col(a)], preds[col(b)])) for a, b in compared]
 
     text = markdown(table, pairs)
     (tables / f"{args.subset}_final.md").write_text(f"# Final test results ({args.subset})\n\n{text}",
