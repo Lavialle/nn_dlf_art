@@ -1,0 +1,16 @@
+# ResNet18 pre-trained on ImageNet, linear probe: backbone frozen (BatchNorm in eval mode), only the head learns.
+# Same data pipeline for the three levels (224 px, ImageNet statistics, crop + flip): only what learns changes.
+name: resnet_probe
+data_dir: data/wikiart_genre5_224
+group: resnet
+model: resnet18
+finetune: probe
+image_size: 224
+augment: true
+
+optimizer: adamw
+lr: 2.7e-03  # LR range test on genre, median of seeds 0-2
+weight_decay: 0.01  # AdamW's usual default
+batch_size: 64
+epochs: 50
+patience: 10
