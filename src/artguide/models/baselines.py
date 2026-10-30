@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import numpy as np
+import pandas as pd
 import torch
 from matplotlib.colors import rgb_to_hsv
 from sklearn.linear_model import LogisticRegression
@@ -26,6 +27,13 @@ def hsv_histogram_features(images: torch.Tensor, bins: tuple[int, int, int] = HS
     hsv = rgb_to_hsv(rgb).reshape(len(images), -1, 3)  # (N, H * W, 3): each image as a list of pixels
     histograms = np.stack([np.histogramdd(pixels, bins=bins, range=[(0, 1)] * 3)[0].ravel() for pixels in hsv])
     return histograms / histograms.sum(axis=1, keepdims=True)
+
+
+def aspect_ratio_features(ids: list[str], metadata: pd.DataFrame) -> np.ndarray:
+    """(N, 1) log(height / width) of the original painting, which the square crop erased: > 0 vertical,
+    < 0 horizontal, symmetric (2:1 and 1:2 give +0.69 and -0.69)."""
+    sizes = metadata.set_index("id").loc[ids, ["orig_height", "orig_width"]].to_numpy(dtype=float)
+    return np.log(sizes[:, :1] / sizes[:, 1:])
 
 
 def logistic_regression(C: float) -> Pipeline:
