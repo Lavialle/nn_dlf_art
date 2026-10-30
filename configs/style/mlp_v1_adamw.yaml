@@ -1,0 +1,14 @@
+# v1: AdamW, at its own LR (a step size per weight: a completely different scale from SGD).
+name: mlp_v1_adamw
+data_dir: data/wikiart_style5
+
+hidden: [512]
+activation: relu
+init: kaiming
+
+optimizer: adamw
+lr: 9.0e-5  # LR range test, median of seeds 0-2. Write 9.0e-5, not 9e-5: YAML reads 9e-5 as a string
+weight_decay: 0.0  # AdamW's default is 0.01; regularisation comes later (v4), v1 compares optimizers only
+batch_size: 64
+epochs: 60
+patience: 10

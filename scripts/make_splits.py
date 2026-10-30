@@ -1,6 +1,12 @@
-"""Freeze the train/val/test split of a WikiArt subset into a CSV committed to git.
+r"""Freeze the train/val/test split of a WikiArt subset into a CSV committed to git.
 
     uv run python scripts/make_splits.py --data-dir data/wikiart_style5 --out splits/wikiart_style5.csv
+
+Provoked failure (Phase 4): a split NOT grouped by artist, kept out of splits/*.csv (the leakage tests would
+fail on it):
+
+    uv run python scripts/make_splits.py --data-dir data/wikiart_style5 --ungrouped \
+        --out splits/failures/wikiart_style5_ungrouped.csv
 """
 from __future__ import annotations
 
@@ -19,10 +25,11 @@ def main() -> None:
     p.add_argument("--data-dir", type=Path, required=True, help="subset folder containing metadata.csv")
     p.add_argument("--out", type=Path, required=True, help="output CSV")
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--ungrouped", action="store_true", help="do not group by artist (leakage experiment only)")
     args = p.parse_args()
 
     metadata = pd.read_csv(args.data_dir / "metadata.csv")
-    splits = make_splits(metadata, seed=args.seed)
+    splits = make_splits(metadata, seed=args.seed, grouped=not args.ungrouped)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     splits[COLUMNS].to_csv(args.out, index=False)

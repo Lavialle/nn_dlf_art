@@ -17,11 +17,16 @@ def artist_groups(metadata: pd.DataFrame) -> np.ndarray:
     return np.where(unknown, metadata["id"], metadata["artist"])
 
 
-def make_splits(metadata: pd.DataFrame, seed: int = 0) -> pd.DataFrame:
-    """Return a copy of metadata with a 'split' column: 'train', 'val' or 'test'."""
+def make_splits(metadata: pd.DataFrame, seed: int = 0, grouped: bool = True) -> pd.DataFrame:
+    """Return a copy of metadata with a 'split' column: 'train', 'val' or 'test'.
+
+    grouped=False puts every image in its own group (a plain stratified split, an artist can then be on both
+    sides): only to measure the leakage that grouping prevents (Phase 4).
+    """
     sgkf = StratifiedGroupKFold(n_splits=N_FOLDS, shuffle=True, random_state=seed)
+    groups = artist_groups(metadata) if grouped else metadata["id"]
     fold = np.empty(len(metadata), dtype=int)
-    for k, (_, fold_idx) in enumerate(sgkf.split(metadata, metadata["label_idx"], artist_groups(metadata))):
+    for k, (_, fold_idx) in enumerate(sgkf.split(metadata, metadata["label_idx"], groups)):
         fold[fold_idx] = k
     split = np.select([fold < N_TEST_FOLDS, fold < N_TEST_FOLDS + N_VAL_FOLDS], ["test", "val"], default="train")
     return metadata.assign(split=split)

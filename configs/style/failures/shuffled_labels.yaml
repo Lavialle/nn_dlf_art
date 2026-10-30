@@ -1,0 +1,14 @@
+# Failure 7: training labels randomly permuted (Zhang et al., 2017). Expected: the network still memorises the
+# training set (train accuracy -> ~100 %) while val stays at chance (~20 %): capacity is not understanding.
+name: shuffled_labels
+failure: shuffle_labels
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512]
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 2.5e-3
+epochs: 200

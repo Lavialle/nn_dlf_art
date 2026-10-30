@@ -1,0 +1,18 @@
+# v4 = v3 + weight decay (SGD: an L2 pull of every weight towards 0 at each step).
+name: mlp_v4
+data_dir: data/wikiart_style5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+dropout: 0.5
+init: kaiming
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 1.1e-2
+weight_decay: 5.0e-4  # swept 5e-4 / 5e-3 / 5e-2 (3 seeds each): mean val loss 1.396 / 1.402 / 1.398
+batch_size: 64
+epochs: 100
+patience: 10

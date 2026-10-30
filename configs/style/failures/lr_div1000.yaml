@@ -1,0 +1,12 @@
+# Failure 2: learning rate / 1000 (2.5e-3 -> 2.5e-6). Expected: an almost flat loss, update ratio ~1e-6.
+name: lr_div1000
+data_dir: data/wikiart_style5
+group: failures
+batch_size: 64
+patience: null  # no early stopping: the whole curve is the evidence
+hidden: [512]
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 2.5e-6
+epochs: 40

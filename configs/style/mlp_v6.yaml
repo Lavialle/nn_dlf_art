@@ -1,0 +1,23 @@
+# v6 = v5 + cosine LR schedule + label smoothing 0.1.
+# The cosine needs the whole planned run to bring the LR down to 0, so no early stopping: 40 epochs (v5 kept
+# epochs 6-27), and the checkpoint is still the epoch with the lowest val loss.
+name: mlp_v6
+data_dir: data/wikiart_style5
+
+hidden: [512, 256]
+activation: relu
+batchnorm: true
+dropout: 0.5
+init: kaiming
+augment: true
+
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 1.1e-2
+weight_decay: 5.0e-4
+scheduler: cosine
+label_smoothing: 0.1
+batch_size: 64
+epochs: 40
+patience: null
