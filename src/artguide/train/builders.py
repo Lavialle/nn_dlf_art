@@ -11,6 +11,7 @@ from torch.utils.data import DataLoader
 from artguide.config import Config
 from artguide.data.dataset import WikiArtSplit
 from artguide.data.transforms import channel_stats, image_transform
+from artguide.models.cnn import SmallCNN
 from artguide.models.mlp import MLP
 from artguide.models.resnet import ResNetClassifier, imagenet_stats
 from artguide.train.optim import make_optimizer
@@ -49,8 +50,10 @@ def make_loaders(cfg: Config, generator: torch.Generator) -> Loaders:
 def make_model(cfg: Config, n_classes: int) -> nn.Module:
     if cfg.model == "resnet18":
         return ResNetClassifier(n_classes, finetune=cfg.finetune)
+    if cfg.model == "cnn":
+        return SmallCNN(n_classes, channels=cfg.channels, dropout=cfg.dropout)
     if cfg.model != "mlp":
-        raise ValueError(f"unknown model {cfg.model!r}: expected mlp or resnet18")
+        raise ValueError(f"unknown model {cfg.model!r}: expected mlp, cnn or resnet18")
     return MLP(3 * cfg.image_size ** 2, n_classes, hidden=cfg.hidden, activation=cfg.activation,
                batchnorm=cfg.batchnorm, dropout=cfg.dropout, init=cfg.init)
 

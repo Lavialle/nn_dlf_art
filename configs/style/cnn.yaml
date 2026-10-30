@@ -1,0 +1,18 @@
+# Small CNN from scratch: same 64 px input and training recipe as MLP v5 (Nesterov SGD, weight decay,
+# augmentation), so that only the architecture changes. Answers: is it the convolution or the pre-training
+# that makes ResNet better than the MLP?
+name: cnn
+data_dir: data/wikiart_style5
+group: cnn
+model: cnn
+channels: [32, 64, 128, 256]
+image_size: 64
+augment: true
+optimizer: sgd
+momentum: 0.9
+nesterov: true
+lr: 1.0e-2  # TO MEASURE: scripts/lr_range_test.py --config configs/style/cnn.yaml, then write the median here
+weight_decay: 5.0e-4
+batch_size: 64
+epochs: 100
+patience: 10

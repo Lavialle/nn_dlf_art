@@ -84,7 +84,8 @@ def torch_candidates(subset: str, name: str, family: str, label: str) -> list[Ca
     for seed in SEEDS:
         checkpoint = torch.load(Path("checkpoints") / subset / f"{name}-seed{seed}.pt", map_location="cpu")
         values = checkpoint["config"]
-        cfg = Config(**{**values, "hidden": tuple(values["hidden"])})
+        # checkpoints saved before the CNN existed have no "channels": the Config default applies
+        cfg = Config(**{**values, **{k: tuple(values[k]) for k in ("hidden", "channels") if k in values}})
         model = make_model(cfg, len(checkpoint["classes"]))
         model.load_state_dict(checkpoint["state_dict"])
         if cfg.model == "resnet18":

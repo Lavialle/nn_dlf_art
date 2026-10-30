@@ -18,9 +18,10 @@ class Config:
     group: str = "mlp"  # MLflow experiment <subset>-<group>: mlp, failures, resnet
 
     # Model (see models/mlp.py and models/resnet.py)
-    model: str = "mlp"  # mlp, resnet18
+    model: str = "mlp"  # mlp, cnn, resnet18
     finetune: str = "probe"  # resnet18 only: probe, partial, full
     hidden: tuple[int, ...] = (512,)
+    channels: tuple[int, ...] = (32, 64, 128, 256)  # cnn only: output channels of each conv block
     activation: str = "relu"
     batchnorm: bool = False
     dropout: float = 0.0
@@ -90,6 +91,7 @@ def load_config(path: str | Path, overrides: dict | None = None) -> Config:
         raise ValueError(f"{path}: unknown config keys {sorted(unknown)}")
     if values.get("failure") not in FAILURES:
         raise ValueError(f"{path}: unknown failure {values['failure']!r}, expected one of {FAILURES[1:]}")
-    if "hidden" in values:
-        values["hidden"] = tuple(values["hidden"])  # YAML gives a list; the dataclass is frozen, so a tuple
+    for key in ("hidden", "channels"):
+        if key in values:
+            values[key] = tuple(values[key])  # YAML gives a list; the dataclass is frozen, so a tuple
     return Config(**values)
