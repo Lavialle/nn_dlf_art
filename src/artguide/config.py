@@ -28,6 +28,7 @@ class Config:
     init: str = "kaiming"
     image_size: int = 64
     augment: bool = False  # random crop + horizontal flip on the training images
+    crop_scale: float = 0.6  # augment only: smallest share of the image area a random crop keeps
 
     # Training
     optimizer: str = "sgd"  # sgd, adam, adamw

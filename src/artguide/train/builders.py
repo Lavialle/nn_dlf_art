@@ -39,7 +39,7 @@ def make_loaders(cfg: Config, generator: torch.Generator) -> Loaders:
     transform = image_transform(*stats, size=cfg.image_size)
     train_eval = copy.copy(train)  # shares the images in memory, only the transform differs
     train_eval.transform = transform
-    train.transform = image_transform(*stats, size=cfg.image_size, augment=cfg.augment)
+    train.transform = image_transform(*stats, size=cfg.image_size, augment=cfg.augment, crop_scale=cfg.crop_scale)
     val = WikiArtSplit(cfg.data_dir, cfg.splits_path, "val", transform=transform)
     return Loaders(train=DataLoader(train, batch_size=cfg.batch_size, shuffle=True, generator=generator),
                    train_eval=DataLoader(train_eval, batch_size=256),

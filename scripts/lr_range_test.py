@@ -18,7 +18,7 @@ matplotlib.use("Agg")  # draw to a file, no window
 import matplotlib.pyplot as plt
 from torch import nn
 
-from artguide.config import load_config
+from artguide.config import load_config, parse_overrides
 from artguide.diagnostics.sanity import lr_range_test, suggest_lr
 from artguide.seed import seed_everything
 from artguide.tracking import log_scores, start_run
@@ -29,8 +29,10 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--config", required=True)
     p.add_argument("--seeds", type=int, nargs="+", default=[0, 1, 2])
+    p.add_argument("--set", nargs="+", default=[], metavar="KEY=VALUE",
+                   help="override config values, e.g. --set batch_size=32 (the LR depends on the batch size)")
     args = p.parse_args()
-    cfg = load_config(args.config)
+    cfg = load_config(args.config, parse_overrides(args.set))
     subset = cfg.subset  # the 224 px copy shares the experiments and folders of its subset
     figure = Path("reports/figures") / subset / f"lr_range_{cfg.name}.png"
     device = get_device()
