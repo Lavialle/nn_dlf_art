@@ -129,13 +129,34 @@ uv run python scripts/final_report.py --subset wikiart_genre5
 uv run mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000   # then http://127.0.0.1:5000
 ```
 
+## Predict on new photos
+
+The recommended model (frozen ResNet18 embeddings + logistic regression) is fitted once and saved, then names the
+style or genre of any photo, on the CPU, without the dataset or MLflow:
+
+```bash
+# Once per task: fit on data/<subset>_224 and save models/<subset>_resnet_embed.pkl (a few minutes on a CPU).
+# It checks itself: same val accuracy and same test predictions as the evaluated model (227 / 227 on genres).
+uv run python scripts/export_model.py --subset wikiart_genre5
+
+# Then, for any photo or folder of photos
+uv run python scripts/predict.py --subset wikiart_genre5 photo.jpg
+#   photo.jpg  ->  landscape 71% · cityscape 22% · still_life 4%
+uv run python scripts/predict.py --subset wikiart_style5 photos/ --top 2 --json
+```
+
+The photo is prepared as the training images were (EXIF rotation applied, shorter side to 224 px, centre crop).
+The scores are the logistic regression's probabilities, a ranking rather than a calibrated confidence; results are
+best when the painting fills the photo.
+
 ## Repository layout
 
 ```
 make_wikiart_subset.py   provided data script (not modified)
 src/artguide/            data (split, in-memory dataset, transforms), models (baselines, MLP, CNN, ResNet),
                          training (loop, early stopping, optimizers), diagnostics (monitors, sanity checks),
-                         evaluation (metrics, bootstrap, latency, final candidates), MLflow tracking
+                         evaluation (metrics, bootstrap, latency, final candidates), MLflow tracking,
+                         inference (photo preparation, saved model for predict.py)
 configs/{style,genre}/   one YAML per experiment (the file is the record of the experiment)
 scripts/                 command-line entry points (see above)
 splits/                  frozen train/val/test splits (ids only, no image)
