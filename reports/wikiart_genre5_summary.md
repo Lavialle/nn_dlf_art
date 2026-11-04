@@ -113,8 +113,9 @@ format only if the visitor frames it, so using it would be a shortcut unavailabl
 
 ## 5. Additions on the styles (validation only)
 
-The single test pass of the styles was run before these models existed; re-running it would need the original
-checkpoints and MLflow database. These results are validation only (3 seeds, 222 images):
+The single test pass of the styles was run before these models existed. The 64 px small CNN has since been scored
+on the style test set in a second pass (60.8 %, see `wikiart_style5_summary.md`); the others are validation only
+(3 seeds, 222 images):
 
 | Model | Style val accuracy | Note |
 |---|---|---|

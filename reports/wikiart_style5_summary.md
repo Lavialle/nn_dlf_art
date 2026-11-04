@@ -6,17 +6,25 @@
 
 ---
 
-## 1. Final answer (test set, single pass)
+## 1. Final answer (test set: single pass, plus the small CNN in a second pass)
 
-| Model | Test accuracy [95 % CI] | Macro-F1 | CPU latency, 1 image, 2 threads | Size |
+| Model | Test accuracy [95 % CI] | Macro-F1 | CPU latency, 1 image, 2 threads (29 Oct / 4 Nov) | Size |
 |---|---|---|---|---|
-| Majority class | 18.9 [14.0, 24.3] | 6.4 | 0.04 ms | 0 MB |
-| Logistic regression on pixels | 37.8 [31.5, 44.1] | 36.6 | 1.7 ms | 0.5 MB |
-| **Logistic regression on HSV colour histogram** (the "simple classical model") | 47.7 [41.4, 54.1] | 46.9 | 6.5 ms | 0.01 MB |
-| Best MLP (v6) | 41.9 [35.6, 48.6] (3 seeds: 40.7 ± 1.1) | 40.1 | 3.7 ms | 25.7 MB |
-| **ResNet18 frozen + logistic regression on its embeddings** | **81.1 [75.7, 86.0]** | 81.1 | 111 ms | 44.8 MB |
-| ResNet18 linear probe | 80.6 [75.2, 85.6] (3 seeds: 79.4 ± 2.5) | 80.6 | 114 ms | 44.8 MB |
-| ResNet18 fine-tuned (layer4 + head) | 82.4 [77.5, 86.9] (3 seeds: 84.1 ± 2.5) | 82.3 | 116 ms | 44.8 MB |
+| Majority class | 18.9 [14.0, 24.3] | 6.4 | 0.04 / 0.02 ms | 0 MB |
+| Logistic regression on pixels | 37.8 [31.5, 44.1] | 36.6 | 1.7 / 0.7 ms | 0.5 MB |
+| **Logistic regression on HSV colour histogram** (the "simple classical model") | 47.7 [41.4, 54.1] | 46.9 | 6.5 / 3.0 ms | 0.01 MB |
+| Best MLP (v6) | 41.9 [35.6, 48.6] (3 seeds: 40.7 ± 1.1) | 40.1 | 3.7 / 1.6 ms | 25.7 MB |
+| Small CNN from scratch (64 px), second pass | 60.8 [54.5, 66.7] (3 seeds: 61.3 ± 0.5) | 60.4 | – / 4.2 ms | 1.6 MB |
+| **ResNet18 frozen + logistic regression on its embeddings** | **81.1 [75.7, 86.0]** | 81.1 | 111 / 49 ms | 44.8 MB |
+| ResNet18 linear probe | 80.6 [75.2, 85.6] (3 seeds: 79.4 ± 2.5) | 80.6 | 114 / 120 ms | 44.8 MB |
+| ResNet18 fine-tuned (layer4 + head) | 82.4 [77.5, 86.9] (3 seeds: 84.1 ± 2.5) | 82.3 | 116 / 116 ms | 44.8 MB |
+
+**Second pass (4 November).** The small CNN was added to the style track after the single test pass of 29 October,
+so it first had a validation score only. `scripts/evaluate.py --force` scored every candidate again: the 13 models
+already scored gave **exactly the same 222 predictions** (checked column by column against the committed file), and
+the CNN, chosen on validation like every other candidate, was added. Its test score changed no choice: the
+recommendation stays the frozen ResNet. Latency was measured again in that pass and moved by up to 2× on the same
+machine (frozen ResNet: 111 then 49 ms): it depends on the load of the laptop, so only the order of magnitude counts.
 
 Seed 0 is reported with its 95 % bootstrap interval (2 000 resamples of the 222 test images); "3 seeds" is mean ± std of the three trained models. Paired bootstrap (same resampled images for both models):
 
@@ -27,6 +35,9 @@ Seed 0 is reported with its 95 % bootstrap interval (2 000 resamples of the 222 
 | MLP − HSV logistic regression | −5.9 pts | [−13.1, +0.9] | the MLP is not better than the classical model (slightly worse, not significant) |
 | ResNet fine-tuned − ResNet linear probe | +1.8 pts | [−2.7, +5.9] | **not distinguishable** |
 | ResNet fine-tuned − ResNet embeddings + logistic regression | +1.4 pts | [−3.2, +5.9] | **not distinguishable** |
+| Small CNN − MLP | +18.9 pts | [+12.2, +25.7] | convolutions clearly beat the fully connected network |
+| Small CNN − HSV logistic regression | +13.1 pts | [+6.3, +19.8] | the first network above the classical model |
+| ResNet fine-tuned − small CNN | +21.6 pts | [+15.3, +27.9] | ImageNet pre-training adds as much again |
 
 ![trade-off](figures/wikiart_style5/final_tradeoff.png)
 
@@ -37,7 +48,7 @@ Seed 0 is reported with its 95 % bootstrap interval (2 000 resamples of the 222 
 **Yes, a neural network is worth it, but a pre-trained one, used as a frozen feature extractor: ResNet18 embeddings + a logistic regression.**
 
 - **Accuracy:** about 81 % on the test set, against 48 % for the best classical model (colour histogram). The gap (+33 to +35 points) is far larger than the uncertainty (± 6 points with 222 test images).
-- **Cost on the kiosk:** about **0.11 s per photo** on 2 CPU threads, and a **45 MB** model: compatible with a modest CPU, no GPU needed.
+- **Cost on the kiosk:** **0.05 to 0.11 s per photo** on 2 CPU threads (two measurements on this laptop), and a **45 MB** model: compatible with a modest CPU, no GPU needed.
 - **Cost for the team:** no network training at all. The ResNet is downloaded pre-trained; only a logistic regression is fitted on 512 numbers per image (extracting the features of the 1 056 training images and fitting take about a minute on a CPU). Adding a style = adding images and refitting the regression.
 - **Why not fine-tuning?** It is 1 to 2 points better on validation and test, which the test set **cannot distinguish** from the frozen model (intervals include 0), while it requires a GPU, a training loop to maintain and more risk of overfitting (best epoch 3–4). It is the upgrade path if the collection grows.
 - **Why not our own MLP?** It does not beat the colour histogram: a fully connected network on raw pixels ignores the spatial structure of the image (Phase 3).
